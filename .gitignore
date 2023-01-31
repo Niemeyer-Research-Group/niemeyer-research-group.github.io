@@ -1,0 +1,15 @@
+/books/
+/courses/
+/node_modules/
+app.min.js
+.DS_Store
+ajko
+
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example

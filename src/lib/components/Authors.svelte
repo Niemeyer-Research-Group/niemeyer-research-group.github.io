@@ -1,0 +1,17 @@
+<script lang="ts">
+
+    import Link from "$lib/components/Link.svelte";
+    import type Paper from "$lib/models/Paper";
+    import { profile } from "$lib/models/stores";
+
+    export let link: boolean = false;
+    export let paper: Paper;
+
+    $: equalFirst = paper.equalfirst && paper.authors.length >= 2;
+
+</script>
+
+{#each paper.authors as author, index}
+    {@const person = $profile.getPerson(author)}
+    {#if person === undefined}{author}{:else}{#if link}<Link to={person.id === "ken" ? "/bio" : "/lab/#" + person.id}>{person.name}</Link>{:else}{ person.name }{/if}{/if}{ index < paper.authors.length - 1 ? (equalFirst && index === 0 ? " + " : ", ") : "" }
+{/each}
