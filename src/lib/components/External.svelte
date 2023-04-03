@@ -3,4 +3,4 @@
     export let ref: string = "noreferrer";
 </script>
 
-<a href={to} target="_blank" rel={ref}><slot></slot></a>
+<a rel={ref} href={to} target="_blank"><slot></slot></a>
