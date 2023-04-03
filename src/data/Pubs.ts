@@ -1,4 +1,5 @@
 import type Paper from "$lib/models/Paper";
+import { null_to_empty } from "svelte/internal";
 
 export const Publications: Paper[] = [
     {
@@ -13,6 +14,34 @@ export const Publications: Paper[] = [
         doi: "https://doi.org/10.1016/j.proci.2022.07.256",
         //eprint: "",
         contribution: "Extends a method to speed up chemistry simulations in Cantera, by preconditioning and sparse linear algebra operations."
+    },
+    {
+        id: "mcdc-tnt",
+        kind: "refereed conference paper",
+        authors: ["@jackson", "Todd S. Palmer", "@ken"],
+        year: 2022,
+        title: "Explorations of Python-Based Automatic Hardware Code Generation for Neutron Transport Applications",
+        source: "Transactions of the American Nuclear Society",
+        doi: null,
+        eprint: "https://www.ans.org/pubs/transactions/article-51438/",
+        pages: "318-320",
+        volume: 126,
+        issue: 1,
+        contribution: "Examines techniques for using Python libraries to easily parallelize a Monte Carlo neutron transport solver on large-scale high performance computing systems."
+    },
+    {
+        id: "mc-trt",
+        kind: "refereed conference paper",
+        authors: ["@jackson", "Alex Long", "Kendra Long", "@ken"],
+        year: 2022,
+        title: "Novel MC TRT Method: Vectorizable Variance Reduction for Energy Spectra",
+        source: "Transactions of the American Nuclear Society",
+        doi: null,
+        eprint: "https://www.ans.org/pubs/transactions/article-51428/",
+        pages: "276-278",
+        volume: 126,
+        issue: 1,
+        contribution: "Presents a method for reducing the statistical variance in thermal radiation transport solver to better-resolve energy spectra at lower computational cost."
     },
     {
         id: "vectorized-chemistry",
