@@ -313,14 +313,14 @@ export const People: Person[] = [
     {
         id: "james-stark",
         name: "James Stark",
-        active: true,
+        active: false,
         advised: true,
         level: "masters",
         dept: "MIME",
         bio: "James is an MS student in Mechanical Engineering studying numerical methods for capturing shock waves in aerodynamics applications.",
         url: "https://www.linkedin.com/in/james-stark/",
         startdate: 2020,
-        enddate: null,
+        enddate: 2021,
         orcid: "0000-0001-5935-3175",
         //msthesis: ""
     },
