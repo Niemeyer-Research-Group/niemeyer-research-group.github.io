@@ -9,15 +9,15 @@ export const Discoveries: Discovery[] = [
     },
 
     {
-        contribution: "something about ChemKED",
-        detail: "",
+        contribution: "A human- and machine-readable format allows us to easily describe measurements from fundamental experiments in combustion.",
+        detail: "The ChemKED format allows describing fundamental experiments in combustion in a human- and machine-readable way, including descriptions of uncertainty.",
         pubs: [ "chemked", "model-parameter-discrepancy" ],
         tags: [ "ChemKED", "parameter databases", "experimental measurements" ],
     },
     {
-        contribution: "something about swept rule",
-        detail: "caveat, getting a performance benefit is very sensitive to the configuration, and easy to get a performance drop instead",
-        pubs: [ "GPU-swept-rule-1D", ],
+        contribution: "Advancing computations inside domains of time and space dependence can improve performance by reducing network communication.",
+        detail: "Getting a performance benefit in heterogeneous combinations of CPU and GPU systems depends strongly on configuration details and you can see drops in performance instead.",
+        pubs: [ "swept-two-dimensional", "swept-heterogeneous", "GPU-swept-rule-1D", ],
         tags: [ "domain decomposition", "computational fluid dynamics", "GPUs", "swept rule" ]
     },
     {
@@ -33,20 +33,20 @@ export const Discoveries: Discovery[] = [
         tags: [ "model reduction" ],
     },
     {
-        contribution: "something about biogeochemistry and ocean turbulence being coupled",
-        detail: "",
+        contribution: "Predicting the amount of carbon taken up by the ocean requires accurately capturing the interactins between ocean turbulence and biogeochemistry.",
+        detail: "Simulating the interaction between Langmuir turbulence and ocean biogeochemistry requires applying model reduction methods from combustion.",
         pubs: [ "langmuir-carbonate" ],
         tags: [ "biogeochemistry", "ocean", "turbulence", ]
     },
     {
-        contribution: "something about GPUs and chemistry",
-        detail: "",
+        contribution: "Appropriately chosen integration algorithms can allow GPUs to efficiently integrate stiff chemistry needed in reacting flow simulations.",
+        detail: "Particular algorithms parallelize more efficiently on GPUs.",
         pubs: [ "moderately-stiff-GPU", "stiff-GPU-integrators" ],
         tags: ["GPUs", "ODEs", "chemical kinetics", "integrators" ]
     },
     {
         contribution: "Large chemical kinetic models can be automatically reduced using a strategy with multiple reduction stages.",
-        detail: "We can significantly reduce the size and complexity of detailed kinetic models, but only so far.",
+        detail: "We can significantly reduce the size and complexity of detailed kinetic models, but only so far, before removing components introduces unacceptable error.",
         pubs: [ "drgepsa", "graph-search", "multicomponent-reduction", "reduced-gasoline-surrogate", "kerosene-reduction", "butanol-skeletal-models" ],
         tags: [ "model reduction", "chemical kinetics", "algorithms" ]
     },
