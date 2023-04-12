@@ -867,18 +867,18 @@ export const Kyle: ProfileSpec = {
 	],
 	travel: [],
 	talks: [
-		// {
-		// 	date: "2023-04-11",
-		// 	image: "pennstate-apr-2023.png",
-		// 	alt: "Title slide of the talk, which says 'Strategies for tackling the computational cost of modeling reacting fluids and related problems'.",
-		// 	slides: "",
-		// 	recording: null,
-		// 	title: "Strategies for tackling the computational cost of modeling reacting fluids and related problems",
-		// 	url: "https://www.me.psu.edu/events/event-detail.aspx?EventID=c9e3c018-4779-4953-b373-9",
-		// 	venue: "Department of Mechanical Engineering, Pennsylvania State University",
-		// 	description: "Invited department seminar describing my group's work on numerical methods in combustion, and how we extend methods developed in this field to others.",
-		// 	keynote: false
-		// },
+		{
+			date: "2023-04-11",
+			image: "pennstate-apr-2023.png",
+			alt: "Title slide of the talk, which says 'Strategies for tackling the computational cost of modeling reacting fluids and related problems'.",
+			slides: "",
+			recording: null,
+			title: "Strategies for tackling the computational cost of modeling reacting fluids and related problems",
+			url: "https://www.me.psu.edu/events/event-detail.aspx?EventID=c9e3c018-4779-4953-b373-9",
+			venue: "Department of Mechanical Engineering, Pennsylvania State University",
+			description: "Invited department seminar describing my group's work on numerical methods in combustion, and how we extend methods developed in this field to others.",
+			keynote: false
+		},
 		{
 			date: "2023-03-31",
 			image: "cwru-mar-2023.png",
