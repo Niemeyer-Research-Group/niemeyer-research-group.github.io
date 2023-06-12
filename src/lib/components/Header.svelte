@@ -41,7 +41,7 @@
 	<Link to="/funding" at={"/funding"}>Funding</Link>
 	<Link to="/bio" at={"/bio"}>Bio</Link>
 	<Link to="/contact" at={"/contact"}>Contact</Link>
-	<!--<Link to="/faq" at={"/faq"}>FAQ</Link>-->
+	<Link to="/code-of-conduct" at={"/code-of-conduct"}>Group CoC</Link>
 	<!-- <Link to="/cv">CV</Link> -->
 </nav>
 
