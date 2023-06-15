@@ -19,7 +19,7 @@ export const Publications: Paper[] = [
     {
         id: "mcdc-tnt",
         kind: "refereed conference paper",
-        authors: ["@jackson", "Todd S. Palmer", "@ken"],
+        authors: ["@jpmorgan", "Todd S. Palmer", "@ken"],
         year: 2022,
         title: "Explorations of Python-Based Automatic Hardware Code Generation for Neutron Transport Applications",
         source: "Transactions of the American Nuclear Society",
@@ -33,7 +33,7 @@ export const Publications: Paper[] = [
     {
         id: "mc-trt",
         kind: "refereed conference paper",
-        authors: ["@jackson", "Alex Long", "Kendra Long", "@ken"],
+        authors: ["@jpmorgan", "Alex Long", "Kendra Long", "@ken"],
         year: 2022,
         title: "Novel MC TRT Method: Vectorizable Variance Reduction for Energy Spectra",
         source: "Transactions of the American Nuclear Society",

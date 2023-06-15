@@ -22,6 +22,8 @@
             &nbsp;
             <small>{ person.startdate }{ person.enddate ? (person.startdate !== person.enddate ? " - " + person.enddate : null) : " - present" }</small>
             <br/>
+            <mark>{person.pronouns}</mark>
+            <br/>
             {person.bio}
             {#if person.dissertation }
                 <div>

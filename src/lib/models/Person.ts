@@ -1,6 +1,7 @@
 type Person = {
 	id: string;
 	name: string;
+	pronouns: string;
 	active: boolean;
 	advised: boolean;
 	level: "undergrad" | "masters" | "phd" | "postdoc" | "faculty" | "researcher" | "director";

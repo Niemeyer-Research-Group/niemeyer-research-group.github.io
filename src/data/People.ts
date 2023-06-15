@@ -4,6 +4,7 @@ export const People: Person[] = [
     {
         id: "katherine-bronstein",
         name: "Katherine Bronstein",
+        pronouns: "she/her",
         active: false,
         advised: true,
         level: "undergrad",
@@ -16,6 +17,7 @@ export const People: Person[] = [
     {
         id: "alimartz",
         name: "Ali Martz",
+        pronouns: "she/her",
         active: true,
         advised: true,
         level: "masters",
@@ -29,6 +31,7 @@ export const People: Person[] = [
     {
         id: "taylorc",
         name: "Taylor Coddington",
+        pronouns: "he/him",
         active: true,
         advised: true,
         level: "masters",
@@ -42,11 +45,12 @@ export const People: Person[] = [
     {
         id: "jordanpeters",
         name: "Jordan Peters",
+        pronouns: "he/him",
         active: true,
         advised: true,
         level: "masters",
         dept: "MIME",
-        bio: "Jordan is an MS student studying the modeling of soot formation using Monte Carlo schemes. He received his BS degree in Mechanical Engineering from Oregon State.",
+        bio: "Jordan is an MS student in Mechanical Engineering, studying soot formation and growth using a GPU-accelerated Monte Carlo scheme coupled with gas-phase chemical kinetics. He received his BS degree in Mechanical Engineering from Oregon State.",
         url: "https://www.linkedin.com/in/jordan-peters-879940183/",
         startdate: 2021,
         enddate: null,
@@ -55,6 +59,7 @@ export const People: Person[] = [
     {
         id: "anthony-walker",
         name: "Anthony S. Walker",
+        pronouns: "he/him",
         active: true,
         advised: true,
         level: "phd",
@@ -68,6 +73,7 @@ export const People: Person[] = [
     {
         id: "diba",
         name: "Diba Behnoudfar",
+        pronouns: "she/her",
         active: true,
         advised: true,
         level: "phd",
@@ -82,6 +88,7 @@ export const People: Person[] = [
     {
         id: "malik",
         name: "Malik Jordan",
+        pronouns: "he/him",
         active: true,
         advised: true,
         level: "phd",
@@ -93,14 +100,15 @@ export const People: Person[] = [
         orcid: "0000-0001-7889-0937"
     },
     {
-        id: "jackson",
-        name: "Jackson Morgan",
+        id: "jpmorgan",
+        name: "Joanna Morgan",
+        pronouns: "she/her",
         active: true,
         advised: true,
         level: "phd",
         dept: "MIME",
-        bio: "Jackson is a PhD student in Mechanical Engineering, with a minor in Nuclear Engineering, working on methods to simulate neutron transport using Monte Carlo methods. He's completed multiple research internships at Los Alamos National Laboratory.",
-        url: "https://www.linkedin.com/in/jpmorgan98/",
+        bio: "Joanna is a PhD student in Mechanical Engineering, with a minor in Nuclear Engineering, working on methods to simulate neutron transport using Monte Carlo methods. She has completed multiple research internships at Los Alamos National Laboratory.",
+        url: "https://jpmorgan98.github.io/",
         startdate: 2020,
         enddate: null,
         orcid: "0000-0003-1379-5431"
@@ -108,6 +116,7 @@ export const People: Person[] = [
     {
         id: "jayani",
         name: "W. Jayani Jayasuriya",
+        pronouns: "she/her",
         active: false,
         advised: true,
         level: "phd",
@@ -122,6 +131,7 @@ export const People: Person[] = [
     {
         id: "ajfillo",
         name: "Aaron J. Fillo",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "phd",
@@ -137,6 +147,7 @@ export const People: Person[] = [
     {
         id: "andrew-alferman",
         name: "Andrew T. Alferman",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "masters",
@@ -151,6 +162,7 @@ export const People: Person[] = [
     {
         id: "bbs",
         name: "Brittany Blanksma-Stark",
+        pronouns: "she/her",
         active: false,
         advised: true,
         level: "undergrad",
@@ -164,6 +176,7 @@ export const People: Person[] = [
     {
         id: "cailin-moore",
         name: "Cailin Moore",
+        pronouns: "she/her",
         active: false,
         advised: true,
         level: "undergrad",
@@ -178,6 +191,7 @@ export const People: Person[] = [
     {
         id: "tejas-mulky",
         name: "Tejas C. Mulky",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "masters",
@@ -192,6 +206,7 @@ export const People: Person[] = [
     {
         id: "phillip-mestas",
         name: "Phillip Mestas",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "undergrad",
@@ -206,6 +221,7 @@ export const People: Person[] = [
     {
         id: "paige-lorson",
         name: "Paige Lorson",
+        pronouns: "she/her",
         active: false,
         advised: true,
         level: "masters",
@@ -219,6 +235,7 @@ export const People: Person[] = [
     {
         id: "morgan-mayer",
         name: "Morgan Mayer",
+        pronouns: "she/her",
         active: false,
         advised: true,
         level: "masters",
@@ -234,6 +251,7 @@ export const People: Person[] = [
     {
         id: "miguel-soler",
         name: "Miguel Soler",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "masters",
@@ -248,6 +266,7 @@ export const People: Person[] = [
     {
         id: "matt-zaiger",
         name: "Matt Zaiger",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "masters",
@@ -262,6 +281,7 @@ export const People: Person[] = [
     {
         id: "maria-politi",
         name: "Maria Politi",
+        pronouns: "she/her",
         active: false,
         advised: true,
         level: "undergrad",
@@ -274,6 +294,7 @@ export const People: Person[] = [
     {
         id: "luz-pacheco",
         name: "Luz Pacheco",
+        pronouns: "she/her",
         active: false,
         advised: true,
         level: "masters",
@@ -287,6 +308,7 @@ export const People: Person[] = [
     {
         id: "khang-tran",
         name: "Khang Tran",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "masters",
@@ -301,6 +323,7 @@ export const People: Person[] = [
     {
         id: "kenny-warren",
         name: "Kenny Warren",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "undergrad",
@@ -313,6 +336,7 @@ export const People: Person[] = [
     {
         id: "james-stark",
         name: "James Stark",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "masters",
@@ -327,6 +351,7 @@ export const People: Person[] = [
     {
         id: "himakar-ganti",
         name: "Himakar Ganti",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "masters",
@@ -339,6 +364,7 @@ export const People: Person[] = [
     {
         id: "emily-klee",
         name: "Emily Klee",
+        pronouns: "she/her",
         active: false,
         advised: true,
         level: "masters",
@@ -353,6 +379,7 @@ export const People: Person[] = [
     {
         id: "parker-clayton",
         name: "Parker Clayton",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "undergrad",
@@ -365,6 +392,7 @@ export const People: Person[] = [
     {
         id: "dan-magee",
         name: "Dan Magee",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "masters",
@@ -379,6 +407,7 @@ export const People: Person[] = [
     {
         id: "shane-daly",
         name: "Shane Daly",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "phd",
@@ -394,6 +423,7 @@ export const People: Person[] = [
     {
         id: "chris-minar",
         name: "Chris Minar",
+        pronouns: "he/him",
         active: false,
         advised: true,
         level: "masters",
@@ -408,6 +438,7 @@ export const People: Person[] = [
     {
         id: "ray-speth",
         name: "Raymond L. Speth",
+        pronouns: "he/him",
         active: true,
         advised: false,
         level: "researcher",
@@ -420,6 +451,7 @@ export const People: Person[] = [
     {
         id: "nick-curtis",
         name: "Nicholas Curtis",
+        pronouns: "he/him",
         active: false,
         advised: false,
         level: "phd",
@@ -432,6 +464,7 @@ export const People: Person[] = [
     {
         id: "vi-rapp",
         name: "Vi Rapp",
+        pronouns: "she/her",
         active: true,
         advised: false,
         level: "researcher",
@@ -445,6 +478,7 @@ export const People: Person[] = [
     {
         id: "peter-hamlington",
         name: "Peter Hamlington",
+        pronouns: "he/him",
         active: true,
         advised: false,
         level: "faculty",
@@ -458,6 +492,7 @@ export const People: Person[] = [
     {
         id: "guillaume",
         name: "Guillaume Blanquart",
+        pronouns: "he/him",
         active: true,
         advised: false,
         level: "faculty",
@@ -471,6 +506,7 @@ export const People: Person[] = [
     {
         id: "rwest",
         name: "Richard West",
+        pronouns: "he/him",
         active: true,
         advised: false,
         level: "faculty",
@@ -484,6 +520,7 @@ export const People: Person[] = [
     {
         id: "bryan-weber",
         name: "Bryan Weber",
+        pronouns: "he/him",
         active: true,
         advised: false,
         level: "faculty",
@@ -497,6 +534,7 @@ export const People: Person[] = [
     {
         id: "david-blunck",
         name: "David Blunck",
+        pronouns: "he/him",
         active: true,
         advised: false,
         level: "faculty",
@@ -509,6 +547,7 @@ export const People: Person[] = [
     {
         id: "chris-hagen",
         name: "Christopher Hagen",
+        pronouns: "he/him",
         active: true,
         advised: false,
         level: "faculty",
@@ -521,6 +560,7 @@ export const People: Person[] = [
     {
         id: "cjsung",
         name: "Chih-Jen Sung",
+        pronouns: "he/him",
         active: true,
         advised: false,
         level: "faculty",
@@ -533,6 +573,7 @@ export const People: Person[] = [
     {
         id: "ken",
         name: "Kyle E. Niemeyer",
+        pronouns: "he/him",
         active: true,
         advised: true,
         level: "director",
