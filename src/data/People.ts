@@ -53,8 +53,9 @@ export const People: Person[] = [
         bio: "Jordan is an MS student in Mechanical Engineering, studying soot formation and growth using a GPU-accelerated Monte Carlo scheme coupled with gas-phase chemical kinetics. He received his BS degree in Mechanical Engineering from Oregon State.",
         url: "https://www.linkedin.com/in/jordan-peters-879940183/",
         startdate: 2021,
-        enddate: null,
-        orcid: "0000-0003-0813-7223"
+        enddate: 2023,
+        orcid: "0000-0003-0813-7223",
+        msthesis: "https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/3f462f11s"
     },
     {
         id: "anthony-walker",
