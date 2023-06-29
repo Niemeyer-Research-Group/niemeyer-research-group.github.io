@@ -46,7 +46,7 @@ export const People: Person[] = [
         id: "jordanpeters",
         name: "Jordan Peters",
         pronouns: "he/him",
-        active: true,
+        active: false,
         advised: true,
         level: "masters",
         dept: "MIME",
