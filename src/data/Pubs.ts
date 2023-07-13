@@ -3,6 +3,20 @@ import { null_to_empty } from "svelte/internal";
 
 export const Publications: Paper[] = [
     {
+        id: "onsite-energy",
+        kind: "refereed conference paper",
+        authors: ["@ken", "Meegan Kelly"],
+        year: 2023,
+        title: "Right Onsite: Accelerating deployment of onsite clean energy technology in the industrial sector",
+        source: "2023 ACEEE Summer Study on Energy Efficiency in Industry",
+        doi: "https://doi.org/10.5281/zenodo.8140628",
+        eprint: null,
+        pages: null,
+        //volume: null,
+        //issue: null,
+        contribution: "Discusses the current state of onsite clean energy systems in the US industrial sector, needs and barriers, and strategies the US Department of Energy is taking to accelerate adoption."
+    },
+    {
         id: "generalized-preconditioning",
         kind: "journal article",
         authors: [ "@anthony-walker", "@ray-speth", "@ken" ],

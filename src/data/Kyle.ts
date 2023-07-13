@@ -868,6 +868,18 @@ export const Kyle: ProfileSpec = {
 	travel: [],
 	talks: [
 		{
+			date: "2023-07-12",
+			image: "aceee-jul-2023.jpeg",
+			alt: "Title slide of the talk, which says 'Strategies for tackling the computational cost of modeling reacting fluids and related problems'.",
+			slides: "https://doi.org/10.5281/zenodo.8144168",
+			recording: null,
+			title: "Right Onsite: Accelerating deployment of onsite clean energy technology in the industrial sector",
+			url: "https://www.aceee.org/2023-industry-summer-study",
+			venue: "2023 ACEEE Summer Study on Energy Efficiency in Industry",
+			description: "Conference talk based on a program I supported while working at the US Department of Energy, seeking to accelerate the adoption of clean onsite energy systems in industry.",
+			keynote: false
+		},
+		{
 			date: "2023-04-11",
 			image: "pennstate-apr-2023.png",
 			alt: "Title slide of the talk, which says 'Strategies for tackling the computational cost of modeling reacting fluids and related problems'.",
