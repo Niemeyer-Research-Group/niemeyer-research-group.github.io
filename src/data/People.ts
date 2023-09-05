@@ -2,6 +2,20 @@ import type Person from "../lib/models/Person";
 
 export const People: Person[] = [
     {
+        id: "jacob-adams",
+        name: "Jacob Adams",
+        pronouns: "he/him",
+        active: true,
+        advised: true,
+        level: "phd",
+        dept: "MIME",
+        bio: "Jacob is a PhD student in Mechanical Engineering, studying and modeling the behaviors of cryogenic propellants within space-based fuel tanks for NASA",
+        url: "https://www.linkedin.com/in/adams-jacob/",
+        startdate: 2023,
+        enddate: null,
+        orcid: "0009-0009-9100-8019",
+    },
+    {
         id: "katherine-bronstein",
         name: "Katherine Bronstein",
         pronouns: "she/her",
