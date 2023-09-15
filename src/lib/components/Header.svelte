@@ -27,7 +27,7 @@
 	</div>
 </section>
 
-<p><mark>I'm on sabbatical until Sept. 2023.</mark></p>
+<!--<p><mark>I'm on sabbatical until Sept. 2023.</mark></p> -->
 
 <hr/>
 <nav>

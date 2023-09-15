@@ -15,11 +15,10 @@
 >
 	<Image slot="image" url={"/images/contact/office.jpg"} alt="A photograph of my office."/>
 	<span>
-		&mdash; I'm on sabbatical until September 2023 and not holding office hours.
-		<!-- If you're a current OSU student 
-		Contact me via one of the channels below to see if a meeting makes sense. 
+		&mdash; If you're a current OSU student,
+		contact me via one of the channels below to see if a meeting makes sense. 
 		If you're in one my classes, see the syllabus for my course office hours.
-		If you're not a OSU student, write me an email; we'll meet if appropriate. -->
+		If you're not a OSU student, write me an email; we'll meet if appropriate.
 	</span>
 </Block>
 
