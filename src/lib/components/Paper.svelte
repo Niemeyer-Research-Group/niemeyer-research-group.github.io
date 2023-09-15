@@ -65,7 +65,7 @@
 		link={url}
 	>
 		<Image slot="image" url={"/images/papers/paper-" + paper.id + ".png"} alt="A clip from the paper's PDF." highlight={highlight}/>
-		<div name={ paper.id } class="paper ws-bottom">
+		<div id={ paper.id } class="paper ws-bottom">
 			{#if paper.award && paper.award.length > 0}
 				<mark class="award">&#x2605; { paper.award.join(" + ")}</mark>
 				<br/>
