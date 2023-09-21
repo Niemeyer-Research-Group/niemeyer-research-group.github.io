@@ -2,6 +2,19 @@ import type Person from "../lib/models/Person";
 
 export const People: Person[] = [
     {
+        id: "todd-palmer",
+        name: "Todd S. Palmer",
+        pronouns: "he/him",
+        active: true,
+        advised: false,
+        level: "faculty",
+        dept: "NSE",
+        bio: "Todd is Professor in the School of Nuclear Science and Engineering at Oregon State University. His research interests include numerical techniques for radiation transport and diffusion, reactor physics, general numerical methods, Monte Carlo methods, radiation transport in stochastic mixtures, and computational fluid dynamics.",
+        url: "https://engineering.oregonstate.edu/people/todd-palmer",
+        startdate: 2020,
+        enddate: null,
+    },
+    {
         id: "jacob-adams",
         name: "Jacob Adams",
         pronouns: "he/him",
@@ -9,7 +22,7 @@ export const People: Person[] = [
         advised: true,
         level: "phd",
         dept: "MIME",
-        bio: "Jacob is a PhD student in Mechanical Engineering, studying and modeling the behavior of cryogenic propellants in space-based tanks for NASA. He recieved his BS in Mechanical Engineering from LeTourneau university.",
+        bio: "Jacob is a PhD student in Mechanical Engineering, studying and modeling the behavior of cryogenic propellants in space-based tanks for NASA. He recieved his BS in Mechanical Engineering from LeTourneau University.",
         url: "https://www.linkedin.com/in/adams-jacob/",
         startdate: 2023,
         enddate: null,

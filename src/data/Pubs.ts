@@ -3,6 +3,48 @@ import { null_to_empty } from "svelte/internal";
 
 export const Publications: Paper[] = [
     {
+        id: "mcdc-development",
+        kind: "refereed conference paper",
+        authors: ["Ilham Variansyah", "@jpmorgan", "Jordan Northrop", "@ken", "Ryan G. McClarren"],
+        year: 2023,
+        title: "Development of MC/DC: a performant, scalable, and portable Python-based Monte Carlo neutron transport code",
+        source: "International Conference on Mathematics and Computational Methods Applied to Nuclear Science and Engineering",
+        doi: null,
+        eprint: "https://arxiv.org/abs/2305.07636",
+        pages: null,
+        //volume: null,
+        //issue: null,
+        contribution: "Verifies and demonstrates MC/DC (Monte Carlo Dynamic Code) code for simulating transient neutron transport."
+    },
+    {
+        id: "hybrid-delta-tracking",
+        kind: "refereed conference paper",
+        authors: ["@jpmorgan", "Travis J. Trahan", "Timothy P. Burke", "Colin J. Josey", "@ken"],
+        year: 2023,
+        title: "Hybrid-Delta Tracking on a Structured Mesh in MCATK",
+        source: "International Conference on Mathematics and Computational Methods Applied to Nuclear Science and Engineering",
+        doi: null,
+        eprint: "https://arxiv.org/abs/2306.07847",
+        pages: null,
+        //volume: null,
+        //issue: null,
+        contribution: "Demonstrates performance of hybrid delta tracking for surfaces in the Monte Carlo Application Toolkit."
+    },
+    {
+        id: "one-cell-inversion",
+        kind: "refereed conference paper",
+        authors: ["@jpmorgan", "Ilham Variansyah", "@todd-palmer", "@ken"],
+        year: 2023,
+        title: "Exploring One-Cell Inversion Method for Transient Transport on GPU",
+        source: "International Conference on Mathematics and Computational Methods Applied to Nuclear Science and Engineering",
+        doi: null,
+        eprint: "https://arxiv.org/abs/2305.13555",
+        pages: null,
+        //volume: null,
+        //issue: null,
+        contribution: "Introduces a new iterative scheme for deterministic neutron transport modeling, one-cell inversion, that offers high performance on GPUs."
+    },
+    {
         id: "onsite-energy",
         kind: "refereed conference paper",
         authors: ["@ken", "Meegan Kelly"],
@@ -33,7 +75,7 @@ export const Publications: Paper[] = [
     {
         id: "mcdc-tnt",
         kind: "refereed conference paper",
-        authors: ["@jpmorgan", "Todd S. Palmer", "@ken"],
+        authors: ["@jpmorgan", "@todd-palmer", "@ken"],
         year: 2022,
         title: "Explorations of Python-Based Automatic Hardware Code Generation for Neutron Transport Applications",
         source: "Transactions of the American Nuclear Society",
