@@ -15,7 +15,7 @@
 	<br/><External to="https://engineering.oregonstate.edu/MIME">School of Mechanical, Industrial, and Manufacturing Engineering</External>
 	<br/><External to="https://oregonstate.edu">Oregon State University</External>
 	<br/><External to="https://joss.theoj.org">Associate Editor-in-Chief, <em>JOSS</em></External>
-	<br/><a href="mailto:kyle.niemeyer@oregonstate.edu">email</a> &sdot; <External to="https://twitter.com/kyleniemeyer">twitter</External> &sdot; <External to="https://mastodon.social/@kyleniemeyer" ref="me">mastadon</External>
+	<br/><a href="mailto:kyle.niemeyer@oregonstate.edu">email</a> &sdot; <External to="https://mastodon.social/@kyleniemeyer" ref="me">mastadon</External>
 </section>
 <section class="small-info">
 	<a href="/"><Image url={"/images/headshots/mug-ken.jpg"} alt="Headshot of Kyle E. Niemeyer"/></a>
@@ -23,7 +23,7 @@
 		<h1 style="margin-top: 0; margin-bottom: 0;">Kyle E. Niemeyer</h1>
 		<External to="https://facultyaffairs.oregonstate.edu/faculty-handbook/faculty-appointments">Associate Professor</External>
 		<br/><External to="https://engineering.oregonstate.edu/MIME">School of MIME</External> &middot; <External to="https://oregonstate.edu">Oregon State</External>
-		<br/><a href="mailto:kyle.niemeyer@oregonstate.edu">email</a> &sdot; <External to="https://twitter.com/kyleniemeyer">twitter</External> &sdot; <External to="https://mastodon.social/@kyleniemeyer" ref="me">mastadon</External>
+		<br/><a href="mailto:kyle.niemeyer@oregonstate.edu">email</a> &sdot; <External to="https://mastodon.social/@kyleniemeyer" ref="me">mastadon</External>
 	</div>
 </section>
 

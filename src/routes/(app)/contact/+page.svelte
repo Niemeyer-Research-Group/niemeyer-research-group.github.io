@@ -43,13 +43,20 @@
 </Block>
 
 <Block 
+	link="https://mastodon.social/@kyleniemeyer"
+	header="Mastadon"
+>
+	<Image slot="image" url={"/images/contact/mastadon.svg"} alt="The Mastadon logo."/>
+	&mdash; I only occasionally post on Mastadon, but actively review my timeline, and
+	I do respond to DMs and/or replies.
+</Block>
+
+<Block 
 	link="https://twitter.com/kyleniemeyer"
 	header="Twitter"
 >
 	<Image slot="image" url={"/images/contact/twitter.jpg"} alt="The Twitter logo."/>
-	&mdash; I'm periodically active on Twitter, depending on what I have to say or share.
-	I do respond to DMs and/or replies.
-	I've also started using Mastadon more recently: <External to="https://mastodon.social/@kyleniemeyer">@kyleniemeyer@mastodon.social</External>
+	&mdash; I'm no longer active on Twitter.
 </Block>
 
 <Block 
