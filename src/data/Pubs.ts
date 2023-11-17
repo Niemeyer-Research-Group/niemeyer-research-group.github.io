@@ -3,6 +3,20 @@ import { null_to_empty } from "svelte/internal";
 
 export const Publications: Paper[] = [
     {
+        id: "bgc-parameter-estimation",
+        kind: "journal article",
+        authors: ["Skyler Kern", "Mary E. McGuinn", "Katherin M. Smith", "Nadia Pinardi", "@ken", "Nicole S. Lovenduski", "@peter-hamlington"],
+        year: 2023,
+        title: "Computationally efficient parameter estimation for high-dimensional ocean biogeochemical models",
+        source: "Geoscientific Model Development",
+        doi: "https://doi.org/10.5194/gmd-2023-107",
+        //eprint: null,
+        pages: null,
+        //volume: null,
+        //issue: null,
+        contribution: "Shows a method for optimizing parameters for biogeochemical models based on ocean observations."
+    },
+    {
         id: "mcdc-development",
         kind: "refereed conference paper",
         authors: ["Ilham Variansyah", "@jpmorgan", "Jordan Northrop", "@ken", "Ryan G. McClarren"],
