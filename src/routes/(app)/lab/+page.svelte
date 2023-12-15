@@ -98,7 +98,7 @@
 	<Person person={person} highlight={isPersonHighlighted(person.id)} />
 {/each}
 
-<h3>Former Affiliated Ph.D. students</h3>
+<h3>Former affiliated Ph.D. students</h3>
 
 {#each $profile.getPeople(
 	person => !person.active && !person.advised && person.level === "phd",
@@ -107,16 +107,16 @@
 	<Person person={person} highlight={isPersonHighlighted(person.id)} />
 {/each}
 
-<h3>Former Postdocs</h3>
+<!--<h3>Former postdocs</h3>
 
 {#each $profile.getPeople(
 	person => !person.active && person.level === "postdoc",
 	person => -person.startdate
 ) as person }
 	<Person person={person} highlight={isPersonHighlighted(person.id)} />
-{/each}
+{/each}-->
 
-<h3>Former Masters</h3>
+<h3>Former M.S. students</h3>
 
 {#each $profile.getPeople(
 	person => !person.active && person.level === "masters",
@@ -126,7 +126,7 @@
 {/each}
 
 
-<h3>Former Undergrads</h3>
+<h3>Former undergraduate students</h3>
 {#each $profile.getPeople(
 	person => !person.active && person.level === "undergrad",
 	person => -person.startdate
