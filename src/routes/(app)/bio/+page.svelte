@@ -18,6 +18,7 @@
 
 <p>
 	Kyle E. Niemeyer is an Associate Professor and Welty Faculty Fellow at <External to="https://oregonstate.edu">Oregon State University</External> in the <External to="https://engineering.oregonstate.edu/MIME">School of Mechanical, Industrial, and Manufacturing Engineering</External>. 
+	He also serves as the Associate School Head for Undergraduate Programs (as of December 2023).
 	He leads the Niemeyer Research Group, which uses computational modeling to study various phenomena involving fluid flows, including combustion and chemical kinetics, and related topics like numerical methods and parallel computing. 
 	He is also a strong advocate of open access, open source software, and open science in general, and has contributed in the area of standardizing research software citation.
 	Kyle's work spans more than 

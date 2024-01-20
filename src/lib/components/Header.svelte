@@ -12,6 +12,7 @@
 	<External to="https://pronouns.org/he-him">he/him/his</External>
 	<br/><External to="https://facultyaffairs.oregonstate.edu/faculty-handbook/faculty-appointments">Associate Professor</External>
 	<br/><External to="https://www.fororegonstate.org/stay-informed/impact-stories/detail/welty-faculty-fellow">Welty Faculty Fellow</External>
+	<br/><External to="https://engineering.oregonstate.edu/MIME">Associate Head for Undergraduate Programs</External>
 	<br/><External to="https://engineering.oregonstate.edu/MIME">School of Mechanical, Industrial, and Manufacturing Engineering</External>
 	<br/><External to="https://oregonstate.edu">Oregon State University</External>
 	<br/><External to="https://joss.theoj.org">Associate Editor-in-Chief, <em>JOSS</em></External>
