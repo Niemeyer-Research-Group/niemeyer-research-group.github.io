@@ -30,7 +30,7 @@ export const Discoveries: Discovery[] = [
         contribution: "Model reduction methods developed for combustion chemical kinetics can be successfully extended to atmospheric and ocean biogeochemical models.",
         detail: "But algorithms need to be adapted to handle the unique characteristics of different systems, such as non-elementary reactions.",
         pubs: [ "caaba-mecca", "langmuir-carbonate" ],
-        tags: [ "model reduction" ],
+        tags: [ "model reduction", "biogeochemistry", "atmospheric chemistry" ],
     },
     {
         contribution: "Predicting the amount of carbon taken up by the ocean requires accurately capturing the interactins between ocean turbulence and biogeochemistry.",
@@ -41,14 +41,14 @@ export const Discoveries: Discovery[] = [
     {
         contribution: "Appropriately chosen integration algorithms can allow GPUs to efficiently integrate stiff chemistry needed in reacting flow simulations.",
         detail: "Particular algorithms parallelize more efficiently on GPUs.",
-        pubs: [ "moderately-stiff-GPU", "stiff-GPU-integrators" ],
+        pubs: [ "moderately-stiff-GPU", "stiff-GPU-integrators", "aas-integration-methods" ],
         tags: ["GPUs", "ODEs", "chemical kinetics", "integrators" ]
     },
     {
         contribution: "Large chemical kinetic models can be automatically reduced using a strategy with multiple reduction stages.",
         detail: "We can significantly reduce the size and complexity of detailed kinetic models, but only so far, before removing components introduces unacceptable error.",
         pubs: [ "drgepsa", "graph-search", "multicomponent-reduction", "reduced-gasoline-surrogate", "kerosene-reduction", "butanol-skeletal-models" ],
-        tags: [ "model reduction", "chemical kinetics", "algorithms" ]
+        tags: [ "model reduction", "chemical kinetics", "reduction algorithms" ]
     },
     {
         contribution: "Electrical arcs in vacuum remelting furnaces can be accurately located using magnetic field sensors paired with a physics-based model.",

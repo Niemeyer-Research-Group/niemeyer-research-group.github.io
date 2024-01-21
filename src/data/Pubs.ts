@@ -1,7 +1,19 @@
 import type Paper from "$lib/models/Paper";
-import { null_to_empty } from "svelte/internal";
 
 export const Publications: Paper[] = [
+    {
+        id: "aas-integration-methods",
+        kind: "journal article",
+        authors: ["Parker Johnson", "Michael Zingale", "Eric T. Johnson", "Alexander Smith", "@ken"],
+        year: 2023,
+        title: "A Fully Explicit Integrator for Modeling Astrophysical Reactive Flows",
+        source: "Research Notes of the AAS",
+        volume: 7,
+        issue: 12,
+        doi: "https://doi.org/10.3847/2515-5172/ad175d",
+        pages: "282",
+        contribution: "Shows the Runge-Kutta-Chebyshev method efficiently integrates reactions in astrophysical reactive flows, such as simulations of X-ray bursts."
+    },
     {
         id: "bgc-parameter-estimation",
         kind: "journal article",
