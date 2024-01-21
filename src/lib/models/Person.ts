@@ -17,4 +17,4 @@ type Person = {
 	achievements ?: string[];
 	orcid?: string;
 };
-export default Person;
+export type { Person as default };

@@ -31,4 +31,4 @@ type Paper = {
 	acceptrate?: number;
 	award?: string[];
 };
-export default Paper;
+export type { Paper as default };

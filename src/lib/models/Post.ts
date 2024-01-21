@@ -21,4 +21,4 @@ type Post = {
 	alt?: string;
 };
 
-export default Post;
+export type { Post as default };

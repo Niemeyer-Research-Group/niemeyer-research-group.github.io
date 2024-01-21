@@ -11,11 +11,15 @@ const config = {
 		adapter: adapter({
 			pages: "build",
 			assets: "build",
-			fallback: "index.html"
+			fallback: undefined
 		}),
 		paths: {
 			base: ""
-		}
+		},
+        alias: {
+            $lib: './src/lib',
+            '$lib/*': './src/lib/*',
+        },
 	}
 };
 
