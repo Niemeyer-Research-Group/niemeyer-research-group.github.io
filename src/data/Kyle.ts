@@ -59,6 +59,17 @@ export const Kyle: ProfileSpec = {
 	impacts: [
 		{
 			kind: "press",
+			start: 2024,
+			end: 2024,
+			url: "https://podcast.sustainoss.org/preview/VKPE6Jkl",
+			title: "Karthik Ram & James Howison on Research Software Visibility Infrastructure Priorities",
+			description: "In a podcast episode about sustaining open source software, Karthik Ram spotlighted my URSSI Research Software Engineering schools funded by the Sloan Foundation.",
+			author: "Richard Littauer",
+			source: "Sustain podcast",
+			who: "public"
+		},
+		{
+			kind: "press",
 			start: 2017,
 			end: 2017,
 			url: "https://ecampus.oregonstate.edu/research/podcast/e56/",
@@ -161,10 +172,10 @@ export const Kyle: ProfileSpec = {
 			"academic": false
 		},
 		{
-			"title": "Professor",
-			"organization": "University of Washington, Seattle",
-			"department": "The Information School + Paul G. Allen School of Computer Science & Engineering (courtesy)",
-			"startdate": 2020,
+			"title": "Associate Head for Undergraduate Programs",
+			"organization": "Oregon State University",
+			"department": "School of Mechanical, Industrial, and Manufacturing Engineering",
+			"startdate": 2023,
 			"enddate": null,
 			"academic": true
 		},
@@ -293,92 +304,66 @@ export const Kyle: ProfileSpec = {
 	],
 	editing: [
 		{
-			"title": "Associate Editor in Chief",
-			"venue": "Journal of Open Source Software",
-			"type": "journal",
-			"commitment": {
-				"start": "2018-11-01",
-				"end": "",
-				"hours": 3,
-				"priority": 1
+			title: "Associate Editor in Chief",
+			venue: "Journal of Open Source Software",
+			type: "journal",
+			commitment: {
+				start: "2018-11-01",
+				end: null,
+				hours: 2,
+				priority: 1
 			}
 		},
 		{
-			"title": "Editor",
-			"venue": "Journal of Open Source Software",
-			"type": "journal",
-			"commitment": {
-				"start": "2016-05-01",
-				"end": "2018-10-31",
-				"hours": 2,
-				"priority": 0
+			title: "Editor",
+			venue: "Journal of Open Source Software",
+			type: "journal",
+			commitment: {
+				start: "2016-05-01",
+				end: "2018-10-31",
+				hours: 1,
+				priority: 0
 			}
 		}
 	],
 	reviewing: [
-		/*{
-			"venue": "National Science Foundation (CISE, EHR)",
-			"title": "NSF Panelist",
-			"years": [2011, 2012, 2014, 2017, 2018, 2020],
-			"level": "panelist",
-			"commitment": {
-				"start": "09-15",
-				"end": "06-15",
-				"hours": 0.5,
-				"priority": 1
+		{
+			venue: "National Science Foundation (CISE, CFS)",
+			title: "NSF Panelist",
+			years: [2016, 2017, 2018, 2019, 2021],
+			level: "panelist",
+			commitment: {
+				start: "09-15",
+				end: "06-15",
+				hours: 0.5,
+				priority: 1
 			}
 		},
 		{
-			"venue": "Princeton University Press",
-			"title": "Book reviewer",
-			"years": [2020],
-			"level": "reviewer",
-			"commitment": {
-				"start": "10-15",
-				"end": "11-15",
-				"hours": 1,
-				"priority": 0
+			venue: '@poci',
+			title: 'Reviewer',
+			years: [2014, 2016, 2018, 2020, 2024],
+			level: 'reviewer',
+			commitment: {
+				start: '01-01',
+				end: '01-25',
+				hours: 3,
+				priority: 1
 			}
 		},
 		{
-			"venue": "@icse",
-			"title": "Program Board Member",
-			"years": [2018, 2019],
-			"level": "pc",
-			"commitment": {
-				"start": "08-15",
-				"end": "12-15",
-				"hours": 4,
-				"priority": 0
+			venue: '@poci',
+			title: 'Colloquium Co-Chair',
+			years: [2022],
+			level: 'pc',
+			commitment: {
+				start: '01-01',
+				end: '01-25',
+				hours: 6,
+				priority: 1
 			}
 		},
-		{
-			"venue": "International Workshop on Live Programming",
-			"title": "Program Committee Member",
-			"years": [2013, 2017, 2018],
-			"level": "pc"
-		},
-		{
-			"venue": "@ese",
-			"years": [2018, 2019, 2020],
-			"level": "reviewer"
-		},
-		{
-			"venue": "@chi",
-			"years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
-			"level": "reviewer",
-			"commitment": {
-				"start": "10-01",
-				"end": "11-15",
-				"hours": 1,
-				"priority": 0
-			}
-		},
-		{
-			"venue": "@vlhcc",
-			"years": [2004, 2005, 2006, 2007, 2008, 2009, 2010],
-			"level": "reviewer"
-		}*/
+
 	],
 	doctoralCommittees: [
 		{
@@ -405,19 +390,76 @@ export const Kyle: ProfileSpec = {
 	],
 	service: [
 		{
-			"title": "Undergraduate Program Coordinator",
-			"committee": "Mechanical Engineering",
-			"level": "departmental",
-			"description": "I oversee the Mechanical Engineering undergraduate degree program, which has over 1000 students. I chair the undergraduate program committee, organize discussions of proposed changes, and implement the changes with the support of staff. I led the design, discussion, and initiated the implementation of a major revision to the curriculum, which aimed to give students more customization of their degree, and also modernize requirements and outcomes.",
-			"commitment": {
-				"start": "2021-06-01",
-				"end": "2022-08-31",
-				"hours": 2,
-				"priority": 1
+            title: 'Associate Head for Undergraduate Programs',
+            committee: 'School of Mechanical, Industrial, and Manufacturing Engineering',
+            level: 'departmental',
+            description:
+                "I serve as the School of MIME's Associate Head for Undergraduate Programs.",
+            commitment: {
+                start: '2023-12-16',
+                end: '2026-12-15',
+                hours: 20,
+                priority: 0,
+            },
+        },
+		{
+            title: 'Task force member',
+            committee: 'Research Computing 2030 Task Force',
+            level: 'university',
+            description:
+                "I serve on this task force that is examining the university's research computing capacity and needs, benchmarking capabilities of aspirational peer universities, and recommending future operational models.",
+            commitment: {
+                start: '2023-09-15',
+                end: '2024-03-31',
+                hours: 1,
+                priority: 0,
+            },
+        },
+		{
+            title: 'Search committee member',
+            committee: 'Director of Supercomputing Center Search Committee',
+            level: 'university',
+            description:
+                "I am a member of the search committee to find a director of the new university-level Supercomputing Center.",
+            commitment: {
+                start: '2023-09-15',
+                end: '2024-03-31',
+                hours: 1,
+                priority: 0,
+            },
+        },
+		{
+			title: "Undergraduate Program Coordinator",
+			committee: "Mechanical Engineering",
+			level: "departmental",
+			description: "I oversee the Mechanical Engineering undergraduate degree program, which has over 1000 students. I chair the undergraduate program committee, organize discussions of proposed changes, and implement the changes with the support of staff. I led the design, discussion, and initiated the implementation of a major revision to the curriculum, which aimed to give students more customization of their degree, and also modernize requirements and outcomes.",
+			commitment: {
+				start: "2021-06-01",
+				end: "2022-08-31",
+				hours: 2,
+				priority: 1,
 			}
 		}
 	],
 	funding: [
+		{
+			id: "draftmodeling",
+			title: "Modeling Wood Heater Chimney Draft",
+			funder: "LBNL",
+			award: null,
+			investigators: "Kyle E. Niemeyer (PI)",
+			amount: 125000,
+			category: "research",
+			description: "Supporting researchers at LBNL, developing software for modeling chimney draft from wood heaters.",
+			url: null,
+			private: false,
+			commitment: {
+				start: "2024-03-01",
+				end: "2025-08-31",
+				hours: 1,
+				priority: 1
+			}
+		},
 		{
 			id: "sloanschools",
 			title: "Designing and launching a school for research software development and engineering",
@@ -425,14 +467,14 @@ export const Kyle: ProfileSpec = {
 			award: null,
 			investigators: "Kyle E. Niemeyer (PI)",
 			amount: 410000,
-			category: "service",
+			category: "research",
 			description: "Supports the development of materials for and operation of four weeklong research software development summer/winter schools.",
 			url: "https://sloan.org/grant-detail/10072",
 			private: false,
 			commitment: {
 				start: "2022-09-15",
-				end: "2024-08-31",
-				hours: 0,
+				end: "2025-08-31",
+				hours: 2,
 				priority: 1
 			}
 		},
@@ -445,12 +487,12 @@ export const Kyle: ProfileSpec = {
 			amount: 195473,
 			category: "research",
 			description: "With researchers at LBNL, develops an approach for optimizing blends of bio-based jet fuels for meeting desired properties, using machine-learning models for predicting the properties.",
-			url: null,
+			url: "https://feedstock-to-function.lbl.gov",
 			private: false,
 			commitment: {
 				start: "2021-10-01",
 				end: "2024-09-15",
-				hours: 0,
+				hours: 2,
 				priority: 1
 			}
 		},
@@ -469,7 +511,7 @@ export const Kyle: ProfileSpec = {
 			commitment: {
 				start: "2021-12-01",
 				end: "2023-09-15",
-				hours: 0,
+				hours: 1,
 				priority: 1
 			}
 		},
@@ -504,7 +546,7 @@ export const Kyle: ProfileSpec = {
 			url: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1931592&HistoricalAwards=false",
 			commitment: {
 				start: "2020-01-01",
-				end: "2023-12-31",
+				end: "2024-12-31",
 				hours: 1,
 				priority: 1
 			}
@@ -522,7 +564,7 @@ export const Kyle: ProfileSpec = {
 			url: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1924658&HistoricalAwards=false",
 			commitment: {
 				start: "2019-09-01",
-				end: "2023-08-31",
+				end: "2024-08-31",
 				hours: 1,
 				priority: 1
 			}
@@ -540,7 +582,7 @@ export const Kyle: ProfileSpec = {
 			url: "https://www.serdp-estcp.org/projects/details/0a352aa5-af0c-4bcb-81ba-dbe8a62f7af0/rc19-1092-project-overview",
 			commitment: {
 				start: "2019-08-01",
-				end: "2023-07-31",
+				end: "2024-07-31",
 				hours: 1,
 				priority: 1
 			}
@@ -865,7 +907,67 @@ export const Kyle: ProfileSpec = {
 			}
 		}
 	],
-	travel: [],
+	travel: [
+		{
+			url: 'https://github.com/si2-urssi/winterschool-Jan2024',
+			title: 'URSSI Winter School',
+			details: "I'm running a 2.5 day training school on software engineering skills for researchers. ",
+			category: 'research',
+			commitment: {
+				start: '2024-01-03',
+				end: '2024-01-05',
+				hours: 25,
+				priority: 0,
+			}
+		},
+		{
+            url: 'https://event.asme.org/MEED',
+            title: 'ASME Mechanical Engineering Education Summit',
+            details: 'Networking with mechanical engineering program leadership on education issues',
+            category: 'service',
+            commitment: {
+                start: '2024-03-18',
+                end: '2024-03-21',
+                hours: 30,
+                priority: 1,
+            },
+        },
+		{
+			url: '',
+			title: 'URSSI Summer School',
+			details: "I'm running a 3.5 day training school on software engineering skills for researchers. ",
+			category: 'research',
+			commitment: {
+				start: '2024-06-18',
+				end: '2024-06-21',
+				hours: 35,
+				priority: 0,
+			}
+		},
+        {
+            url: 'https://www.combustionsymposia.org',
+            title: 'Interational Symposium on Combustion',
+            details: 'Networking with my research and practice community',
+            category: 'research',
+            commitment: {
+                start: '2024-07-21',
+                end: '2024-07-26',
+                hours: 30,
+                priority: 1,
+            },
+        },
+        {
+            title: 'Vacation',
+            details: "I'll be on vacation for the holidays.",
+            category: 'personal',
+            commitment: {
+                start: '2024-12-20',
+                end: '2025-01-02',
+                hours: 56,
+                priority: 0,
+            },
+        },
+	],
 	talks: [
 		{
 			date: "2023-07-12",
@@ -1121,7 +1223,7 @@ export const Kyle: ProfileSpec = {
 			level: "graduate",
 			title: "Intermediate Thermodynamics",
 			description: "This graduate thermodynamics course covers how to solve advanced problems in thermodynamics using computational tools, including phase and chemical equilibrium, and introduces statistical thermodynamics.",
-			hours: 4,
+			hours: 8,
 			links: [
 				{
 					"description": "Kyle's ebook for the course",
@@ -1129,6 +1231,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
+				{size: 30, term: 3, year: 2024, responses: null, score1: null, score2: null},
 				{size: 12, term: 3, year: 2022, responses: 4, score1: 5.8, score2: 5.8},
                 {size: 21, term: 3, year: 2020, responses: 10, score1: null, score2: null},
 			]
@@ -1140,7 +1243,7 @@ export const Kyle: ProfileSpec = {
 			level: "undergraduate",
 			title: "Rocket Propulsion",
 			description: "The undergraduate elective course covers the fundamentals of rocket propulsion, focusing on chemical propulsion types (liquid, solid, hybrid).",
-			hours: 4,
+			hours: 8,
 			links: [
 				{
 					"description": "Kyle's online notes for the course",
@@ -1148,6 +1251,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
+				{size: 40, term: 2, year: 2025, responses: null, score1: null, score2: null},
 				{size: 42, term: 2, year: 2022, responses: 14, score1: 5.9, score2: 5.9},
                 {size: 22, term: 2, year: 2020, responses: 9, score1: 5.9, score2: 6.0},
 			]
@@ -1159,7 +1263,7 @@ export const Kyle: ProfileSpec = {
 			level: "graduate",
 			title: "Software Development for Engineering Research",
 			description: "This project-based graduate course aims at advancing computational research skills.",
-			hours: 4,
+			hours: 8,
 			links: [
 				{
 					"description": "Syllabus for the Winter 2019 offering",
@@ -1167,6 +1271,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
+				{size: 20, term: 2, year: 2025, responses: null, score1: null, score2: null},
 				{size: 16, term: 2, year: 2022, responses: 6, score1: 5.9, score2: 5.9},
                 {size: 7, term: 3, year: 2019, responses: 3, score1: 5.8, score2: 5.8},
                 {size: 17, term: 3, year: 2018, responses: 6, score1: 5.5, score2: 5.8},
@@ -1179,7 +1284,7 @@ export const Kyle: ProfileSpec = {
 			level: "slash",
 			title: "Gas Dynamics",
 			description: "This combined undergraduate/graduate course introduces compressible fluid flows, including flows in nozzles and diffusers, as well as shocks/expansion waves and their interactions. It also introduces supersonic flight and propulsion systems.",
-			hours: 4,
+			hours: 8,
 			links: [
 				{
 					"description": "Kyle's online notes for the course",
@@ -1201,7 +1306,7 @@ export const Kyle: ProfileSpec = {
 			level: "undergraduate",
 			title: "Mechanical Engineering Methods",
 			description: "This third-year course covers analytical and numerical methods for solving ordinary and partial differential equations, with applications to problems in mechanical engineering.",
-			hours: 4,
+			hours: 8,
 			links: [
 				{
 					"description": "Kyle's ebook for the course",
@@ -1209,6 +1314,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
+				{size: 50, term: 3, year: 2024, responses: null, score1: null, score2: null},
 				{size: 111, term: 2, year: 2020, responses: 40, score1: 4.8, score2: 5.4},
                 {size: 89,  term: 2, year: 2020, responses: 20, score1: 4.4, score2: 4.9},
                 {size: 113, term: 2, year: 2019, responses: 32, score1: 4.3, score2: 4.5},
@@ -1227,7 +1333,7 @@ export const Kyle: ProfileSpec = {
 			level: "slash",
 			title: "Space Systems Engineering",
 			description: "This is a combined senior and graduate course on topics related to space systems, including orbital mechanics and trajectory design, propulsion systems, stability and control of spacecraft, and space mission engineering.",
-			hours: 4,
+			hours: 8,
 			links: [
 				{
 					"description": "Kyle's ebook for the course",
@@ -1245,7 +1351,7 @@ export const Kyle: ProfileSpec = {
 			level: "graduate",
 			title: "Advanced Combustion",
 			description: "This was an advanced graduate-level course on fundamental principles of combustion, co-taught with David Blunck.",
-			hours: 4,
+			hours: 8,
 			links: [],
 			offerings: [
 				{size: 7, term: 1, year: 2016, responses: 5, score1: 3.1, score2: 4.0},
@@ -1258,7 +1364,7 @@ export const Kyle: ProfileSpec = {
 			level: "undergraduate",
 			title: "Introduction to MIME",
 			description: "This was a first-year course providing an overview of mechanical, industrial, and manufacturing engineering as well as academic success skills",
-			hours: 3,
+			hours: 6,
 			links: [],
 			offerings: [
 				{size: 72, term: 1, year: 2015, responses: 45, score1: 4.1, score2: 4.7},
@@ -1271,7 +1377,7 @@ export const Kyle: ProfileSpec = {
 			level: "undergraduate",
 			title: "Introductory Fluid Mechanics",
 			description: "This third-year course introduces concepts and applications of fluid mechanics and dimensional analysis.",
-			hours: 4,
+			hours: 8,
 			links: [],
 			offerings: [
 				{size: 15, term: 1, year: 2014, responses: 13, score1: 4.5, score2: 4.8},
@@ -1285,39 +1391,91 @@ export const Kyle: ProfileSpec = {
 			level: "undergraduate",
 			title: "MIME Capstone Design",
 			description: "This is a senior-level design capstone course for Energy Systems Engineering (ESE) students, covering real-world product design, project management, and professional communication skills.",
-			hours: 4,
+			hours: 8,
 			links: [],
 			offerings: [
 				{size: 14, term: 1, year: 2014, responses: 12, score1: 4.0, score2: 4.6},
 			]
 		}
 	],
-	commitments: [],
+	commitments: [
+		{
+            title: 'Reading',
+            description: 'Books and papers',
+            category: 'research',
+            annually: false,
+            commitment: { start: null, end: null, hours: 2, priority: 1 },
+        },
+		{
+            title: 'Fundraising',
+            description: 'Brainstorming new ideas, writing proposals, making budgets',
+            category: 'research',
+            annually: false,
+            commitment: { start: null, end: null, hours: 2, priority: 1 },
+        },
+        {
+            title: 'Advising',
+            description:
+                'Graduate student meetings, feedback, and collaboration',
+            category: 'research',
+            annually: false,
+            commitment: { start: null, end: null, hours: 4, priority: 0 },
+        },
+        // {
+        //     title: 'Seminars',
+        //     description: 'MIME',
+        //     category: 'research',
+        //     annually: false,
+        //     commitment: { start: null, end: null, hours: 1, priority: 0 },
+        // },
+        {
+            title: 'Miscellany',
+            description: 'Crises, oversights, and other surprises',
+            category: 'service',
+            annually: false,
+            commitment: { start: null, end: null, hours: 2, priority: 0 },
+        },
+        {
+            title: 'Autumn faculty meetings',
+            description: 'MIME',
+            category: 'service',
+            annually: true,
+            commitment: { start: '09-15', end: '12-15', hours: 0.25, priority: 0 },
+        },
+        {
+            title: 'Winter faculty meetings',
+            description: 'MIME',
+            category: 'service',
+            annually: true,
+            commitment: { start: '01-01', end: '03-15', hours: 0.25, priority: 0 },
+        },
+        {
+            title: 'Spring faculty meetings',
+            description: 'MIME',
+            category: 'service',
+            annually: true,
+            commitment: { start: '04-01', end: '06-15', hours: 0.25, priority: 0 },
+        },
+	],
 	years: {
-		/*"2000": "Sophomore year of college",
-		"2001": "Junior year of college",
-		"2002": "Graduated from college; 1st year of PhD",
-		"2003": null,
-		"2004": null,
-		"2005": null,
-		"2006": "MSR intern",
-		"2007": null,
-		"2008": "Job search, finished PhD, started at UW, divorce",
-		"2009": null,
-		"2010": null,
+		"2006": "Freshman year of college",
+		"2007": "Sophomore year of college",
+		"2008": "Junior year of college",
+		"2009": "Graduated from BS; 1st year of MS",
+		"2010": "Defended MS thesis; began PhD work",
 		"2011": null,
-		"2012": "Founded AnswerDash",
-		"2013": "On leave at AnswerDash",
-		"2014": "Promoted to Associate with tenure; returned from AnswerDash",
-		"2015": "Sabbatical",
-		"2016": "Informatics program chair",
-		"2017": "Informatics program chair",
-		"2018": "Informatics program chair",
-		"2019": "Informatics program chair; gender transition",
-		"2020": "Informatics program chair; promoted to Professor; COVID-19; gender transition",
-		"2021": "Informatics program chair; COVID-19; gender transition",
-		"2022": "Informatics program chair; gender transition; sabbatical (Summer/Fall)",
-		"2023": "Sabbatical (Winter/Spring/Summer)"*/
+		"2012": null,
+		"2013": "Job search, finished PhD, started postdoc at OSU",
+		"2014": "Shifted to research faculty position",
+		"2015": "Started tenure-track position",
+		"2016": null,
+		"2017": null,
+		"2018": null,
+		"2019": null,
+		"2020": "Promoted to Associate Professor and received tenure; COVID-19; divorce",
+		"2021": "COVID-19; began as ME Undergraduate Program Coordinator",
+		"2022": "Sabbatical (Fall); began AAAS STP Fellowship in DC @ DOE",
+		"2023": "Sabbatical (Winter/Spring); ended AAAS Fellowship in December; returned to Corvallis and began AHUG position",
 	}
 }
 

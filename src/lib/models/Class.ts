@@ -9,5 +9,12 @@ export type Class = {
 	description: string;
 	hours: number;
 	links: { description: string; link: string; }[];
-	offerings: { term: 1 | 2 | 3; size: number; year: number; responses: number; score1: number | null; score2: number | null }[];
+	offerings: { 
+		term: 1 | 2 | 3; 
+		size: number; 
+		year: number; 
+		responses: number | null; 
+		score1: number | null; 
+		score2: number | null 
+	}[];
 };

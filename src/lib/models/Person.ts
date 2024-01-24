@@ -14,7 +14,7 @@ type Person = {
 	honorsthesis?: string;
 	startdate: number;
 	enddate: number | null;
-	achievements ?: string[];
+	achievements?: readonly string[];
 	orcid?: string;
 };
 export type { Person as default };

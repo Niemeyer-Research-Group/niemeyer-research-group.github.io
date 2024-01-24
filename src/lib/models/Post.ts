@@ -1,9 +1,15 @@
 export const PostTags = [
+    'K-12',
     'academia',
+    'advising',
+    'argument',
+    'book summary',
+    'grant report',
+    'industry',
     'paper',
     'personal',
     'policy',
-    'productivity',
+    'review',
     'science',
     'society',
     'software engineering',
@@ -13,12 +19,12 @@ export const PostTags = [
 export type PostTagType = (typeof PostTags)[number];
 
 type Post = {
-	url: string;
-	title: string;
-	date: string;
-	tags: PostTagType[];
-	img?: string;
-	alt?: string;
+    url: string;
+    title: string;
+    date: string;
+    tags: PostTagType[];
+    img?: string;
+    alt?: string;
 };
 
 export type { Post as default };

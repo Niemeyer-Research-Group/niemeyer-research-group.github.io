@@ -41,6 +41,7 @@
 	<!-- <Link to="/impact" at={"/impact"}>Impact</Link> -->
 	<Link to="/funding" at={"/funding"}>Funding</Link>
 	<Link to="/bio" at={"/bio"}>Bio</Link>
+	<Link to="/commitments" at={"/commitments"}>Commitments</Link>
 	<Link to="/contact" at={"/contact"}>Contact</Link>
 	<Link to="/code-of-conduct" at={"/code-of-conduct"}>Group CoC</Link>
 	<!-- <Link to="/cv">CV</Link> -->
