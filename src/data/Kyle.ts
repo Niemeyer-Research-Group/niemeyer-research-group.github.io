@@ -7,41 +7,41 @@ import { Posts } from "./Posts";
 
 export const Kyle: ProfileSpec = {
 	sources: {
-		"cnf": {
-			"name": "Combustion and Flame",
-			"short": "CNF"
+		cnf: {
+			name: "Combustion and Flame",
+			short: "CNF"
 		},
-		"poci": {
-			"name": "Proceedings of the Combustion Institute",
-			"short": "POCI"
+		poci: {
+			name: "Proceedings of the Combustion Institute",
+			short: "POCI"
 		},
-		"jcp": {
-			"name": "Journal of Computational Physics",
-			"short": "JCP"
+		jcp: {
+			name: "Journal of Computational Physics",
+			short: "JCP"
 		},
-		"cpc": {
-			"name": "Computer Physics Communications",
-			"short": "CPC"
+		cpc: {
+			name: "Computer Physics Communications",
+			short: "CPC"
 		},
-		"ctm": {
-			"name": "Combustion Theory and Modelling",
-			"short": "CTM"
+		ctm: {
+			name: "Combustion Theory and Modelling",
+			short: "CTM"
 		},
-		"fuel": {
-			"name": "Fuel",
-			"short": "Fuel"
+		fuel: {
+			name: "Fuel",
+			short: "Fuel"
 		},
-		"joss": {
-			"name": "Journal of Open Source Software",
-			"short": "joss"
+		joss: {
+			name: "Journal of Open Source Software",
+			short: "joss"
 		},
-		"gmd": {
-			"name": "Geoscientific Model Development",
-			"short": "GMD"
+		gmd: {
+			name: "Geoscientific Model Development",
+			short: "GMD"
 		},
-		"enf": {
-			"name": "Energy & Fuels",
-			"short": "ENF"
+		enf: {
+			name: "Energy & Fuels",
+			short: "ENF"
 		}
 	},
 	pubs: Publications,
@@ -333,32 +333,32 @@ export const Kyle: ProfileSpec = {
 			years: [2016, 2017, 2018, 2019, 2021],
 			level: "panelist",
 			commitment: {
-				start: "09-15",
-				end: "06-15",
+				start: "08-15",
+				end: "05-15",
 				hours: 0.5,
 				priority: 1
 			}
 		},
 		{
-			venue: '@poci',
+			venue: 'International Symposium on Combustion',
 			title: 'Reviewer',
 			years: [2014, 2016, 2018, 2020, 2024],
 			level: 'reviewer',
 			commitment: {
-				start: '01-01',
-				end: '01-25',
+				start: '00-01',
+				end: '00-25',
 				hours: 3,
 				priority: 1
 			}
 		},
 		{
-			venue: '@poci',
+			venue: 'International Symposium on Combustion',
 			title: 'Colloquium Co-Chair',
 			years: [2022],
 			level: 'pc',
 			commitment: {
-				start: '01-01',
-				end: '01-25',
+				start: '00-01',
+				end: '00-25',
 				hours: 6,
 				priority: 1
 			}
@@ -397,7 +397,7 @@ export const Kyle: ProfileSpec = {
                 "I serve as the School of MIME's Associate Head for Undergraduate Programs.",
             commitment: {
                 start: '2023-12-16',
-                end: '2026-12-15',
+                end: null,
                 hours: 20,
                 priority: 0,
             },
