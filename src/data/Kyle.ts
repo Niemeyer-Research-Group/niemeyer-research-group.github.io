@@ -1472,7 +1472,7 @@ export const Kyle: ProfileSpec = {
 		"2017": null,
 		"2018": null,
 		"2019": null,
-		"2020": "Promoted to Associate Professor and received tenure; COVID-19; divorce",
+		"2020": "Promoted to Associate Professor and received tenure; COVID-19",
 		"2021": "COVID-19; began as ME Undergraduate Program Coordinator",
 		"2022": "Sabbatical (Fall); began AAAS STP Fellowship in DC @ DOE",
 		"2023": "Sabbatical (Winter/Spring); ended AAAS Fellowship in December; returned to Corvallis and began AHUG position",
