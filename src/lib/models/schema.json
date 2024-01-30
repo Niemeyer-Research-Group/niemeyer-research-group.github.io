@@ -446,6 +446,7 @@
 				"required": ["name", "department", "startdate", "enddate"],
 				"properties": {
 					"name": { "type": "string" },
+					"gcr": { "type": "boolean" },
 					"department": { "type": "string" },
 					"startdate": { "type": "integer", "minimum": 2000 },
 					"enddate": { "type": ["integer", "null"], "minimum": 2000 }
