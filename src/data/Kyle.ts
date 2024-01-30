@@ -53,7 +53,7 @@ export const Kyle: ProfileSpec = {
 			"id": "public",
 			"population": "The public",
 			"alt": "A picture of Amy being interviewed for a television segment.",
-			"description": "The press often reports on my research, interviews me, or consults with me on my expertise"
+			description: "The press often reports on my research, interviews me, or consults with me on my expertise"
 		},*/
 	],
 	impacts: [
@@ -106,7 +106,7 @@ export const Kyle: ProfileSpec = {
 			"kind": "curriculum",
 			"start": 2020,
 			"end": null,
-			"description": "We influenced the teaching of HCI education in higher education",
+			description: "We influenced the teaching of HCI education in higher education",
 			"url": null,
 			"who": "academia"
 		},
@@ -114,7 +114,7 @@ export const Kyle: ProfileSpec = {
 			"kind": "resource",
 			"start": 2016,
 			"end": null,
-			"description": "I write and share online books that summarize the state of knowledge in HCI and Software Engineering",
+			description: "I write and share online books that summarize the state of knowledge in HCI and Software Engineering",
 			"url": "https://faculty.washington.edu/ken/books",
 			"who": "academia"
 		},
@@ -122,7 +122,7 @@ export const Kyle: ProfileSpec = {
 			"kind": "resource",
 			"start": 2016,
 			"end": 2016,
-			"description": "Co-authored a whitepaper discussing the importance of computing education research",
+			description: "Co-authored a whitepaper discussing the importance of computing education research",
 			"url": "http://cra.org/ccc/wp-content/uploads/sites/2/2015/01/CSEdResearchWhitePaper2016.pdf",
 			"who": "cer"
 		},
@@ -130,7 +130,7 @@ export const Kyle: ProfileSpec = {
 			"kind": "resource",
 			"start": 2018,
 			"end": null,
-			"description": "I've helped shape the peer review processes for the ACM Transactions on Computing Education journal",
+			description: "I've helped shape the peer review processes for the ACM Transactions on Computing Education journal",
 			"url": "https://toce.acm.org/",
 			"who": "cer"
 		}*/
@@ -164,142 +164,142 @@ export const Kyle: ProfileSpec = {
 	patents: [],
 	jobs: [
 		{
-			"title": "AAAS Science & Technology Policy Fellow",
-			"organization": "US Department of Energy",
-			"department": "Industrial Efficiency & Decarbonization Office",
-			"startdate": 2022,
-			"enddate": null,
-			"academic": false
+			title: "AAAS Science & Technology Policy Fellow",
+			organization: "US Department of Energy",
+			department: "Industrial Efficiency & Decarbonization Office",
+			startdate: 2022,
+			enddate: null,
+			academic: false
 		},
 		{
-			"title": "Associate Head for Undergraduate Programs",
-			"organization": "Oregon State University",
-			"department": "School of Mechanical, Industrial, and Manufacturing Engineering",
-			"startdate": 2023,
-			"enddate": null,
-			"academic": true
+			title: "Associate Head for Undergraduate Programs",
+			organization: "Oregon State University",
+			department: "School of Mechanical, Industrial, and Manufacturing Engineering",
+			startdate: 2023,
+			enddate: null,
+			academic: true
 		},
 		{
-			"title": "Associate Professor",
-			"organization": "Oregon State University",
-			"department": "School of Mechanical, Industrial, and Manufacturing Engineering",
-			"startdate": 2020,
-			"enddate": null,
-			"academic": true
+			title: "Associate Professor",
+			organization: "Oregon State University",
+			department: "School of Mechanical, Industrial, and Manufacturing Engineering",
+			startdate: 2020,
+			enddate: null,
+			academic: true
 		},
 		{
-			"title": "Assistant Professor",
-			"organization": "Oregon State University",
-			"department": "School of Mechanical, Industrial, and Manufacturing Engineering",
-			"startdate": 2015,
-			"enddate": 2020,
-			"academic": true
+			title: "Assistant Professor",
+			organization: "Oregon State University",
+			department: "School of Mechanical, Industrial, and Manufacturing Engineering",
+			startdate: 2015,
+			enddate: 2020,
+			academic: true
 		},
 		{
-			"title": "Assistant Professor (Senior Research)",
-			"organization": "Oregon State University",
-			"department": "School of Mechanical, Industrial, and Manufacturing Engineering",
-			"startdate": 2014,
-			"enddate": 2015,
-			"academic": true
+			title: "Assistant Professor (Senior Research)",
+			organization: "Oregon State University",
+			department: "School of Mechanical, Industrial, and Manufacturing Engineering",
+			startdate: 2014,
+			enddate: 2015,
+			academic: true
 		},
 		{
-			"title": "Postdoctoral Scholar",
-			"organization": "Oregon State University",
-			"department": "School of Mechanical, Industrial, and Manufacturing Engineering",
-			"startdate": 2013,
-			"enddate": 2014,
-			"academic": true
+			title: "Postdoctoral Scholar",
+			organization: "Oregon State University",
+			department: "School of Mechanical, Industrial, and Manufacturing Engineering",
+			startdate: 2013,
+			enddate: 2014,
+			academic: true
 		},
 		{
-			"title": "Summer Research Intern",
-			"organization": "United Technologies Research Center",
-			"department": "Combustion Group",
-			"startdate": 2011,
-			"enddate": 2011,
-			"academic": false
+			title: "Summer Research Intern",
+			organization: "United Technologies Research Center",
+			department: "Combustion Group",
+			startdate: 2011,
+			enddate: 2011,
+			academic: false
 		},
 		{
-			"title": "Associate Science Writer",
-			"organization": "Ars Technica",
-			"department": "",
-			"startdate": 2011,
-			"enddate": 2013,
-			"academic": false
+			title: "Associate Science Writer",
+			organization: "Ars Technica",
+			department: "",
+			startdate: 2011,
+			enddate: 2013,
+			academic: false
 		},
 		{
-			"title": "NASA Glenn Research Center",
-			"organization": "United Technologies Research Center",
-			"department": "Combustion Branch",
-			"startdate": 2008,
-			"enddate": 2008,
-			"academic": false
+			title: "NASA Glenn Research Center",
+			organization: "United Technologies Research Center",
+			department: "Combustion Branch",
+			startdate: 2008,
+			enddate: 2008,
+			academic: false
 		},
 		{
-			"title": "Graduate Research Assistant",
-			"organization": "Case Western Reserve University",
-			"department": "Department of Mechanical and Aerospace Engineering",
-			"startdate": 2008,
-			"enddate": 2013,
-			"academic": true
+			title: "Graduate Research Assistant",
+			organization: "Case Western Reserve University",
+			department: "Department of Mechanical and Aerospace Engineering",
+			startdate: 2008,
+			enddate: 2013,
+			academic: true
 		},
 		{
-			"title": "Teaching Assistant",
-			"organization": "Case Western Reserve University",
-			"department": "Department of Mechanical and Aerospace Engineering",
-			"startdate": 2007,
-			"enddate": 2010,
-			"academic": true
+			title: "Teaching Assistant",
+			organization: "Case Western Reserve University",
+			department: "Department of Mechanical and Aerospace Engineering",
+			startdate: 2007,
+			enddate: 2010,
+			academic: true
 		},
 		{
-			"title": "Undergraduate Research Assistant",
-			"organization": "Case Western Reserve University",
-			"department": "Department of Mechanical and Aerospace Engineering",
-			"startdate": 2007,
-			"enddate": 2007,
-			"academic": true
+			title: "Undergraduate Research Assistant",
+			organization: "Case Western Reserve University",
+			department: "Department of Mechanical and Aerospace Engineering",
+			startdate: 2007,
+			enddate: 2007,
+			academic: true
 		}
 	],
 	recognitions: [
 		{
-			"title": "AAAS Science & Technology Policy Fellow",
-			"year": 2022,
-			"description": "A competitive fellowship program that places science and engineering researchers in policy-related positions in the executive branch of the federal government for one year."
+			title: "AAAS Science & Technology Policy Fellow",
+			year: 2022,
+			description: "A competitive fellowship program that places science and engineering researchers in policy-related positions in the executive branch of the federal government for one year."
 		},
 		{
-			"title": "Welty Faculty Fellow (Oregon State University)",
-			"year": 2021,
-			"description": "An endowed named faculty position that provides discretionary funds to support my research activities."
+			title: "Welty Faculty Fellow (Oregon State University)",
+			year: 2021,
+			description: "An endowed named faculty position that provides discretionary funds to support my research activities."
 		},
 		{
-			"title": "Better Scientific Software (BSSw) Fellowship",
-			"year": 2019,
-			"description": "A competitive fellowship that supported my activities in teaching software engineering skills to graduate researchers."
+			title: "Better Scientific Software (BSSw) Fellowship",
+			year: 2019,
+			description: "A competitive fellowship that supported my activities in teaching software engineering skills to graduate researchers."
 		},
 		{
-			"title": "Senior Member, American Institute of Aeronautics and Astronautics",
-			"year": 2019,
-			"description": "For more than eight years of technical leadership and professional contributions."
+			title: "Senior Member, American Institute of Aeronautics and Astronautics",
+			year: 2019,
+			description: "For more than eight years of technical leadership and professional contributions."
 		},
 		{
-			"title": "National Science Foundation Graduate Research Fellowship",
-			"year": 2010,
-			"description": "A five-year fellowship recognizing outstanding graduate students in NSF-supported STEM disciplines."
+			title: "National Science Foundation Graduate Research Fellowship",
+			year: 2010,
+			description: "A five-year fellowship recognizing outstanding graduate students in NSF-supported STEM disciplines."
 		},
 		{
-			"title": "National Defense Science & Engineering Graduate Fellowship",
-			"year": 2009,
-			"description": "A three-year fellowship in recognition of U.S. citizens with promise to advance science and engineering disciplinesof military importance."
+			title: "National Defense Science & Engineering Graduate Fellowship",
+			year: 2009,
+			description: "A three-year fellowship in recognition of U.S. citizens with promise to advance science and engineering disciplinesof military importance."
 		},
 		{
-			"title": "National Science Foundation Graduate Research Fellowship, Honorable Mention",
-			"year": 2009,
-			"description": "Recognition of an outstanding graduate students in NSF-supported STEM disciplines."
+			title: "National Science Foundation Graduate Research Fellowship, Honorable Mention",
+			year: 2009,
+			description: "Recognition of an outstanding graduate students in NSF-supported STEM disciplines."
 		},
 		{
-			"title": "The Case Alumni Association Prize for Achievement",
-			"year": 2009,
-			"description": "Case Western Reserve University's recognition for the graduating senior with the best academic record in the Case School of Engineering."
+			title: "The Case Alumni Association Prize for Achievement",
+			year: 2009,
+			description: "Case Western Reserve University's recognition for the graduating senior with the best academic record in the Case School of Engineering."
 		}
 	],
 	editing: [
@@ -366,6 +366,21 @@ export const Kyle: ProfileSpec = {
 
 	],
 	doctoralCommittees: [
+		{
+			name: "Nicholas Nelson",
+			institution: "Oregon State University",
+			department: "Computer Science",
+			gcr: true,
+			startdate: 2017,
+			enddate: 2024
+		},
+		{
+			name: "Mayowa Ibrahim Omisanya",
+			institution: "Oregon State University",
+			department: "Mechanical Engineering",
+			startdate: 2024,
+			enddate: null
+		},
 		{
 			name: "Olivier Mesnard",
 			institution: "George Washington University",
@@ -1201,17 +1216,17 @@ export const Kyle: ProfileSpec = {
 	panels: [
 		/*{
 			"date": "2022-03-21",
-			"title": "Equity, Justice, and Engineering Education",
+			title: "Equity, Justice, and Engineering Education",
 			"venue": "Science, Technology, and Public Policy (STPP) Program, Ford School of Public Policy, University of Michigan"
 		},
 		{
 			"date": "2021-14-10",
-			"title": "MIT EECS Rising Stars careers panel",
+			title: "MIT EECS Rising Stars careers panel",
 			"venue": "Massachusets Institute of Technology"
 		},
 		{
 			"date": "2021-05-25",
-			"title": "Capacity, Access, Participation, and Experience in K-12 CS Education",
+			title: "Capacity, Access, Participation, and Experience in K-12 CS Education",
 			"venue": "IEEE Conference on Research in Equity and Sustained Participation in Engineering, Computing, and Technology (RESPECT)"
 		},*/
 	],
@@ -1226,7 +1241,7 @@ export const Kyle: ProfileSpec = {
 			hours: 8,
 			links: [
 				{
-					"description": "Kyle's ebook for the course",
+					description: "Kyle's ebook for the course",
 					"link": "https://kyleniemeyer.github.io/computational-thermo/"
 				},
 			],
@@ -1246,7 +1261,7 @@ export const Kyle: ProfileSpec = {
 			hours: 8,
 			links: [
 				{
-					"description": "Kyle's online notes for the course",
+					description: "Kyle's online notes for the course",
 					"link": "https://kyleniemeyer.github.io/rocket-propulsion/"
 				},
 			],
@@ -1266,7 +1281,7 @@ export const Kyle: ProfileSpec = {
 			hours: 8,
 			links: [
 				{
-					"description": "Syllabus for the Winter 2019 offering",
+					description: "Syllabus for the Winter 2019 offering",
 					"link": "https://softwaredevengresearch.github.io/syllabus-s2019/"
 				},
 			],
@@ -1287,7 +1302,7 @@ export const Kyle: ProfileSpec = {
 			hours: 8,
 			links: [
 				{
-					"description": "Kyle's online notes for the course",
+					description: "Kyle's online notes for the course",
 					"link": "https://kyleniemeyer.github.io/gas-dynamics-notes/"
 				},
 			],
@@ -1309,7 +1324,7 @@ export const Kyle: ProfileSpec = {
 			hours: 8,
 			links: [
 				{
-					"description": "Kyle's ebook for the course",
+					description: "Kyle's ebook for the course",
 					"link": "https://kyleniemeyer.github.io/ME373-book/"
 				},
 			],
@@ -1336,7 +1351,7 @@ export const Kyle: ProfileSpec = {
 			hours: 8,
 			links: [
 				{
-					"description": "Kyle's ebook for the course",
+					description: "Kyle's ebook for the course",
 					"link": "https://kyleniemeyer.github.io/space-systems-notes/"
 				},
 			],
