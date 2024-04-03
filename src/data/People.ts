@@ -156,6 +156,20 @@ export const People: Person[] = [
         orcid: "0000-0003-1379-5431"
     },
     {
+        id: "adam-kerr",
+        name: "Adam Kerr",
+        pronouns: "he/him",
+        active: true,
+        advised: true,
+        level: "masters",
+        dept: "MIME",
+        bio: "Adam is a MS student in Mechanical Engineering, working on developing a modeling tool for predicting draft in wood heater systems. He recieved his BS in Mechanical Engineering from Oregon State University.",
+        url: "https://www.linkedin.com/in/adamjakerr/",
+        startdate: 2024,
+        enddate: null,
+        orcid: "0009-0005-0870-8825"
+    },
+    {
         id: "jayani",
         name: "W. Jayani Jayasuriya",
         pronouns: "she/her",
