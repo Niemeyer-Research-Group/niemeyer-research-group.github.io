@@ -1329,7 +1329,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
-				{size: 50, term: 3, year: 2024, responses: null, score1: null, score2: null},
+				{size: 70, term: 3, year: 2024, responses: null, score1: null, score2: null},
 				{size: 111, term: 2, year: 2020, responses: 40, score1: 4.8, score2: 5.4},
                 {size: 89,  term: 2, year: 2020, responses: 20, score1: 4.4, score2: 4.9},
                 {size: 113, term: 2, year: 2019, responses: 32, score1: 4.3, score2: 4.5},
