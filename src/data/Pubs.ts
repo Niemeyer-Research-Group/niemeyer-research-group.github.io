@@ -2,6 +2,59 @@ import type Paper from "$lib/models/Paper";
 
 export const Publications: Paper[] = [
     {
+        id: "live-fuel-ignition",
+        kind: "journal article",
+        authors: ["@diba", "@ken"],
+        year: 2024,
+        title: "A physics-based ignition model with detailed chemical kinetics for live fuel burning studies",
+        source: "@cnf",
+        volume: 265,
+        pages: "113487",
+        doi: "https://doi.org/10.1016/j.combustflame.2024.113487",
+        eprint: "https://doi.org/10.31224/3680",
+        contribution: "Introduces a physics-based model for simulating ignition of live fuels (like trees and shrubs), that considers detailed models for fuel chemistry."
+    },
+    {
+        id: "lignin-smouldering",
+        kind: "journal article",
+        authors: ["Benjamin D. Smucker", "@jayani", "@ken", "@david-blunck"],
+        year: 2024,
+        title: "Influence of lignin on smoldering propagation",
+        source: "@cnf",
+        volume: 265,
+        pages: "113451",
+        doi: "https://doi.org/10.1016/j.combustflame.2024.113451",
+        //eprint: "",
+        contribution: "Uses experiments and simulations to show how greater amounts of lignin in woody fuels slows down smouldering combustion."
+    },
+    // {
+    //     id: "monte-carlo-summit",
+    //     kind: "journal article",
+    //     authors: ["@jpmorgan", "Alexander Mote", "Samuel L. Pasmann", "Gavin Ridley", "@todd-palmer", "@ken", "Ryan McClarren"],
+    //     year: 2024,
+    //     title: "The Monte Carlo Computational Summit - October 25 & 26, 2023 - Notre Dame, Indiana, USA",
+    //     source: "Journal of Computational and Theoretical Transport",
+    //     volume: undefined,
+    //     issue: undefined,
+    //     pages: null,
+    //     doi: "https://doi.org/10.1080/23324309.2024.2354401",
+    //     eprint: "https://arxiv.org/abs/2402.08161",
+    //     contribution: "Summarizes"
+    // },
+    {
+        id: "mcdc-joss",
+        kind: "journal article",
+        authors: ["@jpmorgan", "Ilham Variansyah", "Samuel Pasmann", "Kayla B. Clements", "Braxton Cuneo", "Alexander Mote", "Charles Goodman", "Caleb Shaw", 'Jordan Northrop', "Rohan Pankaj", "Ethan Lame", "Benjamin Whewell", "Ryan McClarren", "@todd-palmer", "Lizhong Chen", "Dmitriy Anistratov", "C. T. Kelley", "Camille Palmer", "@ken"],
+        year: 2024,
+        title: "Monte Carlo / Dynamic Code (MC/DC): An accelerated Python package for fully transient neutron transport and rapid methods development",
+        source: "@joss",
+        volume: 9,
+        issue: 96,
+        doi: "https://doi.org/10.21105/joss.06415",
+        pages: "6415",
+        contribution: "Introduces MC/DC, a Python-based software package for modeling transient (i.e., time-dependent) neutron transport that performs well on exascale-class high-performance computing systems."
+    },
+    {
         id: "aas-integration-methods",
         kind: "journal article",
         authors: ["Parker Johnson", "Michael Zingale", "Eric T. Johnson", "Alexander Smith", "@ken"],
@@ -17,7 +70,7 @@ export const Publications: Paper[] = [
     {
         id: "bgc-parameter-estimation",
         kind: "journal article",
-        authors: ["Skyler Kern", "Mary E. McGuinn", "Katherin M. Smith", "Nadia Pinardi", "@ken", "Nicole S. Lovenduski", "@peter-hamlington"],
+        authors: ["Skyler Kern", "Mary E. McGuinn", "Katherine M. Smith", "Nadia Pinardi", "@ken", "Nicole S. Lovenduski", "@peter-hamlington"],
         year: 2024,
         title: "Computationally efficient parameter estimation for high-dimensional ocean biogeochemical models",
         source: "Geoscientific Model Development",
