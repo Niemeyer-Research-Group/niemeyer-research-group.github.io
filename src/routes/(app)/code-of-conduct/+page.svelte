@@ -60,7 +60,9 @@ assist those experiencing harassment to feel safe in the research environment.
 
 <p>
 If Kyle is the cause of the concern or you would prefer he not be involved, official 
-concerns can be addressed by contacting <External to="mailto:Nicole.Thompson@oregonstate.edu">Nicole Thompson</External> or <External to="mailto:andy.dong@oregonstate.edu">Andy Dong</External> in the School of MIME, or the <External to="http://eoa.oregonstate.edu">Oregon State University Equal Opportunity and Access office</External>.
+concerns can be addressed by contacting 
+<External to="mailto:andy.dong@oregonstate.edu">Andy Dong</External> in the School of MIME, 
+or the <External to="http://eoa.oregonstate.edu">Oregon State University Equal Opportunity and Access office</External>.
 The <External to="https://ombuds.oregonstate.edu">University Ombuds Office</External> is 
 also available if you feel you are being subjected to disrespectful or inappropriate 
 conduct, or conduct that might constitute bullying.
