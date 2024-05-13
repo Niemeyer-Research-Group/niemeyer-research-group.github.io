@@ -35,6 +35,7 @@
 	<Link to="/" at={"/"}>Research</Link>
 	<Link to="/lab" at={"/lab"}>Lab</Link>
 	<Link to="/publications" at={"/publications"}>Publications</Link>
+	<Link to="/consulting" at={"/consulting"}>Consulting</Link>
 	<!-- <Link to="/essays" at={"/essays"}>Essays</Link> -->
 	<Link to="/talks" at={"/talks"}>Talks</Link>
 	<Link to="/classes" at={"/classes"}>Classes</Link>
