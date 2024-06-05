@@ -27,20 +27,20 @@ export const Publications: Paper[] = [
         //eprint: "",
         contribution: "Uses experiments and simulations to show how greater amounts of lignin in woody fuels slows down smouldering combustion."
     },
-    // {
-    //     id: "monte-carlo-summit",
-    //     kind: "journal article",
-    //     authors: ["@jpmorgan", "Alexander Mote", "Samuel L. Pasmann", "Gavin Ridley", "@todd-palmer", "@ken", "Ryan McClarren"],
-    //     year: 2024,
-    //     title: "The Monte Carlo Computational Summit - October 25 & 26, 2023 - Notre Dame, Indiana, USA",
-    //     source: "Journal of Computational and Theoretical Transport",
-    //     volume: undefined,
-    //     issue: undefined,
-    //     pages: null,
-    //     doi: "https://doi.org/10.1080/23324309.2024.2354401",
-    //     eprint: "https://arxiv.org/abs/2402.08161",
-    //     contribution: "Summarizes"
-    // },
+    {
+        id: "monte-carlo-summit",
+        kind: "journal article",
+        authors: ["@jpmorgan", "Alexander Mote", "Samuel L. Pasmann", "Gavin Ridley", "@todd-palmer", "@ken", "Ryan McClarren"],
+        year: 2024,
+        title: "The Monte Carlo Computational Summit - October 25 & 26, 2023 - Notre Dame, Indiana, USA",
+        source: "Journal of Computational and Theoretical Transport",
+        volume: undefined,
+        issue: undefined,
+        pages: null,
+        doi: "https://doi.org/10.1080/23324309.2024.2354401",
+        eprint: "https://arxiv.org/abs/2402.08161",
+        contribution: "Summarizes discussions held at the 2023 Monte Carlo Computational Summit."
+    },
     {
         id: "mcdc-joss",
         kind: "journal article",

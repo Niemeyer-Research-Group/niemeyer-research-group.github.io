@@ -2,12 +2,41 @@ import type { Discovery } from "../lib/models/Discovery";
 
 export const Discoveries: Discovery[] = [
     {
+        contribution: "We can predict complex properties of liquid aviation fuels, including sustainable bio-based alternative fuels, using machine learning methods.",
+        detail: "But this requires carefully selecting features when training the models.",
+        pubs: [ "feature-selection" ],
+        tags: [ "feedstock to function", "machine learning", "sustainable aviation fuels" ],
+    },
+    {
+        contribution: "By incorporating key components in models, we can capture the ignition behavior of live fuels in simulations of wildfire.",
+        detail: "Models for live vegetative fuels (like trees and shrubs) need to include smaller components like sugars, lipids, proteins, phenols, and minerals, and not just moisture content.",
+        pubs: [ "live-fuel-ignition", "douglas-fir-reduced-model" ],
+        tags: [ "wildfire", "live fuels" ],
+    },
+    {
+        contribution: "We can achieve exascale performance in Monte Carlo neutron transport solvers written in Python, using just-in-time compilers.",
+        detail: "Unlike most traditional compiled codes, this approach allows portable performance on modern architectures.",
+        pubs: [ "mcdc-joss", "mcdc-development", "mcdc-tnt", "monte-carlo-summit" ],
+        tags: [ "Monte Carlo", "neutron transport", "nuclear reactors", "exascale" ],
+    },
+    {
+        contribution: "We can predict ignition and propagation of smoldering combustion, including effects of composition and environmental conditions, in woody fuels by representing the amounts of major components.",
+        detail: "Varying fuel composition in terms of cellulose, hemicellulose, and lignin proportions can noticeably change smoldering behavior, including critical moisture content.",
+        pubs: [ "lignin-smouldering", "smoldering-mixtures", "smoldering-exp-comp", "smoldering-mixtures-poci" ],
+        tags: [ "smoldering", "wildfire" ],
+    },
+    {
+        contribution: "How we model molecular diffusion in turbulent flames can impact our predictions of turbulent flame speed and structure.",
+        detail: "This is true even for larger hydrocarbon fuels; fortunately, our efficient algorithm for implementing the accurate multicomponent diffusion model enables its use.",
+        pubs: [ "multicomponent-diffusion-method", "multicomponent-diffusion-flame", "diffusion-enstrophy-flame" ],
+        tags: [ "diffusion", "turbulent flames", "numerical methods", "direct numerical simulation" ],
+    },
+    {
         contribution: "We can significantly accelerate integration of chemical kinetics by providing some system knowledge to the algorithm and using efficient sparse linear algebra operations.",
         detail: "Implemented in the open-source library Cantera, benefits appear for even very small models, and we see performance gains of up to 1000 times for large models.",
         pubs: [ "generalized-preconditioning" ],
         tags: [ "ODEs", "chemical kinetics", "linear algebra", "Cantera", "integrators" ],
     },
-
     {
         contribution: "A human- and machine-readable format allows us to easily describe measurements from fundamental experiments in combustion.",
         detail: "The ChemKED format allows describing fundamental experiments in combustion in a human- and machine-readable way, including descriptions of uncertainty.",
@@ -29,13 +58,13 @@ export const Discoveries: Discovery[] = [
     {   
         contribution: "Model reduction methods developed for combustion chemical kinetics can be successfully extended to atmospheric and ocean biogeochemical models.",
         detail: "But algorithms need to be adapted to handle the unique characteristics of different systems, such as non-elementary reactions.",
-        pubs: [ "caaba-mecca", "langmuir-carbonate" ],
+        pubs: [ "caaba-mecca", "langmuir-carbonate", "bfm17" ],
         tags: [ "model reduction", "biogeochemistry", "atmospheric chemistry" ],
     },
     {
-        contribution: "Predicting the amount of carbon taken up by the ocean requires accurately capturing the interactins between ocean turbulence and biogeochemistry.",
+        contribution: "Predicting the amount of carbon taken up by the ocean requires accurately capturing the interactions between ocean turbulence and biogeochemistry.",
         detail: "Simulating the interaction between Langmuir turbulence and ocean biogeochemistry requires applying model reduction methods from combustion.",
-        pubs: [ "langmuir-carbonate" ],
+        pubs: [ "langmuir-carbonate", "bgc-parameter-estimation", "bfm17" ],
         tags: [ "biogeochemistry", "ocean", "turbulence", ]
     },
     {
@@ -47,7 +76,7 @@ export const Discoveries: Discovery[] = [
     {
         contribution: "Large chemical kinetic models can be automatically reduced using a strategy with multiple reduction stages.",
         detail: "We can significantly reduce the size and complexity of detailed kinetic models, but only so far, before removing components introduces unacceptable error.",
-        pubs: [ "drgepsa", "graph-search", "multicomponent-reduction", "reduced-gasoline-surrogate", "kerosene-reduction", "butanol-skeletal-models" ],
+        pubs: [ "drgepsa", "graph-search", "multicomponent-reduction", "reduced-gasoline-surrogate", "kerosene-reduction", "butanol-skeletal-models", "pymars", "douglas-fir-reduced-model" ],
         tags: [ "model reduction", "chemical kinetics", "reduction algorithms" ]
     },
     {
