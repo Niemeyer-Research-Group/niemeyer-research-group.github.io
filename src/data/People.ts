@@ -36,7 +36,7 @@ export const People: Person[] = [
         advised: true,
         level: "masters",
         dept: "MIME",
-        bio: "Michelle is an MS graduate from the NRG and CIRE labs. She used combustion modeling to study live vegetative fuels.",
+        bio: "Michelle is an MS graduate from the NRG and CIRE labs, using combustion modeling to study live vegetative fuels. She is now a Research Associate in computational fire modeling at Los Alamos National Laboratory.",
         url: "https://www.linkedin.com/in/michelle-gee-810b64184/",
         startdate: 2023,
         enddate: 2024,
