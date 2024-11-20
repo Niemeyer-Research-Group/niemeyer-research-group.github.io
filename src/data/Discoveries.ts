@@ -4,19 +4,19 @@ export const Discoveries: Discovery[] = [
     {
         contribution: "We can predict complex properties of liquid aviation fuels, including sustainable bio-based alternative fuels, using machine learning methods.",
         detail: "But this requires carefully selecting features when training the models.",
-        pubs: [ "feature-selection" ],
+        pubs: [ "f2ft-fuel-blends", "feature-selection", "FTIR-LTC", "RON-FTIR" ],
         tags: [ "feedstock to function", "machine learning", "sustainable aviation fuels" ],
     },
     {
         contribution: "By incorporating key components in models, we can capture the ignition behavior of live fuels in simulations of wildfire.",
         detail: "Models for live vegetative fuels (like trees and shrubs) need to include smaller components like sugars, lipids, proteins, phenols, and minerals, and not just moisture content.",
-        pubs: [ "live-fuel-ignition", "douglas-fir-reduced-model" ],
-        tags: [ "wildfire", "live fuels" ],
+        pubs: [ "live-fuel-ignition", "douglas-fir-reduced-model", "single-domain-buoyant-plumes" ],
+        tags: [ "live fuels", "wildfire" ],
     },
     {
         contribution: "We can achieve exascale performance in Monte Carlo neutron transport solvers written in Python, using just-in-time compilers.",
         detail: "Unlike most traditional compiled codes, this approach allows portable performance on modern architectures.",
-        pubs: [ "mcdc-joss", "mcdc-development", "mcdc-tnt", "monte-carlo-summit" ],
+        pubs: [ "mcdc-joss", "mcdc-development", "mcdc-tnt", "monte-carlo-summit", "mcdc-parallelism" ],
         tags: [ "Monte Carlo", "neutron transport", "nuclear reactors", "exascale" ],
     },
     {
