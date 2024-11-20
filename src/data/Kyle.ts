@@ -460,17 +460,17 @@ export const Kyle: ProfileSpec = {
 		{
 			id: "draftmodeling",
 			title: "Modeling Wood Heater Chimney Draft",
-			funder: "LBNL",
+			funder: "Department of Energy",
 			award: null,
 			investigators: "Kyle E. Niemeyer (PI)",
 			amount: 125000,
 			category: "research",
-			description: "Supporting researchers at LBNL, developing software for modeling chimney draft from wood heaters.",
-			url: null,
+			description: "As part of the Wood Heater Innovation Collaboration project, supporting researchers at LBNL by developing software for modeling chimney draft from wood heaters.",
+			url: "https://woodheat.bnl.lbl.gov",
 			private: false,
 			commitment: {
-				start: "2024-03-01",
-				end: "2025-08-31",
+				start: "2024-07-15",
+				end: "2025-10-31",
 				hours: 1,
 				priority: 1
 			}
@@ -540,7 +540,7 @@ export const Kyle: ProfileSpec = {
             myamount: 456765,
 			category: "research",
 			description: "A large, multi-institution center with the overarching goal of enabling simulations of neutron transport using an advanced, dynamic exascale Monte Carlo approach.",
-			url: "https://www.energy.gov/nnsa/articles/nnsa-announces-selection-predictive-science-academic-alliance-program-centers",
+			url: "https://cement-psaap.github.io",
 			commitment: {
 				start: "2020-09-15",
 				end: "2025-09-15",
@@ -628,7 +628,7 @@ export const Kyle: ProfileSpec = {
 			amount: 224361,
 			category: "research",
 			description: "Under lead organization LBL, this grant supported the development of machine-learning models that predict thermophysical properties of alternative jet fuel blends.",
-			url: null,
+			url: "https://feedstock-to-function.lbl.gov",
 			commitment: {
 				start: "2018-12-01",
 				end: "2021-09-15",
@@ -985,6 +985,18 @@ export const Kyle: ProfileSpec = {
 	],
 	talks: [
 		{
+			date: "2024-09-19",
+			image: "lanl-joss-sep2024.png",
+			alt: "Title slide of the talk, which says 'Strategies for tackling the computational cost of modeling reacting fluids and related problems'.",
+			slides: null,
+			recording: null,
+			title: "Journal of Open Source Software: bot-assisted open peer review and publication",
+			url: null,
+			venue: "Information Science & Technology Institute, Los Alamos National Laboratory",
+			description: "Invited seminar about the Journal of Open Source Software and our bot-assisted peer review process.",
+			keynote: false
+		},
+		{
 			date: "2023-07-12",
 			image: "aceee-jul-2023.jpeg",
 			alt: "Title slide of the talk, which says 'Strategies for tackling the computational cost of modeling reacting fluids and related problems'.",
@@ -1254,10 +1266,10 @@ export const Kyle: ProfileSpec = {
 		{
 			id: "rocket-propulsion",
 			alt: "Photo of Apollo 11 Saturn V launch vehicle, lifting off on 16 July 1969,",
-			number: "ME 499",
+			number: "AAE 462/562",
 			level: "undergraduate",
 			title: "Rocket Propulsion",
-			description: "The undergraduate elective course covers the fundamentals of rocket propulsion, focusing on chemical propulsion types (liquid, solid, hybrid).",
+			description: "This combined undergraduate/graduate elective course covers the fundamentals of rocket propulsion, focusing on chemical propulsion types (liquid, solid, hybrid).",
 			hours: 8,
 			links: [
 				{
@@ -1274,9 +1286,9 @@ export const Kyle: ProfileSpec = {
         {
 			id: "software-dev-course",
 			alt: "Figure showing mathematical and scientific icons surrounding the Python logo",
-			number: "ME 599",
+			number: "ENGR 570",
 			level: "graduate",
-			title: "Software Development for Engineering Research",
+			title: "Software Development for Research",
 			description: "This project-based graduate course aims at advancing computational research skills.",
 			hours: 8,
 			links: [
