@@ -136,7 +136,7 @@ export const People: Person[] = [
         advised: true,
         level: "phd",
         dept: "MIME",
-        bio: "Malik is a PhD student in Mechanical Engineering, looking at methods to reduce and optimize biogeochemical models for simulations of the upper ocean. As an undergraduate at Arizona State University, he conducted research as a scholar in the Ronald E. McNair Achievement program.",
+        bio: "Malik is a PhD candidate in Mechanical Engineering, looking at methods to reduce and optimize biogeochemical models for simulations of the upper ocean. As an undergraduate at Arizona State University, he conducted research as a scholar in the Ronald E. McNair Achievement program.",
         url: "https://www.linkedin.com/in/malik-jordan-869322133/",
         startdate: 2020,
         enddate: null,
