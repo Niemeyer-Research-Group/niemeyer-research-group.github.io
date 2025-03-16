@@ -262,6 +262,11 @@ export const Kyle: ProfileSpec = {
 	],
 	recognitions: [
 		{
+			title: "Research Advancement Academy Fellow (Oregon State University)",
+			year: 2024,
+			description: "A professional development program for faculty from across OSU to develop research leaderships skills."
+		},
+		{
 			title: "AAAS Science & Technology Policy Fellow",
 			year: 2022,
 			description: "A competitive fellowship program that places science and engineering researchers in policy-related positions in the executive branch of the federal government for one year."
