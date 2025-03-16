@@ -2,6 +2,32 @@ import type Paper from "$lib/models/Paper";
 
 export const Publications: Paper[] = [
     {
+        id: "f2ft-fuel-blends",
+        kind: "journal article",
+        authors: ["Ana E. Comesana", "Sharon Chen", "@ken", "@vi-rapp"],
+        year: 2025,
+        title: "A structured framework for predicting sustainable aviation fuel properties using liquid-phase FTIR and machine learning",
+        source: "",
+        //volume: ,
+        pages: null,
+        doi: null,
+        eprint: "https://arxiv.org/abs/2408.01530",
+        contribution: "Presents a strategy for building models using machine learning to predict properties of liquid fuel blends, based on measurements of FTIR spectra."
+    },
+    {
+        id: "mcdc-parallelism",
+        kind: "journal article",
+        authors: ["@jpmorgan", "Ilham Variansyah", "Braxton Cuneo", "@todd-palmer", "@ken"],
+        year: 2025,
+        title: "Performant and Portable Monte Carlo Neutron Transport via Numba",
+        source: "Computing in Science & Engineering",
+        //volume: ,
+        pages: null,
+        doi: "https://doi.org/10.1109/MCSE.2025.3550863",
+        eprint: "https://arxiv.org/abs/2409.04668",
+        contribution: "Discusses how we used Python and Numba to rapidly develop a high-performance, open-source software tool for accurately modeling neutron transport through space and time."
+    },
+    {
         id: "single-domain-buoyant-plumes",
         kind: "journal article",
         authors: ["@diba", "@ken"],
@@ -13,32 +39,6 @@ export const Publications: Paper[] = [
         doi: "https://doi.org/10.1063/5.0248978",
         eprint: "https://arxiv.org/abs/2401.08874",
         contribution: "Demonstrates a single-domain method for simulating reacting fluid flows through and across interfaces between porous media and fluid regions."
-    },
-    {
-        id: "mcdc-parallelism",
-        kind: "journal article",
-        authors: ["@jpmorgan", "Ilham Variansyah", "Braxton Cuneo", "@todd-palmer", "@ken"],
-        year: 2024,
-        title: "Performance Portable Monte Carlo Neutron Transport in MCDC via Numba",
-        source: "",
-        //volume: ,
-        pages: null,
-        doi: null,
-        eprint: "https://arxiv.org/abs/2409.04668",
-        contribution: "Discusses how we used Python and Numba to rapidly develop a high-performance, open-source software tool for accurately modeling neutron transport through space and time."
-    },
-    {
-        id: "f2ft-fuel-blends",
-        kind: "journal article",
-        authors: ["Ana E. Comesana", "Sharon Chen", "@ken", "@vi-rapp"],
-        year: 2024,
-        title: "A structured framework for predicting sustainable aviation fuel properties using liquid-phase FTIR and machine learning",
-        source: "",
-        //volume: ,
-        pages: null,
-        doi: null,
-        eprint: "https://arxiv.org/abs/2408.01530",
-        contribution: "Presents a strategy for building models using machine learning to predict properties of liquid fuel blends, based on measurements of FTIR spectra."
     },
     {
         id: "live-fuel-ignition",
