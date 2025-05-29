@@ -15,14 +15,28 @@ export const Publications: Paper[] = [
         contribution: "Presents a strategy for building models using machine learning to predict properties of liquid fuel blends, based on measurements of FTIR spectra."
     },
     {
+        id: "one-cell-inversion-complete",
+        kind: "journal article",
+        authors: ["@jpmorgan", "Ilham Variansyah", "@todd-palmer", "@ken"],
+        year: 2025,
+        title: "One-cell inversion for solving higher-order time-dependent radiation transport on GPUs",
+        source: "Nuclear Science & Engineering",
+        //volume: ,
+        pages: null,
+        doi: null,
+        eprint: "https://arxiv.org/abs/2503.00264",
+        contribution: "Demonstrates a second-order deterministic method for solving radiation transport that efficiently parallelizes on GPUs."
+    },
+    {
         id: "mcdc-parallelism",
         kind: "journal article",
         authors: ["@jpmorgan", "Ilham Variansyah", "Braxton Cuneo", "@todd-palmer", "@ken"],
         year: 2025,
         title: "Performant and Portable Monte Carlo Neutron Transport via Numba",
         source: "Computing in Science & Engineering",
-        //volume: ,
-        pages: null,
+        volume: 27,
+        issue: 1,
+        pages: "57-65",
         doi: "https://doi.org/10.1109/MCSE.2025.3550863",
         eprint: "https://arxiv.org/abs/2409.04668",
         contribution: "Discusses how we used Python and Numba to rapidly develop a high-performance, open-source software tool for accurately modeling neutron transport through space and time."
