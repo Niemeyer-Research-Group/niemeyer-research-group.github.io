@@ -22,7 +22,7 @@ export const People: Person[] = [
         advised: true,
         level: "phd",
         dept: "MIME",
-        bio: "Jacob is a PhD student in Mechanical Engineering, studying and modeling the behavior of cryogenic propellants in space-based tanks for NASA. He recieved his BS in Mechanical Engineering from LeTourneau University.",
+        bio: "Jacob is a PhD student in Mechanical Engineering, studying and modeling the behavior of cryogenic propellants in space-based tanks. He recieved his BS in Mechanical Engineering from LeTourneau University.",
         url: "https://www.linkedin.com/in/adams-jacob/",
         startdate: 2023,
         enddate: null,
