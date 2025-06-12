@@ -146,14 +146,14 @@ export const People: Person[] = [
         id: "jpmorgan",
         name: "Joanna P. Morgan",
         pronouns: "she/her",
-        active: true,
+        active: false,
         advised: true,
         level: "phd",
         dept: "MIME",
-        bio: "Joanna is a PhD candidate in Mechanical Engineering, with a minor in Nuclear Engineering, working on methods to simulate neutron transport using Monte Carlo methods. She has completed multiple research internships at Los Alamos National Laboratory.",
+        bio: "Joanna received her PhD in Mechanical Engineering, with a minor in Nuclear Engineering, working on methods to simulate neutron transport using Monte Carlo methods. She completed multiple research internships at Los Alamos National Laboratory and is pursuing postdoctoral research at Lawrence Livermore National Laboratory.",
         url: "https://jpmorgan98.github.io/",
         startdate: 2020,
-        enddate: null,
+        enddate: 2025,
         orcid: "0000-0003-1379-5431"
     },
     {
