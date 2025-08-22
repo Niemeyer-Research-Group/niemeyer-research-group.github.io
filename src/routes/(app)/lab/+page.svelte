@@ -42,7 +42,11 @@
 			Don't ask me to evaluate your CV; I don't have time to evaluate your application twice; <em>do</em> write if you have specific questions about my lab's recent research. 
 			See the <External to="https://engineering.oregonstate.edu/MIME/academics/graduate-admissions">School of MIME graduate admissions page</External> for more information.
 		</p>
+		<p>
+			<strong>Open Positions!</strong>
+		</p>
 	</div>
+
 	<!--<div>
 		<p>
 			<strong>Current Oregon State undergraduate or masters student?</strong>
@@ -78,7 +82,7 @@
 	<Person person={person} highlight={isPersonHighlighted(person.id)} />
 {/each}
 
-<h3 id="collaborators">Collaborators</h3>
+<h3 id="collaborators">Active Collaborators</h3>
 
 <p><em>This isn't a complete list of collaborators, just those I've gotten around to adding.</em></p>
 

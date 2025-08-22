@@ -6,17 +6,24 @@
 	import Thumbnail from "$lib/components/Thumbnail.svelte";
 	import Block from "$lib/components/Block.svelte";
 	import getPersonImagePath from "$lib/components/getPersonImage";
+	import Title from '$lib/components/Title.svelte';
+    import Linkable from '$lib/components/Linkable.svelte';
 
 </script>
 
+<Title text="Research" />
+
 <h1>
-	I am a computational engineering researcher, using numerical methods and high-performance computing to study physical problems in energy, transportation, and aerospace.
+	I am a computational engineering researcher, using numerical methods and high-performance 
+	computing to study physical problems in energy, transportation, and aerospace.
 </h1>
 
 <p>
 	I work with a diverse and exciting group of <Link to={"/lab"}>students</Link> on these topics; 
-	<Link to={"/publications"}>publishing</Link> in combustion, energy, and computational physics communities;
-	and then <Link to={"/talks"}>presenting</Link> and <Link to={"/classes"}>teaching</Link> our work in the world.
+	<Link to={"/publications"}>publishing</Link> in combustion, energy, and 
+	computational physics communities;
+	and then <Link to={"/talks"}>presenting</Link> and <Link to={"/classes"}>teaching</Link> 
+	our work in the world. Our current projects are enabled by my <Link to="/funding">active grants</Link>.
 </p>
 
 <p>
@@ -35,7 +42,7 @@
 	Read about my <Link to="/lab">lab</Link>.
 </p>
 
-<h2>Contributions</h2>
+<Linkable id="discoveries">Contributions</Linkable>
 
 <p>
 	My lab and I have made many contributions since since I started doing research in 2008.
@@ -44,39 +51,67 @@
 </p>
 
 <!-- Create a list of discoveries from bundles of papers, sorted by the most recent publication on the discovery. -->
-{#each $profile.getDiscoveries(undefined, a => -$profile.getDiscoveryRange(a)[1]) as discovery }
-	{@const range = $profile.getDiscoveryRange(discovery) }
-	{@const keyPaper = $profile.getPublication(discovery.pubs[0])}
+{#each $profile.getDiscoveries(undefined, (a) => -$profile.getDiscoveryRange(a)[1]) as discovery}
+	{@const range = $profile.getDiscoveryRange(discovery)}
+    {@const keyPaper = $profile.getPublication(discovery.pubs[0])}
 	{#if keyPaper }
 		<Block>
-			<Thumbnail url={`/images/papers/paper-${keyPaper.id}.png`} alt="A clip from the paper's text or figure" slot="image"/>
-			<strong>{discovery.contribution}</strong> <small>({range[0]}{range[0] !== range[1] ? ` — ${range[1]}` : ""})</small> 
-			<br/>{discovery.detail}
+			{#snippet image()}
+				<Thumbnail 
+					url={`/images/papers/paper-${keyPaper.id}.png`} 
+					alt="A clip from the paper's text or figure"
+				/>
+			{/snippet}
+			<strong>{discovery.contribution}</strong>
+			<small
+                >({range[0]}{range[0] !== range[1]
+                    ? ` — ${range[1]}`
+                    : ''})</small
+            >
+            <br />{discovery.detail}
 			<p>
-				{#each $profile.getPeopleFromPubs(discovery.pubs) as person }
+				{#each $profile.getPeopleFromPubs(discovery.pubs) as person}
 					{#if person}
-						<Link to={person.id === "ken" ? "/bio" : "/lab/#" + person.id}>
-							<img 
-								src={`${getPersonImagePath(person.id)}`} 
-								alt={`${person.name} headshot`}
-								class="mini-headshot" 
-							/>
-						</Link>
-					{/if}
-				{/each}
+                        <Link
+                            to={person.id === 'ken'
+                                ? '/bio'
+                                : '/lab/#' + person.id}
+                        >
+                            <img
+                                src={`${getPersonImagePath(person.id)}`}
+                                alt={`${person.name} headshot`}
+                                class="mini-headshot"
+                            />
+                        </Link>
+                    {/if}
+                {/each}
 			</p>
 			<p>
 				<small>
-					{#each discovery.tags as tag}<mark class={"topic"}><Link to={`/publications?${tag}`}>{tag}</Link></mark>{/each}
-					{#if discovery.video}
-						{#each discovery.video as video }
-							&nbsp; <span class="emoji">🎬</span> <External to={video}>video</External>&nbsp;
-						{/each}
-					{/if}
-					{#if discovery.demo}&nbsp;<span class="emoji">🖥️</span> <External to={discovery.demo}>demo</External>{/if}
-					{#if discovery.code}&nbsp;<code>{"{}"}</code>&nbsp;<External to={discovery.code}>code</External>{/if}
-					{#if discovery.tags.length > 0}&nbsp;<span class="emoji">📄</span><Link to={`/publications?${discovery.tags[0].replaceAll(" ", "%20")}`}>papers</Link>{/if}
-				</small>
+                    {#each discovery.tags as tag}<mark class={'topic'}
+                            ><Link to={`/publications?${tag}`}>{tag}</Link
+                            ></mark
+                        >{/each}
+                    {#if discovery.video}
+                        {#each discovery.video as video}
+                            &nbsp; <span class="emoji">🎬</span>
+                            <External to={video}>video</External>&nbsp;
+                        {/each}
+                    {/if}
+                    {#if discovery.demo}&nbsp;<span class="emoji">🖥️</span>
+                        <External to={discovery.demo}>demo</External>{/if}
+                    {#if discovery.code}&nbsp;<code>{'{}'}</code>&nbsp;<External
+                            to={discovery.code}>code</External
+                        >{/if}
+                    {#if discovery.tags.length > 0}&nbsp;<span class="emoji"
+                            >📄</span
+                        ><Link
+                            to={`/publications?${discovery.tags[0].replaceAll(
+                                ' ',
+                                '%20',
+                            )}`}>papers</Link
+                        >{/if}
+                </small>
 			</p>
 		</Block>
 	{/if}

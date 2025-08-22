@@ -3,18 +3,22 @@
     import External from './External.svelte';
 </script>
 
-<span class="emoji">
-    <br /><a href="mailto:kyle.niemeyer@oregonstate.edu"><Emoji symbol="📧" /></a><span
-        class="dot">&sdot;</span
-    ><External to="https://medium.com/nrg-excitations"><Emoji symbol="📝" /></External
+<div class="emoji">
+    <a
+        href="mailto:kyle.niemeyer@oregonstate.edu"><Emoji symbol="📧" /></a
+    ><span class="dot">&sdot;</span><External
+        to="https://bsky.app/profile/kyleniemeyer.bsky.social"><Emoji symbol="🦋" /></External
     ><span class="dot">&sdot;</span><External to="https://mastodon.social/@kyleniemeyer"
         ><Emoji symbol="🐘" /></External
+    ><span class="dot">&sdot;</span><External to="http://github.com/kyleniemeyer"
+        ><Emoji symbol="💻" /></External
     >
-</span>
+</div>
 
 <style>
     .emoji {
         font-family: 'Noto Emoji';
+        margin-block-start: var(--padding);
     }
 
     .dot {

@@ -6,6 +6,7 @@
     import DateRange from './DateRange.svelte';
     import months from './months';
     import Title from '$lib/components/Title.svelte';
+    import Linkable from '$lib/components/Linkable.svelte';
 
     let commits = $profile.getCommits();
     let weeks = $profile.getWeeklyCommits();

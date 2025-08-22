@@ -1,6 +1,11 @@
+<script>
+    /** @type {{children?: import('svelte').Snippet}} */
+    let { children } = $props();
+</script>
+
 <div>
     <table>
-        <slot></slot>
+        {@render children?.()}
     </table>
 </div>
 
@@ -9,12 +14,13 @@
         width: 100%;
         overflow-x: auto;
     }
-    
+
     table {
         border-collapse: collapse;
     }
 
-    table :global(td), table :global(th) {
+    table :global(td),
+    table :global(th) {
         text-align: left;
         vertical-align: top;
         padding-right: var(--margin);
@@ -22,7 +28,6 @@
     }
 
     table :global(tr) {
-	    border-bottom: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--border-color);
     }
-
 </style>

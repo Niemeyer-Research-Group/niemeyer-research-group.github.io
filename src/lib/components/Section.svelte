@@ -1,11 +1,14 @@
 <script lang="ts">
-
     import Linkable from './Linkable.svelte';
 
-    export let id: string;
-    export let header: string;
+    interface Props {
+        id: string;
+        header: string;
+        children?: import('svelte').Snippet;
+    }
 
+    let { id, header, children }: Props = $props();
 </script>
 
-<Linkable id={id}>{header}</Linkable>
-<slot></slot>
+<Linkable {id}>{header}</Linkable>
+{@render children?.()}

@@ -1,16 +1,23 @@
 <script lang="ts">
-    import { base } from "$app/paths";
+    import { asset } from '$app/paths';
+	import type { Asset } from '$app/types';
 
-    export let url: string;
-    export let alt: string;
-    export let highlight: boolean = false;
+    interface Props {
+        url: Asset;
+        alt: string;
+        highlight?: boolean;
+    }
 
+    let { url, alt, highlight = false }: Props = $props();
 </script>
 
-<img class={`thumbnail ${highlight ? "highlight" : ""}`} src={`${base}${url}`} alt={alt}/>
+<img
+    class={`thumbnail ${highlight ? 'highlight' : ''}`}
+    src={asset(url)}
+    {alt}
+/>
 
 <style>
-
     img {
         width: calc(100% - 1em);
         padding: 0;
@@ -27,8 +34,14 @@
     }
 
     @keyframes throb {
-        0% { outline-color: var(--link-color); }
-        50% { outline-color: var(--back-color); }
-        100% { outline-color: var(--link-color); }
+        0% {
+            outline-color: var(--link-color);
+        }
+        50% {
+            outline-color: var(--back-color);
+        }
+        100% {
+            outline-color: var(--link-color);
+        }
     }
 </style>

@@ -1,30 +1,35 @@
 <script lang="ts">
-    import { afterUpdate } from "svelte";
-    import Link from "./Link.svelte";
+    import Link from './Link.svelte';
 
-    export let path: string;
+    interface Props {
+        path: string;
+    }
 
-    type Header = { id: string, text: string | null}
+    let { path }: Props = $props();
 
-    let sections: Header[] = [];
+    type Header = { id: string; text: string | null };
 
-    afterUpdate(() => {
+    let sections: Header[] = $state([]);
 
-        if(typeof document === "undefined")
-            return;
+    $effect(() => {
+        if (typeof document === 'undefined') return;
 
-        sections = Array.from(document.getElementsByClassName("section"))
-            .map(section => { return { id: section.id, text: section.textContent }});
-
+        sections = Array.from(document.getElementsByClassName('section')).map(
+            (section) => {
+                return { id: section.id, text: section.textContent };
+            },
+        );
     });
-
-
 </script>
 
-<hr/>
+<hr />
 <ul>
-    {#each sections as section }
-        <li><Link to={`${path}#${section.id}`}>{section.text?.replaceAll("🔗", "")}</Link></li>
+    {#each sections as section}
+        <li
+            ><Link to={`${path}#${section.id}`}
+                >{section.text?.replaceAll('🔗', '')}</Link
+            ></li
+        >
     {/each}
 </ul>
-<hr/>
+<hr />

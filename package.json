@@ -1,6 +1,6 @@
 {
 	"name": "nrg-website",
-	"version": "1.0.3",
+	"version": "1.1.0",
 	"description": "The webpage for Oregon State University professor Kyle Niemeyer",
 	"license": "MIT License",
 	"repository": "https://github.com/Niemeyer-Research-Group/niemeyer-research-group.github.io",
@@ -8,7 +8,7 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --ignore build --watch"
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json build --watch"
 	},
 	"devDependencies": {
         "@sveltejs/adapter-static": "^3",
