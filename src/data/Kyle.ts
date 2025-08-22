@@ -1332,7 +1332,7 @@ export const Kyle: ProfileSpec = {
 			links: [
 				{
 					description: "Kyle's ebook for the course",
-					"link": "https://kyleniemeyer.github.io/computational-thermo/"
+					link: "https://kyleniemeyer.github.io/computational-thermo/"
 				},
 			],
 			offerings: [
@@ -1353,7 +1353,7 @@ export const Kyle: ProfileSpec = {
 			links: [
 				{
 					description: "Kyle's online notes for the course",
-					"link": "https://kyleniemeyer.github.io/rocket-propulsion/"
+					link: "https://kyleniemeyer.github.io/rocket-propulsion/"
 				},
 			],
 			offerings: [
@@ -1373,8 +1373,12 @@ export const Kyle: ProfileSpec = {
 			hours: 8,
 			links: [
 				{
+					description: "Lectures and course material",
+					link: "https://softwaredevengresearch.github.io/software-development-research/"
+				},
+				{
 					description: "Syllabus for the Winter 2019 offering",
-					"link": "https://softwaredevengresearch.github.io/syllabus-s2019/"
+					link: "https://softwaredevengresearch.github.io/syllabus-s2019/"
 				},
 			],
 			offerings: [
@@ -1395,7 +1399,7 @@ export const Kyle: ProfileSpec = {
 			links: [
 				{
 					description: "Kyle's online notes for the course",
-					"link": "https://kyleniemeyer.github.io/gas-dynamics-notes/"
+					link: "https://kyleniemeyer.github.io/gas-dynamics-notes/"
 				},
 			],
 			offerings: [
@@ -1418,7 +1422,7 @@ export const Kyle: ProfileSpec = {
 			links: [
 				{
 					description: "Kyle's ebook for the course",
-					"link": "https://kyleniemeyer.github.io/ME373-book/"
+					link: "https://kyleniemeyer.github.io/ME373-book/"
 				},
 			],
 			offerings: [
@@ -1446,7 +1450,7 @@ export const Kyle: ProfileSpec = {
 			links: [
 				{
 					description: "Kyle's ebook for the course",
-					"link": "https://kyleniemeyer.github.io/space-systems-notes/"
+					link: "https://kyleniemeyer.github.io/space-systems-notes/"
 				},
 			],
 			offerings: [
