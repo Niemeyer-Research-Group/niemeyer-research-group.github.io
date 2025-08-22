@@ -41,6 +41,7 @@ export const People: Person[] = [
         startdate: 2023,
         enddate: 2024,
         orcid: "0009-0009-9100-8019",
+        msthesis: "https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/8c97kz96g"
     },
     {
         id: "katherine-bronstein",
@@ -67,22 +68,23 @@ export const People: Person[] = [
         url: "https://www.linkedin.com/in/ali-m-7b5a80177/",
         startdate: 2022,
         enddate: 2024,
-        orcid: ""
+        orcid: "",
+        msthesis: "https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/0c483t65k"
     },
-    {
-        id: "taylorc",
-        name: "Taylor Coddington",
-        pronouns: "he/him",
-        active: false,
-        advised: true,
-        level: "masters",
-        dept: "MIME",
-        bio: "Taylor was an MS student in Mechanical Engineering, studying numerical methods to capture strong shock waves. He completed a BS in Nuclear Engineering in 2016, and also works as a Thermal Hydraulic Engineer at NuScale.",
-        url: "https://www.linkedin.com/in/taylor-coddington-93227a107/",
-        startdate: 2021,
-        enddate: 2023,
-        orcid: ""
-    },
+    // {
+    //     id: "taylorc",
+    //     name: "Taylor Coddington",
+    //     pronouns: "he/him",
+    //     active: false,
+    //     advised: true,
+    //     level: "masters",
+    //     dept: "MIME",
+    //     bio: "Taylor was an MS student in Mechanical Engineering, studying numerical methods to capture strong shock waves. He completed a BS in Nuclear Engineering in 2016, and also works as a Thermal Hydraulic Engineer at NuScale.",
+    //     url: "https://www.linkedin.com/in/taylor-coddington-93227a107/",
+    //     startdate: 2021,
+    //     enddate: 2023,
+    //     orcid: ""
+    // },
     {
         id: "jordanpeters",
         name: "Jordan Peters",
@@ -154,7 +156,8 @@ export const People: Person[] = [
         url: "https://jpmorgan98.github.io/",
         startdate: 2020,
         enddate: 2025,
-        orcid: "0000-0003-1379-5431"
+        orcid: "0000-0003-1379-5431",
+        dissertation: "https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/7p88cr417"
     },
     {
         id: "jayani",
@@ -376,21 +379,21 @@ export const People: Person[] = [
         startdate: 2016,
         enddate: 2017,
     },
-    {
-        id: "james-stark",
-        name: "James Stark",
-        pronouns: "he/him",
-        active: false,
-        advised: true,
-        level: "masters",
-        dept: "MIME",
-        bio: "James completed an MS in Mechanical Engineering, studying numerical methods for capturing shock waves in aerodynamics applications.",
-        url: "https://www.linkedin.com/in/james-stark/",
-        startdate: 2020,
-        enddate: 2021,
-        orcid: "0000-0001-5935-3175",
-        //msthesis: ""
-    },
+    // {
+    //     id: "james-stark",
+    //     name: "James Stark",
+    //     pronouns: "he/him",
+    //     active: false,
+    //     advised: false,
+    //     level: "masters",
+    //     dept: "MIME",
+    //     bio: "James completed an MS in Mechanical Engineering, studying numerical methods for capturing shock waves in aerodynamics applications.",
+    //     url: "https://www.linkedin.com/in/james-stark/",
+    //     startdate: 2020,
+    //     enddate: 2021,
+    //     orcid: "0000-0001-5935-3175",
+    //     //msthesis: ""
+    // },
     {
         id: "himakar-ganti",
         name: "Himakar Ganti",
@@ -503,6 +506,7 @@ export const People: Person[] = [
         url: "https://github.com/arghdos",
         startdate: 2017,
         enddate: 2022,
+        dissertation: "https://digitalcommons.lib.uconn.edu/dissertations/2044"
     },
     {
         id: "vi-rapp",
