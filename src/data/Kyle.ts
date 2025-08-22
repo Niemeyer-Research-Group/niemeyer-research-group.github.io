@@ -1,5 +1,5 @@
 
-import type ProfileSpec from "../lib/models/ProfileSpec";
+import type ProfileSpec from '../lib/models/ProfileSpec';
 import { Discoveries } from "./Discoveries";
 import { Publications } from "./Pubs";
 import { People } from "./People";
@@ -410,6 +410,19 @@ export const Kyle: ProfileSpec = {
 	],
 	service: [
 		{
+            title: 'Conference organizer',
+            committee: 'WSSCI',
+            level: 'regional',
+            description:
+                "I am organizing the 2026 Spring Meeting of the Western States Section of the Combustion Institute.",
+            commitment: {
+                start: '2025-03-17',
+                end: '2026-03-31',
+                hours: 1,
+                priority: 0,
+            },
+        },
+		{
             title: 'Associate Head for Undergraduate Programs',
             committee: 'School of Mechanical, Industrial, and Manufacturing Engineering',
             level: 'departmental',
@@ -474,9 +487,9 @@ export const Kyle: ProfileSpec = {
 			description: "Extends the software library Cantera to provide new cross-disciplinary research capabilities and provides a foundation for further community-driven improvements to the framework.",
 			url: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1931592&HistoricalAwards=false",
 			commitment: {
-				start: "2020-01-01",
-				end: "2024-12-31",
-				hours: 1,
+				start: "2025-09-15",
+				end: "2028-08-31",
+				hours: 2,
 				priority: 1
 			}
 		},
@@ -494,7 +507,7 @@ export const Kyle: ProfileSpec = {
 			commitment: {
 				start: "2025-09-15",
 				end: "2030-09-14",
-				hours: 1,
+				hours: 2,
 				priority: 1
 			}
 		},
@@ -529,7 +542,7 @@ export const Kyle: ProfileSpec = {
 			private: false,
 			commitment: {
 				start: "2022-09-15",
-				end: "2025-08-31",
+				end: "2026-08-31",
 				hours: 2,
 				priority: 1
 			}
@@ -965,6 +978,30 @@ export const Kyle: ProfileSpec = {
 	],
 	travel: [
 		{
+			url: '',
+			title: 'Confronting the AI Disruption in STEM Higher Education',
+			details: "I'm attending a workshop discussing how to deal with generative AI tools in STEM higher ed, in New York. ",
+			category: 'service',
+			commitment: {
+				start: '2025-10-15',
+				end: '2025-10-17',
+				hours: 25,
+				priority: 0,
+			}
+		},
+		{
+			url: 'https://us-rse.org/usrse25/',
+			title: 'USRSE 2025',
+			details: "I'm attending a three-day conference held by the US Research Software Engineer Association, in Philadelphia PA. ",
+			category: 'service',
+			commitment: {
+				start: '2025-10-05',
+				end: '2025-10-08',
+				hours: 25,
+				priority: 0,
+			}
+		},
+		{
 			url: 'https://github.com/si2-urssi/winterschool-Jan2024',
 			title: 'URSSI Winter School',
 			details: "I'm running a 2.5 day training school on software engineering skills for researchers. ",
@@ -1299,6 +1336,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
+				{size: 0, term: 2, year: 2026, responses: null, score1: null, score2: null},
 				{size: 19, term: 3, year: 2024, responses: 6, score1: 5.3, score2: 5.8},
 				{size: 12, term: 3, year: 2022, responses: 4, score1: 5.8, score2: 5.8},
                 {size: 21, term: 3, year: 2020, responses: 10, score1: null, score2: null},
@@ -1319,6 +1357,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
+				{size: 0, term: 2, year: 2026, responses: null, score1: null, score2: null},
 				{size: 45, term: 2, year: 2025, responses: 7, score1: 4.8, score2: 5.3},
 				{size: 42, term: 2, year: 2022, responses: 14, score1: 5.9, score2: 5.9},
                 {size: 22, term: 2, year: 2021, responses: 9, score1: 5.9, score2: 6.0},
