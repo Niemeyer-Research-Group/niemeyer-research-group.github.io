@@ -11,7 +11,7 @@ export type Class = {
 	links: { description: string; link: string; }[];
 	offerings: { 
 		term: 1 | 2 | 3; 
-		size: number; 
+		size: number | null; 
 		year: number; 
 		responses: number | null; 
 		score1: number | null; 

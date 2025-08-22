@@ -1336,7 +1336,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
-				{size: 0, term: 2, year: 2026, responses: null, score1: null, score2: null},
+				{size: null, term: 2, year: 2026, responses: null, score1: null, score2: null},
 				{size: 19, term: 3, year: 2024, responses: 6, score1: 5.3, score2: 5.8},
 				{size: 12, term: 3, year: 2022, responses: 4, score1: 5.8, score2: 5.8},
                 {size: 21, term: 3, year: 2020, responses: 10, score1: null, score2: null},
@@ -1357,7 +1357,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
-				{size: 0, term: 2, year: 2026, responses: null, score1: null, score2: null},
+				{size: null, term: 2, year: 2026, responses: null, score1: null, score2: null},
 				{size: 45, term: 2, year: 2025, responses: 7, score1: 4.8, score2: 5.3},
 				{size: 42, term: 2, year: 2022, responses: 14, score1: 5.9, score2: 5.9},
                 {size: 22, term: 2, year: 2021, responses: 9, score1: 5.9, score2: 6.0},
