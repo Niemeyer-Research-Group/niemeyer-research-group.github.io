@@ -463,6 +463,42 @@ export const Kyle: ProfileSpec = {
 	],
 	funding: [
 		{
+			id: "nsffairos",
+			title: "The Prometheus Initiative: FAIR model and data cyberinfrastructure for predictive combustion science",
+			funder: "National Science Foundation",
+			award: "#2531938",
+			investigators: "Richard West (PI, Northeastern) and Kyle Niemeyer",
+			amount: 2542365,
+            myamount: 317419,
+			category: "research",
+			description: "Extends the software library Cantera to provide new cross-disciplinary research capabilities and provides a foundation for further community-driven improvements to the framework.",
+			url: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1931592&HistoricalAwards=false",
+			commitment: {
+				start: "2020-01-01",
+				end: "2024-12-31",
+				hours: 1,
+				priority: 1
+			}
+		},
+		{
+			id: "carre",
+			title: "Center for Advancing the Radiation Resilience of Electronics (CARRE)",
+			funder: "Department of Energy",
+			award: "DE-NA0004268",
+			investigators: "Todd Palmer (PI), Kyle E. Niemeyer, Camille Palmer, Madicken Munk, Lizhong Chen, Anil Prinja, C.T. Kelley; Rovert Reed, James Trippe, Brian Sierawksi, Sankaran Mahadevan (Vanderilt); Braxton Cuneo, Nate Kremer-Herman (Seattle Univ); Boris Kramer, Amitva Majumdar, Mahidhar Tatineni, Paul Rodriguez (UCSD); Dmitriy Anistratov (NC State); Daniel Siefman (UC Berkeley)",
+			amount: 18997819,
+            myamount: 1002110,
+			category: "research",
+			description: "A large, multi-institution center with the overarching goal of developing validated, multi-scale, multiphysics modeling and simulation capability to predict and assess the radiation resiliency of electronics.",
+			url: "",
+			commitment: {
+				start: "2025-09-15",
+				end: "2030-09-14",
+				hours: 1,
+				priority: 1
+			}
+		},
+		{
 			id: "draftmodeling",
 			title: "Modeling Wood Heater Chimney Draft",
 			funder: "Department of Energy",
@@ -475,7 +511,7 @@ export const Kyle: ProfileSpec = {
 			private: false,
 			commitment: {
 				start: "2024-07-15",
-				end: "2025-10-31",
+				end: "2025-04-15",
 				hours: 1,
 				priority: 1
 			}
@@ -1263,7 +1299,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
-				{size: 30, term: 3, year: 2024, responses: null, score1: null, score2: null},
+				{size: 19, term: 3, year: 2024, responses: 6, score1: 5.3, score2: 5.8},
 				{size: 12, term: 3, year: 2022, responses: 4, score1: 5.8, score2: 5.8},
                 {size: 21, term: 3, year: 2020, responses: 10, score1: null, score2: null},
 			]
@@ -1283,9 +1319,9 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
-				{size: 40, term: 2, year: 2025, responses: null, score1: null, score2: null},
+				{size: 45, term: 2, year: 2025, responses: 7, score1: 4.8, score2: 5.3},
 				{size: 42, term: 2, year: 2022, responses: 14, score1: 5.9, score2: 5.9},
-                {size: 22, term: 2, year: 2020, responses: 9, score1: 5.9, score2: 6.0},
+                {size: 22, term: 2, year: 2021, responses: 9, score1: 5.9, score2: 6.0},
 			]
 		},
         {
@@ -1303,7 +1339,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
-				{size: 20, term: 2, year: 2025, responses: null, score1: null, score2: null},
+				{size: 18, term: 2, year: 2025, responses: 5, score1: 5.9, score2: 5.9},
 				{size: 16, term: 2, year: 2022, responses: 6, score1: 5.9, score2: 5.9},
                 {size: 7, term: 3, year: 2019, responses: 3, score1: 5.8, score2: 5.8},
                 {size: 17, term: 3, year: 2018, responses: 6, score1: 5.5, score2: 5.8},
@@ -1328,7 +1364,8 @@ export const Kyle: ProfileSpec = {
                 {size: 58, term: 1, year: 2020, responses: 14, score1: 5.0, score2: 5.2},
                 {size: 52, term: 1, year: 2019, responses: 21, score1: 5.1, score2: 5.1},
                 {size: 32, term: 1, year: 2018, responses: 14, score1: 5.5, score2: 5.6},
-                {size: 15, term: 1, year: 2017, responses: 12, score1: 5.3, score2: 5.1},
+                {size: 33, term: 1, year: 2017, responses: 23, score1: 5.0, score2: 5.2},
+				{size: 15, term: 1, year: 2016, responses: 12, score1: 5.3, score2: 5.1},
 			]
 		},
         {
@@ -1346,7 +1383,8 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
-				{size: 70, term: 3, year: 2024, responses: null, score1: null, score2: null},
+				{size: 21, term: 3, year: 2024, responses: 3, score1: 5.8, score2: 5.8},
+				{size: 48, term: 3, year: 2024, responses: 9, score1: 5.0, score2: 5.7},
 				{size: 111, term: 2, year: 2020, responses: 40, score1: 4.8, score2: 5.4},
                 {size: 89,  term: 2, year: 2020, responses: 20, score1: 4.4, score2: 4.9},
                 {size: 113, term: 2, year: 2019, responses: 32, score1: 4.3, score2: 4.5},
