@@ -1,0 +1,1 @@
+import"./DsnmJJEf.js";import{f as o,t as a,$ as m,b as i}from"./CU3a2u-G.js";import{h as p}from"./jWjw_y7y.js";import{s}from"./CV_UjItU.js";var f=o('<meta property="og:description"/>');function h(n,t){p(r=>{var e=f();a(()=>{m.title=`Kyle E. Niemeyer - ${t.text??""}`,s(e,"content",`Kyle E. Niemeyer - ${t.text??""}`)}),i(r,e)})}export{h as T};

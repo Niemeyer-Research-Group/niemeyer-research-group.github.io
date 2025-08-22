@@ -1,1 +1,0 @@
-import"./DsnmJJEf.js";import{f as r,t as o,b as m,j as p,r as f}from"./0YU-SfUe.js";import{s as i}from"./D7ZtMUXQ.js";var l=r('<span class="emoji svelte-19qvx1m"> </span>');function x(s,a){var t=l(),e=p(t,!0);f(t),o(()=>i(e,a.symbol+"︎")),m(s,t)}export{x as E};

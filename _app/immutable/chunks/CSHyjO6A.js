@@ -1,0 +1,1 @@
+import"./DsnmJJEf.js";import{f as s,d as o,t as n,b as f,j as l,e as i,r as m}from"./CU3a2u-G.js";import{s as p}from"./CV_UjItU.js";var c=s('<a target="_blank" rel="noreferrer" class="svelte-eua5kh"><!></a>');function _(r,a){var e=c(),t=l(e);o(t,()=>a.children??i),m(e),n(()=>p(e,"href",a.to)),f(r,e)}export{_ as E};
