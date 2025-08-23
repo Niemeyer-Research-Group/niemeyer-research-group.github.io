@@ -55,7 +55,7 @@
 
 <small style="line-height: 1.4">
     <Alert
-        >I am looking for one Ph.D. student and one postdoc to work on funded
+        >I am recruiting one Ph.D. student and one postdoc to work on funded
 		positions starting as soon as 15 September 2025, but open until filled.
         Please see the descriptions on the <Link to="/lab" at={"/lab"}>Lab</Link>
         page.

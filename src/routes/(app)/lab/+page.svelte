@@ -42,12 +42,12 @@
 <Alert>
 	<h2>Open Positions!</h2>
 	<p>
-		I am actively looking to hire a PhD student researcher and postdoctoral scholar to work
+		I am actively recruiting a PhD student researcher and postdoctoral scholar to work
 		on funded projects:
 	</p>
 	<ul>
 		<li
-			><strong>PhD student:</strong> I'm looking for a PhD student to work on a new <External 
+			><strong>PhD student:</strong> I'm recruiting a PhD student to work on a new <External 
 				to="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2531938&HistoricalAwards=false"
 				>NSF grant</External
 			>for three years, around developing databases and software for working with combustion
