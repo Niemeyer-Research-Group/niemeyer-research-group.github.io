@@ -50,7 +50,7 @@
 			><strong>PhD student:</strong> I'm recruiting a PhD student to work on a new <External 
 				to="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2531938&HistoricalAwards=false"
 				>NSF grant</External
-			>for three years, around developing databases and software for working with combustion
+			> for three years, around developing databases and software for working with combustion
 			data. You preferably already have an MS in ME or ChemE (or similar),
 			and experience with writing code in Python. 
 		</li>
@@ -60,7 +60,9 @@
 			science research, code development, and student mentoring support. Responsibilities
 			would include adaptively coupling Monte Carlo particle transport software to other 
 			physics simulation tools (e.g., molecular dynamics) to predict the response of materials 
-			to irradiation.
+			to irradiation. <External 
+			to="https://hr.oregonstate.edu/open-postdoctoral-scholar-positions/center-advancing-raditation-resilience-electronics-postdoc"
+			>See full details and position description.</External>
 		</li>
 	</ul>
 </Alert>
