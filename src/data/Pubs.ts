@@ -23,7 +23,7 @@ export const Publications: Paper[] = [
         source: "Nuclear Science & Engineering",
         //volume: ,
         pages: null,
-        doi: null,
+        doi: "https://doi.org/10.1080/00295639.2025.2510004",
         eprint: "https://arxiv.org/abs/2503.00264",
         contribution: "Demonstrates a second-order deterministic method for solving radiation transport that efficiently parallelizes on GPUs."
     },
