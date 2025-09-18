@@ -1,3 +1,3 @@
-import"../chunks/DsnmJJEf.js";import"../chunks/U4UBJ7Yl.js";import{f as t,s as f,a as l,n as o,b as r}from"../chunks/CU3a2u-G.js";import{P as p}from"../chunks/BuxNx9D5.js";import{A as h}from"../chunks/SG7p0ccv.js";var d=t(`This page doesn't seem to exist. If you think it's supposed to or it
+import"../chunks/DsnmJJEf.js";import"../chunks/U4UBJ7Yl.js";import{f as t,s as f,a as l,n as o,b as r}from"../chunks/CU3a2u-G.js";import{P as p}from"../chunks/CBPo_LcR.js";import{A as h}from"../chunks/SG7p0ccv.js";var d=t(`This page doesn't seem to exist. If you think it's supposed to or it
         used to exist, feel free to <a href="mailto:kyle.niemeyer@oregonstate.edu">write me</a> and
         I'll see if I broke something.`,1),g=t("<h1>Uh oh.</h1> <!>",1);function b(s){p(s,{children:(a,u)=>{var e=g(),i=f(l(e),2);h(i,{children:(n,_)=>{o();var m=d();o(2),r(n,m)}}),r(a,e)},$$slots:{default:!0}})}export{b as component};
