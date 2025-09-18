@@ -119,16 +119,17 @@ export const People: Person[] = [
         id: "diba",
         name: "Diba Behnoudfar",
         pronouns: "she/her",
-        active: true,
+        active: false,
         advised: true,
         level: "phd",
         dept: "MIME",
-        bio: "Diba is a PhD candidate studying the behavior of live fuels in wildfire. She received a BS in Chemical Engineering from Iran University of Science and Technology, an MS degree in Polymer Engineering from Sharif University of Technology, and an MS degree in Chemical Engineering from Oregon State.",
+        bio: "Diba received her PhD in Mechanical Engineering, focusing on methods to model the combustion of porous solids using both detailed, physics-based approaches and developing reduced-order models, with particular applications to live fuels in wildfire. She received a BS in Chemical Engineering from Iran University of Science and Technology, an MS degree in Polymer Engineering from Sharif University of Technology, and an MS degree in Chemical Engineering from Oregon State.",
         url: "https://www.linkedin.com/in/diba-behnoudfar-5a70701b5/",
         startdate: 2020,
-        enddate: null,
+        enddate: 2025,
         orcid: "0000-0002-1524-1056",
-        msthesis: "https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/5q47rw32f"
+        msthesis: "https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/5q47rw32f",
+        dissertation: "https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/3t9461110"
     },
     {
         id: "malik",
