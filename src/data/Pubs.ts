@@ -2,12 +2,25 @@ import type Paper from "$lib/models/Paper";
 
 export const Publications: Paper[] = [
     {
+        id: "ablation-uq",
+        kind: "journal article",
+        authors: ["@diba", "@ken"],
+        year: 2025,
+        title: "Uncertainty quantification of reacting fluids interacting with porous media using a hybrid physics-based and data-driven approach",
+        source: "(under review)",
+        //volume: ,
+        pages: null,
+        doi: null,
+        eprint: "https://arxiv.org/abs/2510.03649",
+        contribution: "."
+    },
+    {
         id: "f2ft-fuel-blends",
         kind: "journal article",
         authors: ["Ana E. Comesana", "Sharon Chen", "@ken", "@vi-rapp"],
         year: 2025,
         title: "A structured framework for predicting sustainable aviation fuel properties using liquid-phase FTIR and machine learning",
-        source: "",
+        source: "Fuel",
         //volume: ,
         pages: null,
         doi: null,
