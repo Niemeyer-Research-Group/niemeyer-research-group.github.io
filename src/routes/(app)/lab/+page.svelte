@@ -42,7 +42,7 @@
 <Alert>
 	<h2>Open Positions!</h2>
 	<p>
-		I am actively recruiting a PhD student researcher and postdoctoral scholar to work
+		I am actively recruiting a PhD student researcher to work
 		on funded projects:
 	</p>
 	<ul>
@@ -53,16 +53,6 @@
 			> for three years, around developing databases and software for working with combustion
 			data. You preferably already have an MS in ME or ChemE (or similar),
 			and experience with writing code in Python. 
-		</li>
-		<li
-			><strong>Postdoctoral scholar:</strong> I'm recruiting a postdoctoral scholar with the Center for 
-			Advancing the Radiation Resilience of Electronics (CARRE) to provide computational 
-			science research, code development, and student mentoring support. Responsibilities
-			would include adaptively coupling Monte Carlo particle transport software to other 
-			physics simulation tools (e.g., molecular dynamics) to predict the response of materials 
-			to irradiation. <External 
-			to="https://hr.oregonstate.edu/open-postdoctoral-scholar-positions/center-advancing-raditation-resilience-electronics-postdoc"
-			>See full details and position description.</External>
 		</li>
 	</ul>
 </Alert>
