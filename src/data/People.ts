@@ -6,7 +6,7 @@ export const People: Person[] = [
         name: "Massimo Larsen",
         pronouns: "he/him",
         active: true,
-        advised: false,
+        advised: true,
         level: "postdoc",
         dept: "MIME",
         bio: "Massimo is a postdoctoral scholar researching the coupling of multiparticle Monte Carlo radiation transport with molecular dynamics simulations. He received his PhD in Nuclear Science and Engineering from Oregon State",
