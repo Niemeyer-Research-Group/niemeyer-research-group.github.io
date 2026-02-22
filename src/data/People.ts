@@ -9,7 +9,7 @@ export const People: Person[] = [
         advised: true,
         level: "postdoc",
         dept: "MIME",
-        bio: "Massimo is a postdoctoral scholar researching the coupling of multiparticle Monte Carlo radiation transport with molecular dynamics simulations. He received his PhD in Nuclear Science and Engineering from Oregon State",
+        bio: "Massimo is a postdoctoral scholar researching the coupling of multiparticle Monte Carlo radiation transport with molecular dynamics simulations. He received his PhD in Nuclear Science and Engineering from Oregon State in 2025.",
         url: "https://www.linkedin.com/in/massimolarsen/",
         startdate: 2026,
         enddate: null,
