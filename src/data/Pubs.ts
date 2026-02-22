@@ -5,7 +5,7 @@ export const Publications: Paper[] = [
         id: "ablation-uq",
         kind: "journal article",
         authors: ["@diba", "@ken"],
-        year: 2025,
+        year: 2026,
         title: "Uncertainty quantification of reacting fluids interacting with porous media using a hybrid physics-based and data-driven approach",
         source: "(under review)",
         //volume: ,
@@ -15,10 +15,23 @@ export const Publications: Paper[] = [
         contribution: "."
     },
     {
+        id: "hybrid-delta-tracking",
+        kind: "journal article",
+        authors: ["@jpmorgan", "Ilham Variansyah", "Kayla B. Clements", "@todd-palmer", "@ken"],
+        year: 2026,
+        title: "Hybrid delta tracking schemes using a track-length estimator",
+        source: "Journal of Computational and Theoretical Transport",
+        //volume: ,
+        pages: null,
+        doi: "https://doi.org/10.1080/23324309.2026.2618791",
+        eprint: "https://arxiv.org/abs/2510.00152",
+        contribution: "Introduces an energy-based hybrid method for tracking neutrons as they move through systems, which improves computational performance for time-dependent problems."
+    },
+    {
         id: "f2ft-fuel-blends",
         kind: "journal article",
         authors: ["Ana E. Comesana", "Sharon Chen", "@ken", "@vi-rapp"],
-        year: 2025,
+        year: 2026,
         title: "A structured framework for predicting sustainable aviation fuel properties using liquid-phase FTIR and machine learning",
         source: "Fuel",
         //volume: ,
@@ -162,7 +175,7 @@ export const Publications: Paper[] = [
         contribution: "Verifies and demonstrates MC/DC (Monte Carlo Dynamic Code) code for simulating transient neutron transport."
     },
     {
-        id: "hybrid-delta-tracking",
+        id: "hybrid-delta-tracking-mcatk",
         kind: "refereed conference paper",
         authors: ["@jpmorgan", "Travis J. Trahan", "Timothy P. Burke", "Colin J. Josey", "@ken"],
         year: 2023,
