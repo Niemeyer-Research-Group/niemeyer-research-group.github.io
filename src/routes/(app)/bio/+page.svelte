@@ -17,7 +17,7 @@
 <Linkable id="short">Short Bio</Linkable>
 
 <p>
-	Kyle E. Niemeyer is an Associate Professor and Welty Faculty Fellow at <External to="https://oregonstate.edu">Oregon State University</External> in the <External to="https://engineering.oregonstate.edu/MIME">School of Mechanical, Industrial, and Manufacturing Engineering</External>. 
+	Kyle E. Niemeyer is an Associate Professor at <External to="https://oregonstate.edu">Oregon State University</External> in the <External to="https://engineering.oregonstate.edu/MIME">School of Mechanical, Industrial, and Manufacturing Engineering</External>. 
 	He also serves as the Associate School Head for Undergraduate Programs (as of December 2023).
 	He leads the Niemeyer Research Group, which uses computational modeling to study various phenomena involving fluid flows, including combustion and chemical kinetics, and related topics like numerical methods and parallel computing. 
 	He is also a strong advocate of open access, open source software, and open science in general, and has contributed in the area of standardizing research software citation.
@@ -46,7 +46,7 @@
 <p>As an undergraduate, I was also advised by</p>
 <ul>
 	<li><External to="https://en.wikipedia.org/wiki/Joseph_M._Prahl">Joseph Prahl</External> (Ph.D., Harvard University), and</li>
-	<li><External to="https://www.hernandezresearch.com">Christopher Hernandez</External> (Ph.D., Stanford University).</li>
+	<li><External to="https://en.wikipedia.org/wiki/Christopher_J._Hernandez">Christopher Hernandez</External> (Ph.D., Stanford University).</li>
 </ul>
 
 <!--
