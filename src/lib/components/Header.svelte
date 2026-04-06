@@ -56,8 +56,8 @@
 <small style="line-height: 1.4">
     <Alert
         >I am recruiting one Ph.D. student to work on a funded
-		positions starting as soon as 15 September 2025, but open until filled.
-        Please see the descriptions on the <Link to="/lab" at={"/lab"}>Lab</Link>
+		position starting as soon as 15 September 2025, but open until filled.
+        Please see the description on the <Link to="/lab" at={"/lab"}>Lab</Link>
         page.
     </Alert>
 </small>
