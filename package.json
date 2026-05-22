@@ -1,7 +1,10 @@
 {
 	"name": "nrg-website",
 	"version": "1.1.0",
-	"description": "The webpage for Oregon State University professor Kyle Niemeyer",
+    "engines": {
+        "node": "26"
+    },
+	"description": "The webpage for Professor Kyle Niemeyer at Oregon State University",
 	"license": "MIT License",
 	"repository": "https://github.com/Niemeyer-Research-Group/niemeyer-research-group.github.io",
 	"scripts": {
@@ -13,17 +16,17 @@
 	"devDependencies": {
         "@sveltejs/adapter-static": "^3",
         "@sveltejs/kit": "^2",
-        "@sveltejs/vite-plugin-svelte": "^6",
+        "@sveltejs/vite-plugin-svelte": "^7",
+        "@types/node": "^25.9.0",
         "ajv-cli": "^5",
         "ajv-formats": "^3",
         "prettier": "^3",
         "prettier-plugin-svelte": "^3",
         "svelte": "^5",
         "svelte-check": "^4",
-        "svelte-preprocess": "^6",
         "tslib": "^2",
-        "typescript": "^5",
-        "vite": "^7"
+        "typescript": "^6",
+        "vite": "^8"
     },
 	"type": "module"
 }
