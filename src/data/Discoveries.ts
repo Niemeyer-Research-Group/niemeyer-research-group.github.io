@@ -16,7 +16,7 @@ export const Discoveries: Discovery[] = [
     {
         contribution: "We can achieve exascale performance in Monte Carlo neutron transport solvers written in Python, using just-in-time compilers.",
         detail: "Unlike most traditional compiled codes, this approach allows portable performance on modern architectures.",
-        pubs: [ "mcdc-joss", "mcdc-development", "mcdc-tnt", "monte-carlo-summit", "mcdc-parallelism" ],
+        pubs: [ "mcdc-joss", "mcdc-development", "mcdc-tnt", "monte-carlo-summit", "mcdc-parallelism", "hybrid-delta-tracking" ],
         tags: [ "Monte Carlo", "neutron transport", "nuclear reactors", "exascale" ],
     },
     {
@@ -64,7 +64,7 @@ export const Discoveries: Discovery[] = [
     {
         contribution: "Predicting the amount of carbon taken up by the ocean requires accurately capturing the interactions between ocean turbulence and biogeochemistry.",
         detail: "Simulating the interaction between Langmuir turbulence and ocean biogeochemistry requires applying model reduction methods from combustion.",
-        pubs: [ "langmuir-carbonate", "bgc-parameter-estimation", "bfm17" ],
+        pubs: [ "bgc-physical-parameter-optimization", "langmuir-carbonate", "bgc-parameter-estimation", "bfm17", ],
         tags: [ "biogeochemistry", "ocean", "turbulence", ]
     },
     {

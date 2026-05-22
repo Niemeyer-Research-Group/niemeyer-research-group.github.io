@@ -15,6 +15,20 @@ export const Publications: Paper[] = [
         contribution: "."
     },
     {
+        id: "bgc-physical-parameter-optimization",
+        kind: "journal article",
+        authors: ["Skyler Kern", "Mary E. McGuinn", "Katherine M. Smith", "Nadia Pinardi", "@ken", "Nicole S. Lovenduski", "@peter-hamlington"],
+        year: 2026,
+        title: "Simultaneous versus sequential estimation of biogeochemical and physical parameters in coupled marine ecosystem models",
+        source: "Geoscientific Model Development",
+        doi: null,
+        eprint: "https://doi.org/10.5194/egusphere-2025-3795",
+        pages: null,
+        //volume: ,
+        //issue: ,
+        contribution: "Shows a method for simultaneously optimizing biogeochemical and physical transport parameters in marine ecosystem models based on ocean observations."
+    },
+    {
         id: "hybrid-delta-tracking",
         kind: "journal article",
         authors: ["@jpmorgan", "Ilham Variansyah", "Kayla B. Clements", "@todd-palmer", "@ken"],
