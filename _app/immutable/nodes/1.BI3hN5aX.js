@@ -1,0 +1,3 @@
+import{L as e,R as t,et as n,x as r,y as i}from"../chunks/DB6q5lKp.js";import"../chunks/xihTtKlq.js";import"../chunks/BbORALE-.js";import{t as a}from"../chunks/NdUCVR-o.js";import{t as o}from"../chunks/Dom_BsWZ.js";var s=r(`This page doesn't seem to exist. If you think it's supposed to or it
+        used to exist, feel free to <a href="mailto:kyle.niemeyer@oregonstate.edu">write me</a> and
+        I'll see if I broke something.`,1),c=r(`<h1>Uh oh.</h1> <!>`,1);function l(r){o(r,{children:(r,o)=>{var l=c();a(t(e(l),2),{children:(e,t)=>{n();var r=s();n(2),i(e,r)},$$slots:{default:!0}}),i(r,l)},$$slots:{default:!0}})}export{l as component};

@@ -1,0 +1,1 @@
+function e(e){window.scrollTo({top:e.getBoundingClientRect().top+window.scrollY,behavior:`smooth`})}function t(){if(window.location.hash.length>0){let t=document.getElementById(window.location.hash.substring(1));t&&e(t)}}export{t as n,e as t};
