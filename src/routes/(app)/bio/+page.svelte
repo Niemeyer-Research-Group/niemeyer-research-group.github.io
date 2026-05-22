@@ -17,15 +17,16 @@
 <Linkable id="short">Short Bio</Linkable>
 
 <p>
-	Kyle E. Niemeyer is an Associate Professor at <External to="https://oregonstate.edu">Oregon State University</External> in the <External to="https://engineering.oregonstate.edu/MIME">School of Mechanical, Industrial, and Manufacturing Engineering</External>. 
-	He also serves as the Associate School Head for Undergraduate Programs (as of December 2023).
+	Kyle E. Niemeyer is Professor of Mechanical Engineering at <External to="https://oregonstate.edu">Oregon State University</External> in the <External to="https://engineering.oregonstate.edu/MIME">School of Mechanical, Industrial, and Manufacturing Engineering</External>. 
+	He also serves as the Associate School Head for Academic Affairs, 
+	managing the administration of existing and development of undergraduate and graduate academic programs in the School.
 	He leads the Niemeyer Research Group, which uses computational modeling to study various phenomena involving fluid flows, including combustion and chemical kinetics, and related topics like numerical methods and parallel computing. 
 	He is also a strong advocate of open access, open source software, and open science in general, and has contributed in the area of standardizing research software citation.
 	Kyle's work spans more than 
 	<!-- Compute number of publications, rounding to nearest 10 -->
 	{ pubCount } <Link to="/publications">peer-reviewed publications</Link>, 
 	and he has received multiple prestigious fellowships throughout his career, including the <External to="https://www.aaaspolicyfellowships.org">AAAS Science & Technology Policy Fellowship</External> in 2022, the <External to="https://bssw.io/pages/bssw-fellowship-program">Better Scientific Software (BSSw) Fellowship</External> in 2019, the <External to="http://www.nsfgrfp.org">NSF Graduate Research Fellowship</External> in 2010, and the <External to="https://ndseg.org">National Defense Science and Engineering Graduate Fellowship</External> in 2009.
-	Kyle received his Ph.D. in Mechanical Engineering from <External to="https://case.edu/">Case Western Reserve University</External> in 2013, working with <External to="https://me.engr.uconn.edu/blog/faculty/sung-chih-jen-jackie/">Professor Jackie Sung</External> in the <External to="http://combdiaglab.engr.uconn.edu/">Combustion Diagnostics Laboratory</External> (now at the University of Connecticut). 
+	Kyle received his Ph.D. in Mechanical Engineering from <External to="https://case.edu/">Case Western Reserve University</External> in 2014, working with <External to="https://me.engr.uconn.edu/blog/faculty/sung-chih-jen-jackie/">Professor Jackie Sung</External> in the <External to="http://combdiaglab.engr.uconn.edu/">Combustion Diagnostics Laboratory</External> (now at the University of Connecticut). 
 	He received BS and MS degrees in Aerospace Engineering from <External to="https://case.edu/">Case Western Reserve University</External> in 2009 and 2010, respectively.
 </p>
 
@@ -38,7 +39,7 @@
 	<li><External to="https://me.engr.uconn.edu/blog/faculty/sung-chih-jen-jackie/">Jackie Sung</External>, (Ph.D., Princeton University), who was advised by</li>
 	<li><External to="https://mae.princeton.edu/people/faculty/law">Chung K. Law</External>, (Ph.D., University of California, San Diego), who was advised by</li>
 	<li><External to="https://en.wikipedia.org/wiki/Forman_A._Williams">Forman A. Williams</External> (Ph.D., Caltech), who had <External to="https://en.wikipedia.org/wiki/Richard_Feynman">Richard Feynman</External> on his dissertation committee and was advised by</li>
-	<li><External to="https://en.wikipedia.org/wiki/Stanford_S._Penner">Stanford S. (Sol) Penner</External> (Ph.D., University of Wisconsin–Madison), who was advised by</li>
+	<li><External to="https://en.wikipedia.org/wiki/Stanford_S._Penner">Stanford S. (Sol) Penner</External> (Ph.D., University of Wisconsin-Madison), who was advised by</li>
 	<li><External to="https://en.wikipedia.org/wiki/Farrington_Daniels">Farrington Daniels</External> (Ph.D., Harvard) and <External to="https://en.wikipedia.org/wiki/Theodore_von_Kármán">Theodore von Kármán</External> (Dr. phil., University of Göttingen), the latter of whom was advised by</li>
 	<li><External to="https://en.wikipedia.org/wiki/Ludwig_Prandtl">Ludwig Prandtl</External>.</li>
 </ul>

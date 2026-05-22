@@ -27,12 +27,12 @@
 		<strong
             ><External
                 to="https://facultyaffairs.oregonstate.edu/faculty-handbook/faculty-appointments"
-                >Associate Professor</External
+                >Professor of Mechanical Engineering</External
             ></strong
         >
         <strong
             ><External to="https://engineering.oregonstate.edu/MIME"
-                >Associate Head for Undergraduate Programs</External
+                >Associate Head for Academic Affairs</External
             ></strong
         >
         <span

@@ -164,11 +164,27 @@ export const Kyle: ProfileSpec = {
 	patents: [],
 	jobs: [
 		{
+			title: "Professor of Mechanical Engineering",
+			organization: "Oregon State University",
+			department: "School of Mechanical, Industrial, and Manufacturing Engineering",
+			startdate: 2026,
+			enddate: null,
+			academic: true
+		},
+		{
+			title: "Associate Head for Academic Affairs",
+			organization: "Oregon State University",
+			department: "School of Mechanical, Industrial, and Manufacturing Engineering",
+			startdate: 2026,
+			enddate: null,
+			academic: true
+		},
+		{
 			title: "AAAS Science & Technology Policy Fellow",
 			organization: "US Department of Energy",
 			department: "Industrial Efficiency & Decarbonization Office",
 			startdate: 2022,
-			enddate: null,
+			enddate: 2023,
 			academic: false
 		},
 		{
@@ -176,7 +192,7 @@ export const Kyle: ProfileSpec = {
 			organization: "Oregon State University",
 			department: "School of Mechanical, Industrial, and Manufacturing Engineering",
 			startdate: 2023,
-			enddate: null,
+			enddate: 2026,
 			academic: true
 		},
 		{
@@ -184,7 +200,7 @@ export const Kyle: ProfileSpec = {
 			organization: "Oregon State University",
 			department: "School of Mechanical, Industrial, and Manufacturing Engineering",
 			startdate: 2020,
-			enddate: null,
+			enddate: 2026,
 			academic: true
 		},
 		{
@@ -1336,7 +1352,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
-				{size: 17, term: 2, year: 2026, responses: null, score1: null, score2: null},
+				{size: 17, term: 2, year: 2026, responses: 7, score1: 3.8, score2: 4.0},
 				{size: 19, term: 3, year: 2024, responses: 6, score1: 5.3, score2: 5.8},
 				{size: 12, term: 3, year: 2022, responses: 4, score1: 5.8, score2: 5.8},
                 {size: 21, term: 3, year: 2020, responses: 10, score1: null, score2: null},
@@ -1357,7 +1373,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
-				{size: 49, term: 2, year: 2026, responses: null, score1: null, score2: null},
+				{size: 49, term: 2, year: 2026, responses: 6, score1: 4.8, score2: 5.0},
 				{size: 45, term: 2, year: 2025, responses: 7, score1: 4.8, score2: 5.3},
 				{size: 42, term: 2, year: 2022, responses: 14, score1: 5.9, score2: 5.9},
                 {size: 22, term: 2, year: 2021, responses: 9, score1: 5.9, score2: 6.0},
@@ -1589,6 +1605,7 @@ export const Kyle: ProfileSpec = {
 		"2021": "COVID-19; began as ME Undergraduate Program Coordinator",
 		"2022": "Sabbatical (Fall); began AAAS STP Fellowship in DC @ DOE",
 		"2023": "Sabbatical (Winter/Spring); ended AAAS Fellowship in December; returned to Corvallis and began AHUG position",
+		"2026": "Promoted to Professor of Mechanical Engineering (effective September); administrative position expanded to AHAA",
 	}
 }
 
