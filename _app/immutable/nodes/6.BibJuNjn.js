@@ -1,4 +1,4 @@
-import{I as e,L as t,R as n,S as r,et as i,tt as a,x as o,y as s}from"../chunks/DB6q5lKp.js";import"../chunks/xihTtKlq.js";import"../chunks/BbORALE-.js";import{t as c}from"../chunks/DSOOOSXD.js";import{t as l}from"../chunks/D8k-9Oof.js";var u=o(`<h1>Group Code of Conduct</h1> <p>All members of the research group, along with visitors, are required to agree with the 
+import{I as e,L as t,R as n,S as r,et as i,tt as a,x as o,y as s}from"../chunks/DB6q5lKp.js";import"../chunks/xihTtKlq.js";import"../chunks/BbORALE-.js";import{t as c}from"../chunks/DSOOOSXD.js";import{t as l}from"../chunks/DCoKZzXk.js";var u=o(`<h1>Group Code of Conduct</h1> <p>All members of the research group, along with visitors, are required to agree with the 
 following code of conduct. Additionally, we collectively agree to enforce this code. 
 We expect cooperation from all members to help ensuring a safe environment for everybody.</p> <!> <p>This research group is dedicated to providing a harassment-free experience for everyone, 
 regardless of gender, gender identity and expression, age, sexual orientation, disability, 

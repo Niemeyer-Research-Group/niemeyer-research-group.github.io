@@ -1,1 +1,0 @@
-import{M as e,X as t,Z as n,c as r,i,u as a,x as o,y as s}from"./DB6q5lKp.js";import{i as c}from"./CkvJVUwP.js";import"./xihTtKlq.js";var l=o(`<img/>`);function u(o,u){n(u,!0);let d=i(u,`highlight`,3,!1);var f=l();e(e=>{a(f,1,`thumbnail ${d()?`highlight`:``}`,`svelte-16uaffw`),r(f,`src`,e),r(f,`alt`,u.alt)},[()=>c(u.url)]),s(o,f),t()}export{u as t};
