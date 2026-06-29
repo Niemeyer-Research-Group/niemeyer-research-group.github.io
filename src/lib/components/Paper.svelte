@@ -1,12 +1,13 @@
 <script lang="ts">
     import Block from './Block.svelte';
     import Authors from './Authors.svelte';
-    import type Paper from '$lib/models/Paper';
+    import type { Paper } from '../../data/Pubs';
     import Link from './Link.svelte';
-    import External from './External.svelte';
     import APACitation from './APACitation.svelte';
     import { profile } from '$lib/models/stores';
     import Image from './Thumbnail.svelte';
+    import Highlight from './Highlight.svelte';
+    import { asset } from '$app/paths';
 
     interface Props {
         paper: Paper;
@@ -46,27 +47,37 @@
         }
     });
 
+    let paperLocalURL = $derived(`/papers/${paper.local}`);
+
 	let url = $derived(
-		// If there's an eprint, show it first
-		paper.eprint 
-		? paper.eprint 
-		: // Lastly, include the doi, which will not be as easily accessible.
-			paper.doi 
-			? paper.doi 
-			: "",
-	);
+        // If there's a local, show it first
+        paper.local
+            ? paperLocalURL
+            : // If we don't have one, but there's an ACM authorizer URL, return it, because visitors will be able to bypass the paywall.
+              paper.authorizer
+              ? paper.authorizer
+              : // Lastly, include the doi, which will not be as easily accessible.
+                paper.doi
+                ? paper.doi
+                : '',
+    );
 </script>
 
-{#if format === "apa" }
-	<APACitation {paper} />
-{:else if format === "cv" }
-    <div class="ws-bottom">
+{#if format === 'apa'}
+    <APACitation {paper} />
+{:else if format === 'cv'}
+    <div class="paper">
         <strong>{paper.title}</strong> &sdot;
         {#if year}<small>{paper.year} &sdot;</small>{/if}
         <small><Authors {paper} /></small> &sdot;
         <small><em>{$profile.getSourceName(paper.source)}</em></small>
         {#if paper.award && paper.award.length > 0}
             <mark class="award">{paper.award.join(' + ')}</mark>
+        {/if}
+        {#if paper.annotation}
+            <br /><Highlight year={paper.annotation.year}
+                >{paper.annotation.text}</Highlight
+            >
         {/if}
     </div>
 {:else}
@@ -77,19 +88,19 @@
             {highlight}
         />
     {/snippet}
-	<Block link={url} {image}>
-		<div id={ paper.id } class="paper ws-bottom">
+    <Block link={url} {image}>
+        <div id={paper.id} class="paper">
             {#if paper.award && paper.award.length > 0}
                 <mark class="award">&#x2605; {paper.award.join(' + ')}</mark>
                 <br />
             {/if}
-			<small><Authors {paper} link /> ({paper.year})</small>
-			<br />
-			{#if url}
+            <small><Authors {paper} link /> ({paper.year})</small>
+            <br />
+            {#if url}
                 <span
-                    >{#if url.startsWith('http')}<External to={url}
-                            >{paper.title}</External
-                        >{:else}<Link to={url}>{paper.title}</Link>{/if}</span
+                    ><a href={url.startsWith('http') ? url : asset(url)}
+                        >{paper.title}</a
+                    ></span
                 >
             {:else}
                 <strong>{paper.title}</strong>
@@ -98,10 +109,10 @@
             {#if paper.contribution}<span
                     ><br /><small>{paper.contribution}</small></span
                 >{/if}
-			<div>
-				<small>
-					<span 
-						class="clickable"
+            <div>
+                <small>
+                    <span
+                        class="clickable"
                         role="button"
                         tabindex="0"
                         onclick={toggle}
@@ -109,35 +120,30 @@
                             event.key === 'Enter' ? toggle() : undefined}
                         >{apa ? '▾ cite' : '▸ cite'}</span
                     >
-					{#if paper.eprint}<span> 
-							&sdot; <External to={paper.eprint}>eprint</External></span
-						>{/if}
-                    {#if paper.doi}<span>
-							&sdot; <External to={paper.doi}>doi</External></span
-						>{/if}
-					{#if paper.slides}<span>
-                            &sdot; <Link
-                                to={paper.slides.startsWith('http')
-                                    ? paper.slides
-                                    : `/slides/${paper.slides}`}>slides</Link
-                            ></span
+                    {#if paper.local}<span>
+                            &sdot; <a href={asset(paperLocalURL)}>pdf</a></span
                         >{/if}
-					{#if paper.blog}<span>
-							&sdot; <External to={paper.blog}>blog</External
-                        ></span
-                    >{/if}
-					&sdot; <Link to={'/publications/#' + paper.id}
+                    {#if paper.doi}<span>
+                            &sdot; <Link to={paper.doi}>doi</Link></span
+                        >{/if}
+                    {#if paper.slides}<span>
+                            &sdot; <a href={asset(`/slides/${paper.slides}`)}>slides</a></span
+                        >{/if}
+                    {#if paper.blog}<span>
+                            &sdot; <Link to={paper.blog}>blog</Link></span
+                        >{/if}
+                    &sdot; <Link to={'/(app)/publications'} id={paper.id}
                         ><span class="emoji">&#x1F517;</span></Link
                     >
-				</small>
-			</div>
-			{#if apa}<div><small><APACitation {paper} /></small></div>{/if}
-		</div>	
-	</Block>
+                </small>
+            </div>
+            {#if apa}<div><small><APACitation {paper} /></small></div>{/if}
+        </div>
+    </Block>
 {/if}
 
 <style>
-    .ws-bottom {
+    .paper {
         padding-bottom: 20px;
     }
 
@@ -147,5 +153,13 @@
         display: inline-block;
         margin-bottom: 3px;
         border-radius: 3px;
+    }
+
+    @media print {
+        .paper {
+            orphans: 2;
+            widows: 2;
+            break-inside: avoid;
+        }
     }
 </style>

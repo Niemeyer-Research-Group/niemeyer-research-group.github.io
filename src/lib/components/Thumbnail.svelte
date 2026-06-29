@@ -1,9 +1,8 @@
 <script lang="ts">
     import { asset } from '$app/paths';
-	import type { Asset } from '$app/types';
 
     interface Props {
-        url: Asset;
+        url: string;
         alt: string;
         highlight?: boolean;
     }

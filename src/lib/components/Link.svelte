@@ -1,30 +1,64 @@
 <script lang="ts">
-    import { base } from '$app/paths';
-    import { page } from '$app/stores';
+    import { page } from '$app/state';
+    import Emoji from './Emoji.svelte';
 
     interface Props {
         to: string;
-        at?: string | undefined;
+        id?: string;
+        query?: string;
         active?: boolean;
+        plain?: boolean;
+        newTab?: boolean;
+        annotate?: boolean;
         children?: import('svelte').Snippet;
     }
 
     let {
         to,
-        at = undefined,
+        id,
+        query,
         active = false,
-        children
+        plain = false,
+        newTab = false,
+        annotate = true,
+        children,
     }: Props = $props();
 
-    let path = $derived($page.url.pathname);
+    function isExternal(url: string): boolean {
+        return url.startsWith('http://') || url.startsWith('https://');
+    }
+
+    function resolveRoute(route: string): string {
+        const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+        return base + (route.replace(/\/\([^)]+\)/g, '') || '/');
+    }
+
+    let isCurrentRoute = $derived(
+        !plain &&
+            !newTab &&
+            !isExternal(to) &&
+            to !== '' &&
+            to === page.route.id &&
+            // Still render an anchor when linking to a specific id on the current page.
+            !id,
+    );
 </script>
 
-{#if at && (at === '/' ? path === `${base}/` : path === `${base}${at}`)}
+{#if isCurrentRoute}
     <span class="at">{@render children?.()}</span>
-{:else if to.startsWith('http')}
-    <a href={to} target="_blank" rel="noreferrer">{@render children?.()}</a>
+{:else if isExternal(to)}
+    <a href={to} target="_blank" rel="noreferrer"
+        >{@render children?.()}{#if annotate}<span class="external"
+                ><Emoji symbol="🔗" /></span
+            >{/if}</a
+    >
 {:else}
-    <a href={`${base}${to}`} class={active ? 'at' : ''}>{@render children?.()}</a>
+    <a
+        href={`${to === '' ? page.url.pathname : resolveRoute(to)}${id ? `#${id}` : ''}${query ? `/?${query}` : ''}`}
+        target={newTab ? '_blank' : undefined}
+        rel={newTab ? 'noreferrer' : undefined}
+        class={active ? 'at' : ''}>{@render children?.()}</a
+    >
 {/if}
 
 <style>
@@ -33,7 +67,16 @@
         display: inline-block;
     }
 
-    a:hover {
-        text-decoration: underline;
+    .at {
+        background-color: var(--annotation-color);
+    }
+
+    .external {
+        font-size: 0.5em;
+        vertical-align: baseline;
+        margin-left: 0.1em;
+        line-height: 0;
+        -webkit-user-select: none;
+        user-select: none;
     }
 </style>

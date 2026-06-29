@@ -1,10 +1,9 @@
 <script lang="ts">
-    import type Person from '$lib/models/Person';
+    import { asset } from '$app/paths';
+    import type { Person } from '../../data/People';
     import Block from './Block.svelte';
-    import Emoji from './Emoji.svelte';
-    import External from './External.svelte';
-    import Link from './Link.svelte';
     import Image from './Thumbnail.svelte';
+    import Emoji from './Emoji.svelte';
 
     interface Props {
         highlight: boolean;
@@ -24,7 +23,7 @@
         />
         {/snippet}
         <span>
-            <External to={person.url}>{person.name}</External>
+            <a href={person.url}>{person.name}</a>
             &nbsp;
             <mark>{person.level}</mark>
             &nbsp;
@@ -42,27 +41,21 @@
             {#if person.dissertation }
                 <div>
                     <small>
-                        <Emoji symbol="📕" />&nbsp;<External 
-                            to={person.dissertation}>Dissertation</External
-                        >
+                        <Emoji symbol="📕" />&nbsp;<a href={person.dissertation}>Dissertation</a>
                     </small>
                 </div>
             {/if}
             {#if person.msthesis }
                 <div>
                     <small>
-                        <Emoji symbol="📕" />&nbsp;<External 
-                            to={person.msthesis}>MS thesis</External
-                        >
+                        <Emoji symbol="📕" />&nbsp;<a href={person.msthesis}>MS thesis</a>
                     </small>
                 </div>
             {/if}
             {#if person.honorsthesis }
                 <div>
                     <small>
-                        <Emoji symbol="📕" />&nbsp;<External 
-                            to={person.honorsthesis}>Honors thesis</External
-                        >
+                        <Emoji symbol="📕" />&nbsp;<a href={person.honorsthesis}>Honors thesis</a>
                     </small>
                 </div>
             {/if}
