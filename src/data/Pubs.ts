@@ -21,11 +21,11 @@ export const Publications: Paper[] = [
         year: 2026,
         title: "Simultaneous versus sequential estimation of biogeochemical and physical parameters in coupled marine ecosystem models",
         source: "Geoscientific Model Development",
-        doi: null,
-        eprint: "https://doi.org/10.5194/egusphere-2025-3795",
-        pages: null,
-        //volume: ,
-        //issue: ,
+        doi: "https://doi.org/10.5194/gmd-19-5601-2026",
+        //eprint: null,
+        pages: "5601-5622",
+        volume: 19,
+        issue: 12,
         contribution: "Shows a method for simultaneously optimizing biogeochemical and physical transport parameters in marine ecosystem models based on ocean observations."
     },
     {
