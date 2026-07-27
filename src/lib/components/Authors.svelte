@@ -16,8 +16,7 @@
 {#each paper.authors as author, index}
     {@const person = $profile.getPerson(author)}
     {#if person === undefined}{author}{:else if link}<Link
-            to={person.id === 'ajko' ? '/bio' : '/lab/#' + person.id}
-            >{person.name}</Link
+            to={'/lab/#' + person.id}>{person.name}</Link
         >{:else}{person.name}{/if}{index < paper.authors.length - 1
         ? equalFirst && index === 0
             ? ' + '

@@ -43,7 +43,7 @@
 <Title text="Classes" />
 
 <h1>
-	These are classes I teach regularly.
+	These are classes Kyle teaches regularly.
 </h1>
 
 {#each offerings as offering}

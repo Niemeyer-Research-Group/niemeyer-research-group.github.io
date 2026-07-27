@@ -77,7 +77,7 @@
 
 <Title text="Commitments" />
 
-<h1> This is my commitment calendar. </h1>
+<h1> This is Kyle's commitment calendar. </h1>
 
 <p>
     I use it to estimate how much work I've promised to do in the next few

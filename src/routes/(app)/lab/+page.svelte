@@ -36,30 +36,32 @@
 <Title text="Lab" />
 
 <h1>
-	I direct the <em>Niemeyer Research Group</em>.
+	We are the <em>Niemeyer Research Group</em>.
 </h1>
 
 <Alert>
 	<h2>Open Positions!</h2>
 	<p>
-		I am actively recruiting a PhD student researcher to work
+		We are actively recruiting a PhD student researcher to work
 		on funded projects:
 	</p>
 	<ul>
 		<li
-			><strong>PhD student:</strong> I'm recruiting a PhD student to work on a new <External 
+			><strong>PhD student:</strong> We're recruiting a PhD student to work on a new <External
 				to="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2531938&HistoricalAwards=false"
 				>NSF grant</External
 			> for three years, around developing databases and software for working with combustion
 			data. You preferably already have an MS in ME or ChemE (or similar),
-			and experience with writing code in Python. 
+			and experience with writing code in Python.
 		</li>
 	</ul>
 </Alert>
 
 <p>
-	My lab primarily includes students from the Mechanical Engineering program in the 
-	<External 
+	Our group is directed by <External to="https://kyleniemeyer.com/about"
+		>Kyle E. Niemeyer</External
+	>, and primarily includes students from the Mechanical Engineering program in the
+	<External
 		to="https://engineering.oregonstate.edu/MIME">
 		School of Mechanical, Industrial, and Manufacturing Engineering</External
 	>, and occasionally other units on campus.
@@ -68,18 +70,18 @@
 <div>
 	<div>
 		<p>
-			<strong>Current Oregon State Ph.D. student?</strong> 
-			Email me about your interests. 
-			I'm always open to chatting, collaborating, serving on committees, and when I have capacity, advising. 
-			You're also welcome to visit any of our lab meetings. 
+			<strong>Current Oregon State Ph.D. student?</strong>
+			Email Kyle about your interests.
+			He's always open to chatting, collaborating, serving on committees, and when he has capacity, advising.
+			You're also welcome to visit any of our lab meetings.
 		</p>
 	</div>
 	<div>
 		<p>
-			<strong>Future Oregon State Ph.D. student?</strong> 
-			Read our <Link to="/publications">recent publications</Link> to ensure we share interests. 
-			Don't write me to ask if I'm admitting students in the coming year; I'm always considering new students unless this page says otherwise. 
-			Don't ask me to evaluate your CV; I don't have time to evaluate your application twice; <em>do</em> write if you have specific questions about my lab's recent research. 
+			<strong>Future Oregon State Ph.D. student?</strong>
+			Read our <Link to="/publications">recent publications</Link> to ensure we share interests.
+			Don't write to ask whether we're admitting students in the coming year; we're always considering new students unless this page says otherwise.
+			Don't ask for an evaluation of your CV; we don't have time to evaluate your application twice; <em>do</em> write if you have specific questions about our recent research.
 			See the <External to="https://engineering.oregonstate.edu/MIME/academics/graduate-admissions">School of MIME graduate admissions page</External> for more information.
 		</p>
 	</div>
@@ -93,6 +95,12 @@
 		</p>
 	</div>-->
 </div>
+
+<Linkable id="director">Director</Linkable>
+
+{#each $profile.getPeople((person) => person.level === 'director') as person}
+    <Person {person} highlight={isPersonHighlighted(person.id)} />
+{/each}
 
 <Linkable id="current-postdoc">Current Postdocs</Linkable>
 
@@ -143,7 +151,7 @@
 
 <p
 	><em
-		>This isn't a complete list of collaborators, just those I've gotten 
+		>This isn't a complete list of collaborators, just those we've gotten
 		around to adding.</em
 	></p
 >

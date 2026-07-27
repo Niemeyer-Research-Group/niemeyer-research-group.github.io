@@ -11,7 +11,7 @@
 <Title text="Funding" />
 
 <h1>
-	My students and I receive funding from many sources.
+	Our group receives funding from many sources.
 </h1>
 
 <Block 
@@ -24,11 +24,11 @@
 			alt="The Oregon State University logo"
 		/>
 	{/snippet}
-	&mdash; My group's primary source of funding is the School of Mechanical, Industrial, and 
+	&mdash; Our primary source of funding is the School of Mechanical, Industrial, and 
 	Manufacturing Engineering (MIME) at Oregon State University. 
-	It pays nine months of my salary, it sometimes subsidizes my graduate students' time 
+	It pays nine months of Kyle's salary, it sometimes subsidizes our graduate students' time 
 	through teaching assistantships, it provides space and staff support, and it provides 
-	my core intellectual community. The School of MIME's resources come from tuition, fees, 
+	our core intellectual community. The School of MIME's resources come from tuition, fees, 
 	and taxes from the Oregon state government, and 
 	<External to="https://engineering.oregonstate.edu/give">philanthropic giving</External>.
 </Block>
@@ -43,10 +43,10 @@
 			alt="The NSF logo." 
 		/>
 	{/snippet}
-	&mdash; The majority of my sponsored research is funded by the U.S. National Science Foundation, which is tax-funded. 
-	I write proposals, which are confidentially evaluated by my peers, and when my peers and NSF find my proposals to have compelling intellectual merit and potential for broader impact, I receive grants. 
-	I use these grants to support my summer salary; my graduate students' stipends, benefits, and tuition; my lab's research expenses, hourly undergraduate research assistants, and our travel. 
-	My NSF awards include:
+	&mdash; The majority of our sponsored research is funded by the U.S. National Science Foundation, which is tax-funded. 
+	We write proposals, which are confidentially evaluated by peers, and when those peers and NSF find our proposals to have compelling intellectual merit and potential for broader impact, we receive grants. 
+	These grants support summer salary; our graduate students' stipends, benefits, and tuition; our research expenses, hourly undergraduate research assistants, and our travel. 
+	Our NSF awards include:
 	<ul>
 		{#each $profile.getFunding(
 				(funding) => funding.funder === "National Science Foundation" && !funding.private, 
@@ -76,8 +76,8 @@
 	&mdash; Through national labs like <External to="https://www.lbl.gov">Lawrence Berkeley National Laboratory</External> and 
 	<External to="https://www.sandia.gov">Sandia National Laboratories</External>,
 	and the <External to="https://www.energy.gov/nnsa/national-nuclear-security-administration">National Nuclear Security Administration</External>, 
-	I have received funding from the US Department of Energy (DOE) for basic and applied research.
-	My DOE funding projects include:
+	We have received funding from the US Department of Energy (DOE) for basic and applied research.
+	Our DOE funding projects include:
 	<ul>
 	{#each $profile.getFunding(
 			(funding) => funding.funder === "Department of Energy" && !funding.private, 
@@ -105,7 +105,7 @@
 		/>
 	{/snippet}
 	&mdash; The Strategic Environmental Research and Development Program (SERDP) has funded collaborative research projects studying smoldering combustion and wildland fire.
-	My SERDP funding projects include:
+	Our SERDP funding projects include:
 	<ul>
 	{#each $profile.getFunding(
 			(funding) => funding.funder === "SERDP" && !funding.private, 
@@ -132,7 +132,7 @@
 			alt="The Sloan Foundation logo."
 		/>
 	{/snippet}
-	&mdash; The Sloan Foundation has supported some of my activites as part of <External to="https://urssi.us">URSSI</External>, 
+	&mdash; The Sloan Foundation has supported some of our activities as part of <External to="https://urssi.us">URSSI</External>, 
 	the US Research Software Sustainability Institute:
 	<ul>
 		{#each $profile.getFunding(
@@ -160,7 +160,7 @@
 			alt="The NASA logo."
 		/>
 	{/snippet}
-	&mdash; NASA has also supported my group's research into computational methods 
+	&mdash; NASA has also supported our research into computational methods 
 	relevant to aerospace applications:
 	<ul>
 		{#each $profile.getFunding(
@@ -188,7 +188,7 @@
 			alt="The Chevron logo."
 		/>
 	{/snippet}
-	&mdash; Some of my early work at Oregon State was supported by Chevron, in 
+	&mdash; Some of our early work at Oregon State was supported by Chevron, in 
 	collaboration with Chris Hagen. Despite the industry connection, this work was 
 	fairly fundamental, and mostly looked at suitability of fuels for advanced, 
 	highly efficient, low-temperature compression-ignition engines:

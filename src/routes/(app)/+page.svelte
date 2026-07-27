@@ -14,40 +14,41 @@
 <Title text="Research" />
 
 <h1>
-	I am a computational engineering researcher, using numerical methods and high-performance 
+	We are computational engineering researchers, using numerical methods and high-performance
 	computing to study physical problems in energy, transportation, and aerospace.
 </h1>
 
 <p>
-	I work with a diverse and exciting group of <Link to={"/lab"}>students</Link> on these topics; 
-	<Link to={"/publications"}>publishing</Link> in combustion, energy, and 
+	Our group brings together a diverse and exciting community of 
+	<Link to={"/lab"}>students and postdoctoral researchers</Link> working on these topics;
+	<Link to={"/publications"}>publishing</Link> in combustion, energy, and
 	computational physics communities;
-	and then <Link to={"/talks"}>presenting</Link> and <Link to={"/classes"}>teaching</Link> 
-	our work in the world. Our current projects are enabled by my <Link to="/funding">active grants</Link>.
+	and then <Link to={"/talks"}>presenting</Link> and <Link to={"/classes"}>teaching</Link>
+	our work in the world. Our current projects are enabled by our <Link to="/funding">active grants</Link>.
 </p>
 
 <p>
-	We study mainly fluid dynamics phenomena using computer simulations, particularly fluid flows 
-	involving chemical reactions such as combustion. Our work extends from 
-	analyzing and simplifying chemical kinetic reaction models for transportation fuels, 
+	We study mainly fluid dynamics phenomena using computer simulations, particularly fluid flows
+	involving chemical reactions such as combustion. Our work extends from
+	analyzing and simplifying chemical kinetic reaction models for transportation fuels,
 	to developing surrogate models for predicting properties of fuels and chemicals,
 	and even to computationally expensive, direct numerical simulations of turbulent combustion.
-	We develop and apply methods to simulate combustion and other fluid-flow problems, 
+	We develop and apply methods to simulate combustion and other fluid-flow problems,
 	including in wildfires and the ocean.
 	We also write a lot of code!
 </p>
 
 <p>
-	Want to do research with me?
-	Read about my <Link to="/lab">lab</Link>.
+	Want to do research with us?
+	Read about our <Link to="/lab">lab</Link>.
 </p>
 
 <Linkable id="discoveries">Contributions</Linkable>
 
 <p>
-	My lab and I have made many contributions since since I started doing research in 2008.
+	Our group has made many contributions since this research began in 2008.
 	Here are some of the highlights from our work.
-	How I describe these is always evolving as we learn more.
+	How we describe these is always evolving as we learn more.
 </p>
 
 <!-- Create a list of discoveries from bundles of papers, sorted by the most recent publication on the discovery. -->
@@ -72,11 +73,7 @@
 			<p>
 				{#each $profile.getPeopleFromPubs(discovery.pubs) as person}
 					{#if person}
-                        <Link
-                            to={person.id === 'ken'
-                                ? '/bio'
-                                : '/lab/#' + person.id}
-                        >
+                        <Link to={'/lab/#' + person.id}>
                             <img
                                 src={`${getPersonImagePath(person.id)}`}
                                 alt={`${person.name} headshot`}

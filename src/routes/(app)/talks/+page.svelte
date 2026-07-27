@@ -31,7 +31,7 @@
 <Title text="Talks" />
 
 <h1>
-	These are my upcoming and past keynotes and invited talks.
+	These are our upcoming and past keynotes and invited talks.
 </h1>
 
 {#each talks as talk, index}

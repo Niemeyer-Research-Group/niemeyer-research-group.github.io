@@ -39,7 +39,7 @@
 </script>
 
 <h1>
-	These are my {$profile.getPublications().length} academic publications. 
+	These are our {$profile.getPublications().length} academic publications. 
 	You can see who's citing them on 
 	<External to="https://scholar.google.com/citations?user=dt0KRYoAAAAJ=en">Google Scholar</External> or 
 	<External to="https://www.semanticscholar.org/author/K.-Niemeyer/2373019">Semantic Scholar</External>.

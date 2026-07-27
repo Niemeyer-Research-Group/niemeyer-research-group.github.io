@@ -55,10 +55,9 @@
 
 <small style="line-height: 1.4">
     <Alert
-        >I am recruiting one Ph.D. student to work on a funded
-		position starting as soon as 15 September 2025, but open until filled.
-        Please see the description on the <Link to="/lab" at={"/lab"}>Lab</Link>
-        page.
+        >We are recruiting a Ph.D. student to work on a funded position, open
+        until filled. Please see the description on the
+        <Link to="/lab" at={"/lab"}>Lab</Link> page.
     </Alert>
 </small>
 
@@ -68,13 +67,11 @@
 		<Link to="/" at={"/"}>Research</Link>
 		<Link to="/lab" at={"/lab"}>Lab</Link>
 		<Link to="/publications" at={"/publications"}>Publications</Link>
-		<Link to="/consulting" at={"/consulting"}>Consulting</Link>
 		<!-- <Link to="/essays" at={"/essays"}>Essays</Link> -->
 		<Link to="/talks" at={"/talks"}>Talks</Link>
 		<Link to="/classes" at={"/classes"}>Classes</Link>
 		<!-- <Link to="/impact" at={"/impact"}>Impact</Link> -->
 		<Link to="/funding" at={"/funding"}>Funding</Link>
-		<Link to="/bio" at={"/bio"}>Bio</Link>
 		<Link to="/commitments" at={"/commitments"}>Commitments</Link>
 		<Link to="/contact" at={"/contact"}>Contact</Link>
 		<Link to="/code-of-conduct" at={"/code-of-conduct"}>Group CoC</Link>
