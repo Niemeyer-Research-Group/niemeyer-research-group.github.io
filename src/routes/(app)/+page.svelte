@@ -35,7 +35,7 @@
 	and even to computationally expensive, direct numerical simulations of turbulent combustion.
 	We develop and apply methods to simulate combustion and other fluid-flow problems,
 	including in wildfires and the ocean.
-	We also write a lot of code!
+	We also write a lot of <Link to={"/software"}>code</Link>!
 </p>
 
 <p>

@@ -138,6 +138,35 @@ a:hover, .clickable {
  	cursor: pointer;
 }
 
+/*
+	Disclosure toggles, e.g. "▸ cite" on publications and "▸ 3 papers" on
+	software cards. Shared here because more than one component uses it.
+	A real <button> is used so keyboard and screen-reader behavior come for free;
+	these rules just strip the native chrome and make it read as a link.
+*/
+.toggle {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: var(--link-color);
+	background: none;
+	border: none;
+	padding: calc(var(--padding) / 2) var(--padding);
+	margin-left: calc(var(--padding) * -1);
+	border-radius: var(--roundedness);
+	cursor: pointer;
+}
+
+.toggle:hover {
+	background-color: var(--border-color);
+	text-decoration: underline;
+}
+
+.toggle:focus-visible {
+	outline: 2px solid var(--link-color);
+	outline-offset: 1px;
+}
+
 hr {
 	margin-top: var(--margin);
 	margin-bottom: var(--margin);

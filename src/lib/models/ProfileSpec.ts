@@ -19,12 +19,14 @@ import type { Class } from './Class';
 import type { CommitmentDetails } from './CommitmentDetails';
 import type { Panel } from './Panel';
 import type { Discovery } from './Discovery';
+import type Software from './Software';
 
 type ProfileSpec = {
     sources: Record<string, Source>;
     pubs: Paper[];
     people: readonly Person[];
     discoveries: Discovery[];
+    software: Software[];
     impacts: Impact[];
     populations: Population[];
     degrees: Degree[];

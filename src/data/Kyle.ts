@@ -4,6 +4,7 @@ import { Discoveries } from "./Discoveries";
 import { Publications } from "./Pubs";
 import { People } from "./People";
 import { Posts } from "./Posts";
+import { Software } from "./Software";
 
 export const Kyle: ProfileSpec = {
 	sources: {
@@ -47,6 +48,7 @@ export const Kyle: ProfileSpec = {
 	pubs: Publications,
 	people: People,
     discoveries: Discoveries,
+	software: Software,
 	posts: Posts,
 	populations: [
 		/*{
