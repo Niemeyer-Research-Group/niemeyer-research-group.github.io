@@ -26,6 +26,8 @@ type Paper = {
 	article?: number;
 	pages: string | null;
 	doi: string | null;
+	/** Filename of a locally hosted PDF under static/papers/, when there is one. */
+	local?: string | null;
 	authorizer?: string | null;
 	publisher?: string;
 	eprint?: string | null;

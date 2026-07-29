@@ -1,49 +1,28 @@
 <script lang="ts">
-    import { run } from 'svelte/legacy';
-
     import Header from '$lib/components/Header.svelte';
     import Footer from '$lib/components/Footer.svelte';
-    import { navigating } from '$app/stores';
-    import { browser } from '$app/environment';
+
     interface Props {
         children?: import('svelte').Snippet;
     }
 
     let { children }: Props = $props();
 
-    let headers: [string, string][] = $state([]);
-    let closestID: string | undefined = $state(undefined);
-    let scrollY: number = $state(0);
-
-    $effect(() => {
-        if (scrollY >= 0) {
-            if (browser && typeof document !== undefined && $navigating === null) {
-                headers = Array.from(document.getElementsByTagName('h2'))
-                    .map((a) =>
-                        a instanceof HTMLElement
-                            ? [a.innerText.replaceAll('🔗', '').trim(), a.id]
-                            : undefined
-                    )
-                    .filter((a): a is [string, string] => a !== undefined);
-            }
-            closestID = Array.from(document.getElementsByTagName('h2')).sort(
-                (h1, h2) =>
-                    Math.abs(h1.offsetTop - scrollY) -
-                    Math.abs(h2.offsetTop - scrollY)
-            )[0]?.id;
-        }
-    });
+    /*
+        This used to track the nearest <h2> on every scroll and hand a list of
+        headings to Header for a table of contents. Header no longer takes any
+        props, so the whole computation was dead — and it re-scanned the DOM on
+        every scroll event to produce values nothing read.
+    */
 </script>
 
 <div class="page">
-    <div class="header"><Header {headers} activeid={closestID} /></div>
+    <div class="header"><Header /></div>
     <div class="content">
         {@render children?.()}
         <Footer />
     </div>
 </div>
-
-<svelte:window bind:scrollY />
 
 <style>
     /* Small */

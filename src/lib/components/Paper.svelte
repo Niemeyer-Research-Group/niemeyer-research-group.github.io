@@ -1,12 +1,11 @@
 <script lang="ts">
     import Block from './Block.svelte';
     import Authors from './Authors.svelte';
-    import type { Paper } from '../../data/Pubs';
+    import type Paper from '$lib/models/Paper';
     import Link from './Link.svelte';
     import APACitation from './APACitation.svelte';
     import { profile } from '$lib/models/stores';
     import Image from './Thumbnail.svelte';
-    import Highlight from './Highlight.svelte';
     import { asset } from '$app/paths';
 
     interface Props {
@@ -73,11 +72,6 @@
         <small><em>{$profile.getSourceName(paper.source)}</em></small>
         {#if paper.award && paper.award.length > 0}
             <mark class="award">{paper.award.join(' + ')}</mark>
-        {/if}
-        {#if paper.annotation}
-            <br /><Highlight year={paper.annotation.year}
-                >{paper.annotation.text}</Highlight
-            >
         {/if}
     </div>
 {:else}
