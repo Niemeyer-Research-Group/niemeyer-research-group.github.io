@@ -10,7 +10,7 @@
 <Title text="Contacting Kyle" />
 
 <h1>
-	There are many ways to reach Kyle>:
+	There are many ways to reach Kyle:
 </h1>
 
 <Block link="https://goo.gl/maps/tL7oRQEb3PZsU8Br6" header="Office hours">
