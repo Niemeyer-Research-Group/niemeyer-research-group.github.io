@@ -179,6 +179,13 @@ export const Software: Software[] = [
         url: "https://si2-urssi.github.io/urssi-school-materials/",
         people: ["@ken"],
         license: "CC-BY-4.0",
+        badges: [
+            {
+                alt: "DOI",
+                image: "https://zenodo.org/badge/1310334926.svg",
+                url: "https://doi.org/10.5281/zenodo.21693650",
+            }
+        ],
     },
     {
         id: "computational-thermo",
