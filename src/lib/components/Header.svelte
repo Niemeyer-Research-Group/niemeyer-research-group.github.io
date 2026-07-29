@@ -57,24 +57,25 @@
     <Alert
         >We are recruiting a Ph.D. student to work on a funded position, open
         until filled. Please see the description on the
-        <Link to="/lab" at={"/lab"}>Lab</Link> page.
+        <Link to="/(app)/lab">Lab</Link> page.
     </Alert>
 </small>
 
 <hr/>
 <nav>
 	<div class="links">
-		<Link to="/" at={"/"}>Research</Link>
-		<Link to="/lab" at={"/lab"}>Lab</Link>
-		<Link to="/publications" at={"/publications"}>Publications</Link>
-		<!-- <Link to="/essays" at={"/essays"}>Essays</Link> -->
-		<Link to="/talks" at={"/talks"}>Talks</Link>
-		<Link to="/classes" at={"/classes"}>Classes</Link>
-		<!-- <Link to="/impact" at={"/impact"}>Impact</Link> -->
-		<Link to="/funding" at={"/funding"}>Funding</Link>
-		<Link to="/commitments" at={"/commitments"}>Commitments</Link>
-		<Link to="/contact" at={"/contact"}>Contact</Link>
-		<Link to="/code-of-conduct" at={"/code-of-conduct"}>Group CoC</Link>
+		<Link to="/(app)">Research</Link>
+		<Link to="/(app)/lab">Lab</Link>
+		<Link to="/(app)/publications">Publications</Link>
+		<Link to="/(app)/software">Software</Link>
+		<!-- <Link to="/(app)/essays">Essays</Link> -->
+		<Link to="/(app)/talks">Talks</Link>
+		<Link to="/(app)/classes">Classes</Link>
+		<!-- <Link to="/(app)/impact">Impact</Link> -->
+		<Link to="/(app)/funding">Funding</Link>
+		<Link to="/(app)/commitments">Commitments</Link>
+		<Link to="/(app)/contact">Contact</Link>
+		<Link to="/(app)/code-of-conduct">Group CoC</Link>
 		<!-- <Link to="/cv">CV</Link> -->
 	</div>
 </nav>

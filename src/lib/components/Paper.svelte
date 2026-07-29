@@ -111,14 +111,16 @@
                 >{/if}
             <div>
                 <small>
-                    <span
-                        class="clickable"
-                        role="button"
-                        tabindex="0"
-                        onclick={toggle}
-                        onkeydown={(event) =>
-                            event.key === 'Enter' ? toggle() : undefined}
-                        >{apa ? '▾ cite' : '▸ cite'}</span
+                    <!--
+                        A real <button> rather than a span with role="button":
+                        it gets keyboard activation, focus styling, and
+                        screen-reader semantics without reimplementing them.
+                    -->
+                    <button
+                        type="button"
+                        class="toggle"
+                        aria-expanded={apa}
+                        onclick={toggle}>{apa ? '▾ cite' : '▸ cite'}</button
                     >
                     {#if paper.local}<span>
                             &sdot; <a href={asset(paperLocalURL)}>pdf</a></span

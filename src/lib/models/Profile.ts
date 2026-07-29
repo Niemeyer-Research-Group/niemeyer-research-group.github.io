@@ -17,6 +17,7 @@ import type { Talk } from './Talk';
 import type { Travel } from './Travel';
 import type Commit from './Commit';
 import type { Discovery } from './Discovery';
+import type Software from './Software';
 
 export default class Profile {
     readonly json: ProfileSpec;
@@ -37,6 +38,14 @@ export default class Profile {
                 (a, b) => sort.call(undefined, a) - sort.call(undefined, b)
             );
         return list;
+    }
+
+    // Get a list of filtered and sorted software.
+    getSoftware(
+        filter?: (list: Software) => boolean,
+        sort?: (list: Software) => number
+    ) {
+        return this.cloneFilterSort(this.json.software.slice(), filter, sort);
     }
 
     getSource(id: string) {
