@@ -1,0 +1,1 @@
+import{F as e,b as t,et as n,j as r,p as i,s as a,tt as o,v as s}from"./iL71weN7.js";import"./xihTtKlq.js";var c=t(`<a target="_blank" rel="noreferrer" class="svelte-railtd"><!></a>`);function l(t,l){var u=c();i(e(u),()=>l.children??o),n(u),r(()=>a(u,`href`,l.to)),s(t,u)}export{l as t};
