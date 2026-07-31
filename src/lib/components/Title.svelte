@@ -7,6 +7,6 @@
 </script>
 
 <svelte:head>
-    <title>Kyle E. Niemeyer - {text}</title>
-    <meta property="og:description" content="Kyle E. Niemeyer - {text}" />
+    <title>Niemeyer Research Group - {text}</title>
+    <meta property="og:description" content="Niemeyer Research Group - {text}" />
 </svelte:head>

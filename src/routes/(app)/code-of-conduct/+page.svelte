@@ -2,8 +2,11 @@
 
     import Linkable from '$lib/components/Linkable.svelte';
     import External from "$lib/components/External.svelte";
+    import Title from '$lib/components/Title.svelte';
 
 </script>
+
+<Title text="Code of Conduct" />
 
 <h1>
 	Group Code of Conduct

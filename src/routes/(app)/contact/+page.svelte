@@ -7,7 +7,7 @@
     import Title from '$lib/components/Title.svelte';
 </script>
 
-<Title text="Contacting Kyle" />
+<Title text="Contact" />
 
 <h1>
 	There are many ways to reach Kyle:

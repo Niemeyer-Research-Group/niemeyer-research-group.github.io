@@ -4,6 +4,7 @@
 	import External from "$lib/components/External.svelte";
 	import Facets from "$lib/components/Facets.svelte";
 	import Paper from "$lib/components/Paper.svelte";
+	import Title from "$lib/components/Title.svelte";
 
 	import { profile } from "$lib/models/stores";
     import { scrollToHash } from "$lib/models/utilities";
@@ -38,8 +39,10 @@
 
 </script>
 
+<Title text="Publications" />
+
 <h1>
-	These are our {$profile.getPublications().length} academic publications. 
+	These are our {$profile.getPublications().length} academic publications.
 	You can see who's citing them on 
 	<External to="https://scholar.google.com/citations?user=dt0KRYoAAAAJ=en">Google Scholar</External> or 
 	<External to="https://www.semanticscholar.org/author/K.-Niemeyer/2373019">Semantic Scholar</External>.
