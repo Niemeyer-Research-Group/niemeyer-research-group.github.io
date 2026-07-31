@@ -1,0 +1,1 @@
+import{O as e,P as t,b as n,d as r,j as i,s as a,v as o}from"./iL71weN7.js";import"./xihTtKlq.js";var s=n(`<meta property="og:description"/>`);function c(n,c){r(`j17nky`,n=>{var r=s();i(()=>a(r,`content`,`Niemeyer Research Group - ${c.text??``}`)),e(()=>{t.title=`Niemeyer Research Group - ${c.text??``}`}),o(n,r)})}export{c as t};
