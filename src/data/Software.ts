@@ -94,6 +94,7 @@ export const Software: Software[] = [
             "Automatically evaluates chemical kinetic models against experimental data, so a model's performance can be measured reproducibly rather than by hand.",
         repo: "pr-omethe-us/PyTeCK",
         url: "https://pr-omethe-us.github.io/PyTeCK/",
+        logo: "/images/software/pyteck-model-data-square-auto.svg",
         people: ["@ken"],
         pubs: ["model-parameter-discrepancy"],
         license: "MIT",
