@@ -7,12 +7,12 @@ export const Publications: Paper[] = [
         authors: ["@diba", "@ken"],
         year: 2026,
         title: "Uncertainty quantification of reacting fluids interacting with porous media using a hybrid physics-based and data-driven approach",
-        source: "(under review)",
-        //volume: ,
-        pages: null,
-        doi: null,
+        source: "Computers & Fluids",
+        volume: 319,
+        pages: "107264",
+        doi: "https://doi.org/10.1016/j.compfluid.2026.107264",
         eprint: "https://arxiv.org/abs/2510.03649",
-        contribution: "."
+        contribution: "Combines physics-based simulation with data-driven reduced-order modeling to quantify how uncertainty in the properties of porous materials, like ablative heat shields, affects predictions of reacting flows."
     },
     {
         id: "bgc-physical-parameter-optimization",
