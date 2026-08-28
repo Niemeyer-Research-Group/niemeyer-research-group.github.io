@@ -1,1 +1,0 @@
-import{c as e}from"./DcrJleO2.js";function t(t){return`${e}/images/headshots/mug-${t}.jpg`}export{t};
