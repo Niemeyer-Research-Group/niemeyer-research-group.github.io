@@ -1341,7 +1341,7 @@ export const Kyle: ProfileSpec = {
 	classes: [
 		{
 			id: "grad-fluids",
-			alt: "",
+			alt: "Image of smoke swirls and flow",
 			number: "ME 560",
 			level: "graduate",
 			title: "Advanced Fluid Flow",
