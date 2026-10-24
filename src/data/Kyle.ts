@@ -142,7 +142,7 @@ export const Kyle: ProfileSpec = {
 			institution: "Case Western Reserve University",
 			degree: "Doctorate in Mechanical Engineering",
 			start: 2010,
-			end: 2013,
+			end: 2014,
 			thesis: "Dissertation: Reducing the Cost of Chemistry in Reactive-Flow Simulations: Novel Mechanism Reduction Strategies and Acceleration via Graphics Processing Units",
 			committee: "James S. T'ien (chair), Chih-Jen Sung, Joseph M. Prahl, Donald L. Feke"
 		},
@@ -1340,6 +1340,19 @@ export const Kyle: ProfileSpec = {
 	],
 	classes: [
 		{
+			id: "grad-fluids",
+			alt: "",
+			number: "ME 560",
+			level: "graduate",
+			title: "Advanced Fluid Flow",
+			description: "Graduate introductory fluid dynamics course.",
+			hours: 8,
+			links: [],
+			offerings: [
+				{size: null, term: 2, year: 2027, responses: null, score1: null, score2: null},
+			]
+		},
+		{
 			id: "intermediate-thermo",
 			alt: "Figure showing the words Computational Thermo inside a piston-cylinder.",
 			number: "ME 540",
@@ -1375,6 +1388,7 @@ export const Kyle: ProfileSpec = {
 				},
 			],
 			offerings: [
+				{size: null, term: 2, year: 2027, responses: null, score1: null, score2: null},
 				{size: 49, term: 2, year: 2026, responses: 6, score1: 4.8, score2: 5.0},
 				{size: 45, term: 2, year: 2025, responses: 7, score1: 4.8, score2: 5.3},
 				{size: 42, term: 2, year: 2022, responses: 14, score1: 5.9, score2: 5.9},
