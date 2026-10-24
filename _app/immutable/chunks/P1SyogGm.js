@@ -1,1 +1,0 @@
-import{c as e}from"./7CXH1UQs.js";function t(t){return`${e}/images/headshots/mug-${t}.jpg`}export{t};
