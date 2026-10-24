@@ -2,6 +2,12 @@ import type { Discovery } from "../lib/models/Discovery";
 
 export const Discoveries: Discovery[] = [
     {
+        contribution: "We can model reacting flows moving through and around porous materials with a single set of equations, then reduce those models enough to quantify their uncertainty.",
+        detail: "The learned reduced-order models run hundreds of times faster than the detailed simulations, making it practical to propagate uncertainty in properties that are hard to measure, like permeability.",
+        pubs: [ "ablation-uq", "single-domain-buoyant-plumes" ],
+        tags: [ "porous media", "reacting flows", "reduced-order modeling", "uncertainty quantification" ],
+    },
+    {
         contribution: "We can predict complex properties of liquid aviation fuels, including sustainable bio-based alternative fuels, using machine learning methods.",
         detail: "But this requires carefully selecting features when training the models.",
         pubs: [ "f2ft-fuel-blends", "feature-selection", "FTIR-LTC", "RON-FTIR" ],
