@@ -170,6 +170,23 @@ export const Software: Software[] = [
         license: "CC-BY-4.0",
     },
     {
+        id: "ftir-data",
+        name: "FTIR-ATR spectra",
+        description: 
+            "Liquid FTIR-ATR absorption spectra of aviation and automotive fuels, neat hydrocarbons and alcohols, and their blends",
+        kind: "data",
+        repo: "",
+        people: ["@shane-daly", "@chris-hagen", "@ken", "@vi-rapp"],
+        pubs: ["RON-FTIR", "FTIR-LTC", "f2ft-fuel-blends"],
+        badges: [
+            {
+                alt: "DOI",
+                image: "https://zenodo.org/badge/DOI/10.5281/zenodo.21245871.svg",
+                url: "https://doi.org/10.5281/zenodo.21245871"
+            }
+        ]
+    },
+    {
         id: "urssi-school",
         name: "URSSI School Materials",
         description:
