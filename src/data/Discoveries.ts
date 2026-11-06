@@ -2,6 +2,12 @@ import type { Discovery } from "../lib/models/Discovery";
 
 export const Discoveries: Discovery[] = [
     {
+        contribution: "We can solve deterministic radiation transport problems efficiently on GPUs by replacing sequential transport sweeps with independent, cell-local solves.",
+        detail: "This one-cell inversion approach converges slowly in highly scattering problems, but projecting the residual onto a low-order space on cell boundaries accelerates it without giving up parallelism.",
+        pubs: [ "boundary-projection-acceleration", "one-cell-inversion-complete", "one-cell-inversion" ],
+        tags: [ "neutron transport", "GPUs", "one-cell inversion", "iterative methods" ],
+    },
+    {
         contribution: "We can model reacting flows moving through and around porous materials with a single set of equations, then reduce those models enough to quantify their uncertainty.",
         detail: "The learned reduced-order models run hundreds of times faster than the detailed simulations, making it practical to propagate uncertainty in properties that are hard to measure, like permeability.",
         pubs: [ "ablation-uq", "single-domain-buoyant-plumes" ],

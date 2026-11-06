@@ -2,6 +2,19 @@ import type Paper from '$lib/models/Paper';
 
 export const Publications: Paper[] = [
     {
+        id: "boundary-projection-acceleration",
+        kind: "journal article",
+        authors: ["@jpmorgan", "Ilham Variansyah", "@todd-palmer", "@ken"],
+        year: 2026,
+        title: "Boundary projection acceleration for 2D one-cell inversions in the scattering limit",
+        source: "",
+        //volume: ,
+        pages: null,
+        doi: null,
+        eprint: "https://arxiv.org/abs/2611.06951",
+        contribution: "Introduces a boundary projection method that speeds up one-cell inversion, a highly parallel approach for deterministic radiation transport, in scattering-dominated problems without sacrificing its spatial parallelism."
+    },
+    {
         id: "ablation-uq",
         kind: "journal article",
         authors: ["@diba", "@ken"],
@@ -35,8 +48,9 @@ export const Publications: Paper[] = [
         year: 2026,
         title: "Hybrid delta tracking schemes using a track-length estimator",
         source: "Journal of Computational and Theoretical Transport",
-        //volume: ,
-        pages: null,
+        volume:  55,
+        issue: 7,
+        pages: "519-551",
         doi: "https://doi.org/10.1080/23324309.2026.2618791",
         eprint: "https://arxiv.org/abs/2510.00152",
         contribution: "Introduces an energy-based hybrid method for tracking neutrons as they move through systems, which improves computational performance for time-dependent problems."
