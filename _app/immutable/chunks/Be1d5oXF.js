@@ -1,0 +1,1 @@
+import{c as e}from"./BhDzbimd.js";function t(t){return`${e}/images/headshots/mug-${t}.jpg`}export{t};
