@@ -165,9 +165,16 @@ export const Software: Software[] = [
         kind: "data",
         repo: "pr-omethe-us/ChemKED-database",
         logo: "/images/software/prometheus-logo.svg",
-        people: ["@bryan-weber", "@rwest", "@ken"],
+        people: ["@morgan-mayer", "@bryan-weber", "@rwest", "@ken"],
         pubs: ["chemked", "model-parameter-discrepancy"],
         license: "CC-BY-4.0",
+        badges: [
+            {
+                alt: "DOI",
+                image: "https://zenodo.org/badge/DOI/10.5281/zenodo.23910415.svg",
+                url: "https://doi.org/10.5281/zenodo.23910415"
+            }
+        ]
     },
     {
         id: "ftir-data",
